@@ -1,0 +1,11 @@
+.measure-from-container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+		justify-content: space-between;
+}
+
+.measure-from-container .setting-item {
+    border-top: none;
+		padding: 0.75em 0;
+}

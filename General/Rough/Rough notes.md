@@ -1,0 +1,32 @@
+# Race Distribution
+- ### Common - 82.5%
+	- #### **Dragonborn - 7.7%**
+	- #### **Dwarf - 12.2%**
+	- #### **Elf - 11.5%**
+	- #### **Gnome - 5.9%**
+	- #### **Half-Elf - 6.4%**
+	- #### **Half-Orc - 6.8%**
+	- #### **Halfling - 7.1%**
+	- #### **Human - 22.3%**
+	- #### **Tiefling - 2.6**%
+ - ### Exotic - 11.6%
+	 - #### **Aarakockra - 1.1%**
+	 - #### **Aasimar - 0.3%**
+	 - #### **Changeling - 0.5%**
+	 - #### **Fairy - 0.7%**
+	 - #### **Goliath - 1.9%**
+	 - #### **Kenku - 1.6%**
+	 - #### **Locathah - 1.9%**
+	 - #### **Satyr - 1.6%**
+	 - #### **Tabaxi - 2%**
+ - ### Monstrous - 5.9%
+	 - #### **Bugbear - 0.6%**
+	 - #### **Centaur - 0.5%**
+	 - #### **Goblin - 0.9%**
+	 - #### **Hobgoblin - 0.8%**
+	 - #### **Kobold - 0.9%**
+	 - #### **Lizardfolk - 0.7%**
+	 - #### **Minotaur - 0.4%**
+	 - #### **Orc - 0.5%**
+	 - #### **Shifter - 0.4%**
+	 - #### **Yuan-ti - 0.2%**

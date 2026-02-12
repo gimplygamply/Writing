@@ -1,0 +1,7 @@
+# Only Share details when they immediately effect the scene
+Doing this makes the information feel natural and allows the reader/player to inquire further and want to engage with world.
+
+:LiCross: The Lizardfolk had all been enslaved after the third Du'sad, the people of Praint had grown tired of their war-mongering and did not trust them to seek out peaceful lives if their autonomy was returned to them.
+
+:LiCheck: You notice the scaled and clawed hand setting down your mug with her left hand, your eyes follow her arm up to her shoulder past a metal collar. The scales beneath the colour have been worn away exposing sensitive flesh. The right side of her ragged tunic is bathed in ale and her right arm quakes under the weight of the beverage tray.
+as she places the mug she reaches for another, the uneven weight causes the tray to spill the remaining ale onto her. You hear the thunderous footsteps of the stocky barkeep storm towards your table, he slips his fingers between her collar and rapidly drags her to the backroom. A moment later you hear a slap spark over the chatter, the lizardfolk woman hurriedly walks over, tears in her eyes picks up the tray and returns to the back room. None of the other patrons seem to acknowledge her.
