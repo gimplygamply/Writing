@@ -11,7 +11,7 @@ Dystopia's are created from 3 archetypes:
 	- The true horrors of the world are exposed
 	- The population is gently shifted towards crueller and more depraved rituals and culture until they have completely sunk into the unrecoverable pits of depravity.
 
-How about a antagonist that enacted the 3 archetypes in order, firstly by form of genocide. Plummeting the world into disarray and leaving the survivors in a state of disarray and anarchy.
+An antagonist that enacted the 3 archetypes in order, firstly by form of genocide. Plummeting the world into disarray and leaving the survivors in a state of disarray and anarchy.
 The antagonist embodies a monarch, uniting the survivors under a united banner, promising prosperity and rebirth. Only to consolidate power, strip the populace and ascend to a god-like status.
 Lastly, the now god-like being enacts policy and change to drive the people towards a world of doubt, hatred and fear. They do it through, conspiracy/religion/cult-ish worship, before finally tipping the scale and allowing the population to devolve into a barbaric animals ruled by fear, hatred and madness. No longer human.
 
