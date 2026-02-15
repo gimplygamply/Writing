@@ -104,6 +104,9 @@ You're essentially writing the story that is about to happen and the results of 
 
 #### Example
 
+### Consequences
+The result of player actions shouldn't just be an "oh well", you're players should learn that the consequences of their action, even if it's through a long daisy chain.
+
 ## Maintain the "Now" facts
 Similar to the clocks, the facts of the over-arching story must still be present. Improvisation is a key component of DnD, but the key to a good story is that it never seems like you're improvising.
 Ideally you fool your party into thinking you're an ultra-genius mastermind and you've anticipated their every move (Don't let it get to your head).
@@ -115,10 +118,12 @@ Once again, extreme intricacies will inevitably end in you and your players gett
 
 The goal isn't to anticipate the players every move, the goal is to leave just enough breadcrumbs for the players to follow.
 
-##### Example
-- Situation
-	- The players are hunting down a local smuggler to find out where to buy weapons in the city.
-- Facts:
-	- The smuggler is a shift manager at the dockyard. He lives in a workers accommodation in his own room
-	- The smuggler works at the dockyard during the week, relaxes in the river district during the weekend.
-	- At night he uses an abandoned sewer east of the dockyard to set out in a small row boat.
+##### Relationship Diagrams
+Who knows who? These help you easily maintain who knows what without making up things. Try to avoid too much depth, start with a handful of key figures, then who knows those figures and maybe one level deeper. Beyond that will start getting a bit too hard to manage
+
+##### Repeat for each clock where relevant
+This portion should be pretty self-explanatory, as the story progress the facts change
+
+## Tie in the story to the over-arching plots
+Your players should feel that what they're doing is important. Revealing a greater plot beyond what they've done makes them desire more.
+

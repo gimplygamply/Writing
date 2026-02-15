@@ -33,7 +33,7 @@
 | Fur Cloak      | -   | [[#Cloak]]                           |           |          |     |       |
 | Mail Cloak     | 1   | [[#Cloak]]                           |           |          |     |       |
 ## Cuirass Components
-(require Heavy Armor Proficiency)
+(require Heavy Armour Proficiency)
 
 | Armor | AC  | Layer | Qualities | Strength | Wt  | Price |
 | ----- | --- | ----- | --------- | -------- | --- | ----- |

@@ -1,0 +1,3 @@
+- Etyo emerged malformed
+- Scraps of Etyo were strewn across the universe
+- The aspects gathered the largest shards and harnessed them into gods.
