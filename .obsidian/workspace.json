@@ -214,92 +214,21 @@
             }
           },
           {
-            "id": "d56e92f6bd0e778d",
+            "id": "942458fce2e6b819",
             "type": "leaf",
             "state": {
-              "type": "CALENDARIUM",
-              "state": {
-                "calendar": "ID_0bfa581a9b29",
-                "ephemeral": {
-                  "viewState": 1,
-                  "displaying": {
-                    "day": 27,
-                    "month": 0,
-                    "year": 12584
-                  },
-                  "displayDayNumber": true,
-                  "displaySeasonColors": false,
-                  "interpolateColors": true,
-                  "displayMoons": true,
-                  "displayWeather": true,
-                  "location": "NONE"
-                },
-                "id": "ID_59cad968e92a"
-              },
-              "icon": "CALENDARIUM",
-              "title": "Calendarium"
-            }
-          },
-          {
-            "id": "5d9c0b63c886bec1",
-            "type": "leaf",
-            "state": {
-              "type": "CALENDARIUM",
-              "state": {
-                "calendar": "ID_0bfa581a9b29",
-                "ephemeral": {
-                  "viewState": 1,
-                  "displaying": {
-                    "day": 27,
-                    "month": 0,
-                    "year": 12584
-                  },
-                  "displayDayNumber": true,
-                  "displaySeasonColors": false,
-                  "interpolateColors": true,
-                  "displayMoons": true,
-                  "displayWeather": true,
-                  "location": "NONE"
-                },
-                "id": "ID_da993a5818a8"
-              },
-              "icon": "CALENDARIUM",
-              "title": "Calendarium"
-            }
-          },
-          {
-            "id": "70b56a3211bbe137",
-            "type": "leaf",
-            "state": {
-              "type": "CALENDARIUM",
-              "state": {
-                "calendar": "ID_0bfa581a9b29",
-                "ephemeral": {
-                  "viewState": 1,
-                  "displaying": {
-                    "day": 27,
-                    "month": 0,
-                    "year": 12584
-                  },
-                  "displayDayNumber": true,
-                  "displaySeasonColors": false,
-                  "interpolateColors": true,
-                  "displayMoons": true,
-                  "displayWeather": true,
-                  "location": "NONE"
-                },
-                "id": "ID_e9191a4bf958"
-              },
-              "icon": "CALENDARIUM",
-              "title": "Calendarium"
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 430.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -320,12 +249,15 @@
   },
   "active": "0e11a039d5d9af4a",
   "lastOpenFiles": [
+    "World/Deities/Novun, Primordial Light.md",
+    "World/misc/Laws Of Magic.md",
+    "World/World Tree.canvas",
+    "World/Deities/Anela, Primordial Darkness.md",
+    "World/Deities/Etyan, Primordial of Etyo.md",
     "World/misc/Culture.md",
     "World/misc/Population Notes.md",
-    "World/misc/Laws Of Magic.md",
     "World/Aspects/Etyo.md",
     "World/Aspects/Creation.md",
-    "World/World Tree.canvas",
     "World/Aspects/Ilusioq.md",
     "World/Aspects/Malaiza.md",
     "World/Aspects/Lizerta.md",
@@ -335,7 +267,6 @@
     "World/Aspects/Lorda.md",
     "World/Aspects",
     "World/Aspects.md",
-    "World/Deities/Etyan, Repertoire of Etyo.md",
     "World/Deities",
     "World/Stories of Creation/Birth of The Deities.md",
     "World/Stories of Creation/Stolen Legacy.md",
@@ -353,7 +284,6 @@
     "z_writing Tips/Character/Creating a DnD NPC.md",
     "z_writing Tips/Character/How to describe a character.md",
     "z_writing Tips/Character/Character Descriptors.md",
-    "z_writing Tips/Worldbuilding/Make a culture.md",
     "Story&Plot/Rough Draft 1",
     "Story&Plot",
     "World",

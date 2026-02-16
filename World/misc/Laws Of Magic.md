@@ -1,79 +1,102 @@
-# Draft
-		- Abjurations weaken and necrotise
-		- Illusions cause permanent perception damage. i.e. crippling hallucinations
-		- Enhchanmtments warp the users personality almost always leaving them as husk-like robots.
-		- Divinity causes the user to see to far into the divine. Often destroying their minds by literally witnessing the aspects.
-		- Evocation reflects back at the user.
-		- Transmutation malforms the user and twists them into some horrors.
-		- Necromancy is the domain of Malazia, who will personally invoke a pin-sized blackhole to remove the user from existence.
-		- Conjuration is a random teleporation, almost always into the black void of the universe.
-
-- Magic is fickle and casting spells is strenuous. The skill of the caster is tied to their ability to cast under stressful situations.
-	- Outside stress
-		- Presence of wild magic
-		- Combat
-		- Generally stressful situations
-		- Etyo Cloud
-			- Magic is more powerful but more unstable.
-			- Magic wielders can sense it
-			- The size and density of the cloud determines the severity. Small clouds result in a little extra power to cast spells, while large clouds could mean that even a skilled caster can't safely cast higher-level spells safely.
-			- The effects of these Etyo Surges can be random and are rolled from the d100 table corresponding to the spell type.
-	- Stress exerted from the spell
-		- Casting a spell is forming the Etyo around you into the desired outcome. Etyo is a living thing that resists it's transformation.
-		- A persons magical capacity can be seen as a cup
-			- the larger the cup the greater spells the can cast. 
-			- The actual action of casting can seen as estimating the amount of Etyo that needs to be in your cup to cast. 
-				- To underestimate is to waste your energy for a week or failed spell.
-				- To overestimate is to release unconstrained Etyo into your spell resulting in a surge, or in extreme cases a blowout.
-		- A more powerful spell calls for more Etyo, meaning low level spells are like trying to handle a mouse, while mid-level spells are like trying to handle a lion.
-		- **Cantrips** require nearly zero skill to harness and in all but the most colossal Etyo clouds will interfere with them, even then a skilled caster could cast one with slight risk of surge.
-		- **Rituals** are harmless unless cast in any cloud. Rituals are a constant eb and flow of Etyo, hence any minor discrepancy can disrupt the cast.
-		- **Concentration** requires the caster to successfully begin the spell but once it's begun, managing the same Etyo is simple. Fluctuations and unintentional breaks in concentration can result in surges.
-- Anyone with a touch of Etyo and the knowledge of the spell could cast max level spells. To channel that magic incorrectly would result in the Etyo violently bursting free, for higher tier magic, this burst is almost always lethal to an inexperienced caster.
 # Etyo
-[[Etyo]] is an omnipresent field in the universe, they are an imaginary ocean that fills the space between space. [[#Grail]] users are people that are born with a [[Etyo#Shards of Etyo|Shard of Etyo]], acting as a catalyst able to channel the Etyo around them. Through rigorous training this shards can be enhanced and fortified to endure longer and resist exertion from the absorption of Etyo from around them.
+[[Etyo]] is an omnipresent field in the universe, they are an imaginary ocean that fills the space between space. [[#Grail]] holders are people that are born with a [[Etyo#Shards of Etyo|Shard of Etyo]], acting as a catalyst able to channel the Etyo around them. Through rigorous training this shards can be enhanced and fortified to endure longer and resist exertion from the absorption of Etyo from around them.
 
 ## Etyan Clouds
 The [[Etyo#Fragments of Etyo|Fragment of Etyo]] litter the universe, their presence is of massive cosmic consequence but manifest to mortals as Etyan Clouds.
 
 These clouds are the physical aura of a fragment and their unconstrained nature makes them hazardous to casters. The Etyo in this clouds will interfere in spell casting with great consequence.
 
+Grail users are able to determine the presence through the taste of metal along the centre of their tongue down into their throat.
+
 ## Harnessing Etyo
 Etyo is a fickle, unstable material. It exists in a near uniform ocean in the universe, to harness it is to draw from that ocean and concentrate the extract into the form the caster desires.
 
-The ocean of Etyo craves uniformity and resists it's manipulation and concentration by attempting to burst back out into itself. [[#Grail]] users are individuals capable of controlling the Etyo for long enough to shape the release into the desired result when the Etyo releases back into itself. An uncontrolled or unintentional release of Etyo will often have a grim result.
+The ocean of Etyo craves uniformity and resists it's manipulation and concentration by attempting to burst back out into itself. [[#Grail]] holders are individuals capable of controlling the Etyo for long enough to shape the release into the desired result when the Etyo releases back into itself. An uncontrolled or unintentional release of Etyo will often have a grim result.
 ### Overflowing Etyo
 To lose control of your Etyo is for it to overflow out of your Grail. A Grail calms the Etyo you harness and momentarily prevents it from exploding outwards back into itself. If your Grail does overflow, the Etyo is no longer contained and will violently return into itself. 
 
 Any user can attempt to cast high-level magic, but the overflow almost inevitably 
 #### Stress
 Balancing the amount of Etyo required for a cast is an art that requires extreme precision. The exact amount of Etyo must be extracted and expended or else the spell will fail in the case of an over-utilization, under-utilization results in an excess of Etyo making it's way into the spell destabilizing it.
-Most Grail users are capable of directing small overflows into [[#Surges]]. Large overflows form devastating [[#Blowouts]].
+Most Grail-Holder are capable of directing small overflows into [[#Sparks]]. Large overflows form devastating [[#Surges]].
 
-The stresses of battle, medical treatment and higher-level casting can often cause a Grail user to miscalculate and imprecisely utilize their Etyo. 
+The stresses of battle, medical treatment and higher-level casting can often cause a Grail-Holders to miscalculate and imprecisely utilize their Etyo. 
 Additionally, [[#Etyan Clouds]] act sporadically and inconsistently, making it near impossible for a caster to precisely harness the Etyo. 
-
+##### Sparks
+Sparks are the result of an inaccurate concentration of Etyo in a spell, the effects tend to be mild and unassuming but are uncontrolled nonetheless. 
+Sparks specifically aren't an overflow of Etyo and just a larger amount than needed. They're an unintended fuel on a fire and come out as wild effects
 ##### Surges
-##### Blowouts
-###### Influences on magic types
+A surge is a complete overflow of Etyo, in this situation a Grail-Holder and those near them are in mortal danger. Where a spark is a small unintended deviation, a surge is a complete backfire with the full power of the overflowing Etyo.
+The effects range from healing spells swelling a limb until it malforms and crumbles off the caster to fireballs detonating inside the caster.
+###### Necrotic Surges
+While all other schools of magic's surges have completely random effect, correlating to their school, the school of necromancy always has the same surge. 
+
+> [!NOTE] Necrotic Surge
+> The Grail-Holder, shadow included, collapse to a single unseen point around their torso, followed by a toroidal ejection of blood and fine biological particulate. Those within the immediate radius of the Grail-Holder are violently jerked towards them, their clothes are torn and loose belongings fly towards the Holders original position. Those within arms reach have their shoulders dislocated, muscles torn and/or nearest bones fractured. Those making direct contact, i.e. grappled have their nearest limbs shredded and their chest cavity and organs explode outwards. 
+> In the immediate vicinity, wood splinters, stone cracks and glass explodes as dust and debris fly inwards like an inverted shock wave.
+> Nearby witnesses experience absolute silence for the instant the holder is vaporized followed immediately by a deep, percussive thump followed by a whip-like crack and rush of air before experiencing partial deafness and extreme vertigo.
+> Those a small distance away will feel a tug on their clothing, belongings and hair before being hit with a dull pressure wave carrying dust towards the source of the tug.
+
+In reality this is the interference of [[Anela, Primordial Darkness]]. 
+
+##### Influences on magic types
 - **Cantrips**
+	- These spells are so stable and minor that even non spell casters that spend even the smallest bit of dedication can weave the passive Etyo around them into these simple spells.
+	- They're negligible Etyo requirements means that even inside an Etyan cloud, they won't spark or surge unless a caster actively attempts to.
 - **Rituals**
+	- These spells harness the same minute amount of Etyo with exceptional precision.
+	- This makes them unusable inside an Etyan cloud. The passive interference of Etyo will always cause the spell to spark before completion.
 - **Concentration**
+	- These spells cast the same as any spell but instead work by tending to the same Etyo for an extended period of time. 
+	- once the spell is cast the Etyo is constrained to the spell and can't be interfered with, but it an still spark when it is cast or if the concentration is broken.
 ### Grails
-Grail users are said to harness a Grail. This Grail is the catalyst with which the caster can harness the Etyo around them.
+Grail-Holders are said to hold a Grail. This Grail is the catalyst with which the caster can harness the Etyo around them.
 
 It is named as such due to the action of "drinking from the Etyo around you".
 
-A Grail is much like a muscle with drawing from the ocean of Etyo exerting it, trained and skilled Grail users are able to safely draw more frequently and larger amounts from the Etyo around them.
+A Grail is much like a muscle with drawing from the ocean of Etyo exerting it, trained and skilled Grail-Holders are able to safely draw more frequently and larger amounts from the Etyo around them.
 
-#### Divine Grails
-	- Clerics and Paladins
-These people are not born with the ability to manipulate Etyo, instead they are granted their powers by divine worship, in which the gods grant them their
+#### Divine Grail
+	Clerics and Paladins
+These people are not born with Grails and cannot train them, instead those of exceptional devotion may be gifted a Grail by their gods. Through their gods gift they can cast holy miracles and can have their Grail strengthened as a reward for continued devotion.
 
+In the event of a Surge most deities will intervene to save the holder by temporarily or permanently revoking the Grail, depending on the deity. Deities will never intervene in [[#Necrotic Surges]] however.
 #### Innate Grails
-	 - Sorcerors and Wizards
-##### Wizards
-- Often have Etyan injuries from experimenting with Etyan overflow. Typically controlled markings and non-sever in most cases.
-##### Sorcerors
-- Often have severe Etyan injuries, generally from over-exertion and estimation from accidental Etyan overflow.
+##### Prospective Grail
+	Wizards
+These are Grails that hold little inherent power, they are weak and it's not rare for some people to be born with them in their early life only for it to wither away.
+Their true power lies in their limitless growth. These Grails, in theory are not known to have a limit and given infinite time and persistent training, would grow to infinite size.
 
+The holders of this Grail often bare the marks and scarring of controlled sparks, their years of training and limit-testing has inevitably resulted in unexpected results. 
+However, their ability to expect the unexpected allows them to lessen the effects of sparks and they are acutely aware of Etyan clouds. They can notice the nearly in perceivable shimmer across the cloud when exposed to light.
+##### Billowing Grail
+	Sorcerors
+An extremely rare population are gifted the Billowing Grail, an ever-growing grail that forms an innate tie with the holder.
+These Grail bonds with the user through some aspect of their core being, either in the form of lineage, madness or passion. These Grails develop alongside the holder, with the holders physical, mental and emotional states guiding it's growth.
+
+These holders often bare major injuries, their over-estimations and personal bonds to their Grails makes them more susceptible to sparks. The deep bond between their grail gives them immense control of it's surges, often allowing skilled holders to instinctively direct the effect away from themselves. This technique does require a small portion of luck, and those that have tried to learn it reliably often require advanced disposal units to clean up. 
+##### Virtuoso's Grail
+	Bards
+A latent Grail that remains dormant in the holder until the holder dedicates themselves to their true passion and discover their talent in that passion. It's disputed whether all mortals hold this Grail and only those that have pursued their talents have activated it or if it is the source of their talent.
+These Grails function wholly of the Holders innate passion and talent, these holders harness Etyo as a secondary effect of their talent. This has the result of them never sparking unless sabotaged but also on the trade-off that their over-reliance on natural talent makes them hyper-susceptible to sparks and surges inside Etyan clouds.
+##### Hinterland Grail
+	Druids
+These Grails are the rawest power of the Grails. The power of these shards is linked to the user spiritual connection to natural world around them.
+As the holder strengthens their bond with the natural their shard develops and begins to take shape of nature around them.
+These deep understanding of the natural world allows these Holders to innately bond with Etyan clouds to repel them in a short radius around themselves.
+
+#### Hybrid Grails
+##### Verging Grail
+	Rangers
+	Hinterland and Prospective Grails
+Verging Grails are seedlings, and only bloom once the holder has dedicated themselves to the land. Through persistent adaptation and learning these holders sow and root their Grails which grow alongside their knowledge of the land. These Grails, once grown, continue to do so throughout the holders life but at a diminished rate steadily growing their power so long as the holder continues their survival.
+These Grails embody adaptation and specialization. Though weak and rarely sparking anywhere in the world — even within the greatest Etyan clouds — they become unrivalled territorial fighters in their favoured environment.
+##### Tainted Grail
+	Warlocks and Eldritch knights
+	Divine and Billowing Grails
+Some people in the world are born with a Grail so insignificant that they will not even know it is present. These holders are often completely unaware of their Grail, but forces from beyond often become aware of them.
+Most Grails often hold too much agency and inherent-protection for others to manipulate, but the deformed Tainted Grails are seen as seed crystals by those with excess amounts of Etyon control and desires. These otherworldly patrons often seek out those with the Tainted Grail and promise them power, often in exchange for the agency of their Grail. These patrons then grow the Grails power in exchange for the holders cooperation and/or obedience.
+The Tainted Grail is weak in it's foundation, resulting in it's users not possessing the ability to detect Etyan Clouds. This weak nature does play into the holders favour by marking them as Grail-less to all but the most perceptive inquisitors.
+##### Architects Grail
+	Artificers and Arcane Tricksters
+	Virtuoso's and Prospective Grails
