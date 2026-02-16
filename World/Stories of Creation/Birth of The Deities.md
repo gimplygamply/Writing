@@ -1,3 +1,3 @@
 - Etyo emerged malformed
 - Scraps of Etyo were strewn across the universe
-- The aspects gathered the largest shards and harnessed them into gods.
+- The aspect of Creation gathered it and harnessed it into the deities.

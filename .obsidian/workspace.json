@@ -11,38 +11,17 @@
             "id": "0e11a039d5d9af4a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "World/World Tree.canvas",
-                "viewState": {
-                  "x": -590,
-                  "y": -850,
-                  "zoom": -2.555786682532433
-                }
+                "file": "World/misc/Laws Of Magic.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "World Tree"
-            }
-          },
-          {
-            "id": "04e226d0f0a16aeb",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "World/World Tree.canvas",
-                "viewState": {
-                  "x": -1117.2352352352355,
-                  "y": -2524.028028028028,
-                  "zoom": -3.098717095831071
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "World Tree"
+              "icon": "lucide-file",
+              "title": "Laws Of Magic"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -339,45 +318,45 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "04e226d0f0a16aeb",
+  "active": "0e11a039d5d9af4a",
   "lastOpenFiles": [
-    "World/Stories of Creation/Birth of The Deities.md",
+    "World/misc/Culture.md",
+    "World/misc/Population Notes.md",
+    "World/misc/Laws Of Magic.md",
+    "World/Aspects/Etyo.md",
+    "World/Aspects/Creation.md",
     "World/World Tree.canvas",
+    "World/Aspects/Ilusioq.md",
+    "World/Aspects/Malaiza.md",
+    "World/Aspects/Lizerta.md",
+    "Untitled.base",
+    "World/Aspects/Lorda.md",
+    "World/Aspects/Lizerta.md",
+    "World/Aspects/Lorda.md",
+    "World/Aspects",
+    "World/Aspects.md",
+    "World/Deities/Etyan, Repertoire of Etyo.md",
+    "World/Deities",
+    "World/Stories of Creation/Birth of The Deities.md",
     "World/Stories of Creation/Stolen Legacy.md",
     "Story&Plot/People/Aurel, The Comet of Divine Indomination.md",
     "World/Stories of Creation",
-    "World/Untitled.md",
     "World/Deities",
     "World/Creation of the Universe.md",
     "Story&Plot/Rough Draft 1/Introduction.md",
-    "Untitled.base",
     "Story&Plot/Rough Draft 1/Author's note.md",
     "Story&Plot/People/Aurel, The Comet of Divine Indomination.png",
     "z_GritAndGlory/Realistic Armors/Realistic Armors.md",
     "Story&Plot/People",
     "World/misc",
-    "World/misc/Population Notes.md",
     "z_writing Tips/Plot/Building a Campaign.md",
     "z_writing Tips/Character/Creating a DnD NPC.md",
     "z_writing Tips/Character/How to describe a character.md",
     "z_writing Tips/Character/Character Descriptors.md",
     "z_writing Tips/Worldbuilding/Make a culture.md",
-    "z_writing Tips/Plot/Spark-note Ideas.md",
-    "z_writing Tips/Plot/The villain.md",
-    "Story&Plot/Rough Draft 1/Approx. plot.md",
     "Story&Plot/Rough Draft 1",
-    "Story&Plot/Untitled.md",
     "Story&Plot",
-    "Untitled.md",
     "World",
-    "DnD",
-    "DnD/Gameplay/Player Related/Starting Conditions and Creation.md",
-    "DnD/Campaign/Mission's plots/Introduction/Lizards in the sewers!.md",
-    "z_writing Tips/Plot/Random Plots and Ideas.md",
-    "First Draft.md",
-    "z_writing Tips/Scene Specific/Hand-to-hand Combat.md",
-    "z_writing Tips/Scene Specific",
-    "z_writing Tips/Worldbuilding/Avoiding Info-dumping when world-building.md",
     "DnD/NPCs/NPC Portraits/Catherine deGrey.png",
     "DnD/Locations/Praint.jpg",
     "DnD/NPCs/NPC Portraits/Wolfen Sten.png",
