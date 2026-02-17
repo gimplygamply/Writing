@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "World/Deity Tree.canvas",
+                "file": "World/World Tree.canvas",
                 "viewState": {
-                  "x": 493.183482026355,
-                  "y": 1498.4920731414759,
-                  "zoom": -2.8570345245801203
+                  "x": -3457.2065517411925,
+                  "y": -6486.510296611484,
+                  "zoom": -2.3333333333333326
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Deity Tree"
+              "title": "World Tree"
             }
           }
         ]
@@ -252,8 +252,8 @@
   },
   "active": "0e11a039d5d9af4a",
   "lastOpenFiles": [
-    "World/World Tree.canvas",
     "World/Deity Tree.canvas",
+    "World/World Tree.canvas",
     "World/Primordials/Linifa, Primordial of Incubation.md",
     "World/Primordials/Lathot, Primordial of Law.md",
     "World/Aspects/Malaiza.md",

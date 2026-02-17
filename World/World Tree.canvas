@@ -1,7 +1,21 @@
 {
 	"nodes":[
+		{"id":"6ce4dd57bd12d812","type":"group","x":-4360,"y":-11120,"width":14920,"height":5400,"label":"Divine Beings"},
 		{"id":"e42b25ee849b523a","type":"group","x":-3220,"y":-4240,"width":3380,"height":4960,"label":"The Origin of The Universe"},
+		{"id":"f086b699ba62f61b","type":"group","x":-1440,"y":-11000,"width":2240,"height":5280,"label":"Linifan Lineage"},
+		{"id":"872a77574112cbcd","type":"group","x":5760,"y":-11000,"width":2080,"height":5280,"label":"Lathotian Lineage"},
+		{"id":"44f55aafb75918fe","type":"group","x":1120,"y":-11000,"width":1920,"height":5280,"label":"Novun Lineage"},
+		{"id":"8337556da8cfb01b","type":"group","x":3400,"y":-11000,"width":1880,"height":5280,"label":"Anelan Lineage"},
+		{"id":"63daa0a529e85cb0","type":"group","x":-3560,"y":-11000,"width":1670,"height":5280,"label":"Etyan Lineage"},
+		{"id":"074f775f6a859d4a","type":"group","x":8080,"y":-11000,"width":1600,"height":5280,"label":"Lathotian Lineage"},
+		{"id":"df77bbf1124ccf33","type":"group","x":-3560,"y":-6160,"width":13880,"height":280,"label":"Primordials"},
+		{"id":"1d74463cc70d862d","type":"group","x":-6160,"y":-11040,"width":1800,"height":1760,"label":"Novun Deities"},
+		{"id":"dc705be5691d68a2","type":"group","x":-9120,"y":-11040,"width":1760,"height":1760,"label":"Lathotian Deities"},
+		{"id":"ef5e853245ebc9ed","type":"group","x":-6160,"y":-16000,"width":1780,"height":1720,"label":"Etyan Deities"},
+		{"id":"923d6dbddd1de559","type":"group","x":-9120,"y":-16000,"width":1760,"height":1720,"label":"Anelan Deities"},
+		{"id":"e378738c781cb28b","type":"group","x":-5320,"y":-13340,"width":1760,"height":1700,"label":"Ylemen Deities"},
 		{"id":"f2dc7e454c282e03","type":"group","x":-5540,"y":-2220,"width":1180,"height":2480,"label":"Misc"},
+		{"id":"d69d706acc42911a","type":"group","x":-9960,"y":-13340,"width":1760,"height":1660,"label":"Linifan Deities"},
 		{"id":"892332ac5a35b295","type":"group","x":-2800,"y":-3320,"width":1040,"height":1680,"label":"\"The Forms of Spirit\""},
 		{"id":"856ddaa2ee3ae345","type":"group","x":-1400,"y":-3320,"width":1140,"height":1220,"label":"Aspects"},
 		{
@@ -14,181 +28,10 @@
 			"height":880,
 			"label":"Before Creation"
 		},
-		{"id":"df77bbf1124ccf33","type":"group","x":1200,"y":-4760,"width":3560,"height":300,"label":"Primordials"},
 		{"id":"d805484d50dc19aa","type":"group","x":-5240,"y":-3520,"width":880,"height":1040,"color":"3","label":"Legend"},
 		{"id":"04e2dabd74b71bff","type":"group","x":-1140,"y":-1380,"width":460,"height":1900,"label":"Founding Forces"},
 		{"id":"4281e868fcdb5b1f","type":"group","x":-2920,"y":-4040,"width":2850,"height":213,"label":"Origins of the physical world"},
 		{"id":"ed53d9b4fd5cb13e","type":"group","x":-5460,"y":-2090,"width":660,"height":500,"label":"Core concept Ideas"},
-		{
-			"id":"e610eca850cebf69",
-			"type":"text",
-			"text":"# The Lesser beings\nThese were advanced civilizations, lesser deities and natural phenomena.\n\nEither through research, blind luck, divinity or inexplicable abnormalities, these entities were aware of their impending doom and that a new universe would be born thereafter.\n",
-			"styleAttributes":{},
-			"x":-2080,
-			"y":-960,
-			"width":440,
-			"height":280
-		},
-		{
-			"id":"daf15787290d3bba",
-			"type":"text",
-			"text":"Beyond god-like beings that were sent from the dying universe to birth this one. These forces formed the materials from which the aspects and their respective influences on the world were birthed.",
-			"styleAttributes":{},
-			"x":-1030,
-			"y":160,
-			"width":260,
-			"height":220,
-			"color":"3"
-		},
-		{
-			"id":"d09f3b35102b9841",
-			"type":"text",
-			"text":"# Creation of the Universe\nThis universe is born from the death of another.\nThe gods of the previous universe formed the foundation of this one.",
-			"styleAttributes":{},
-			"x":-1810,
-			"y":-580,
-			"width":340,
-			"height":280
-		},
-		{
-			"id":"2b90d22df344461f",
-			"type":"text",
-			"text":"# Nilatia, The Altruist (Known)\na deity the embodies spite and hatred. The fundamental enemy of \"Unknown\". It is a rabid dog whose sole purpose is to rip and tear from \"unknown\" and scatter it's pieces across the universe.\n",
-			"styleAttributes":{},
-			"x":-1060,
-			"y":-580,
-			"width":320,
-			"height":300
-		},
-		{
-			"id":"718e8a85bbf32f48",
-			"type":"text",
-			"text":"# Tesaset, The Ignorant (Creation)\nA determined deity, ignorant and happy. It knows everything, aware of every single creation, concept and existence but with no mind or desire to utilize that power",
-			"styleAttributes":{},
-			"x":-1060,
-			"y":-200,
-			"width":320,
-			"height":320
-		},
-		{
-			"id":"dfcba559e0725d5f",
-			"type":"text",
-			"text":"# Lyrdia, The Miser (Unknown)\na conceptually immortal and greedy deity. Their death violates the very nature of their existence.",
-			"styleAttributes":{},
-			"x":-1060,
-			"y":-980,
-			"width":320,
-			"height":280
-		},
-		{
-			"id":"084ea4177068b16b",
-			"type":"text",
-			"text":"# The Greater Beings\nThose responsible for the previous universes collapse.\n\nThese deities, unable to accept the civilizations of their universe had surpassed their power, sought to destroy their universe and begin anew in one were they would neuter the power of it's inhabitants.\n\nIn the final moments of this universe, the gods were ambushed. Massacred by the civilizations they were fleeing. \n\nWhen the annihilation occurred, no great deity witnessed it. Their corpses became the cosmic jelly that the new universe would be formed from.",
-			"styleAttributes":{},
-			"x":-2680,
-			"y":-960,
-			"width":460,
-			"height":420
-		},
-		{"id":"b362340a2f2c34e8","type":"file","file":"Story&Plot/People/Aurel, The Comet of Divine Indomination.md","x":-2320,"y":-3140,"width":440,"height":520},
-		{
-			"id":"5d5fcf3a4465bd9d",
-			"type":"text",
-			"text":"Of the countless civilizations and lesser deities that had been eradicated in the collapse of their universe. The most powerful, in hopeless desperation, tried to view into the new universe; simply to witness the birth of a new reality before facing a universe where it was certain they'd never have an after-life.\n\n",
-			"styleAttributes":{},
-			"x":-2760,
-			"y":-3140,
-			"width":340,
-			"height":280,
-			"color":"3"
-		},
-		{"id":"0046a98a697e09cc","type":"file","file":"World/Aspects/Creation.md","x":-1370,"y":-2640,"width":1060,"height":180},
-		{
-			"id":"20284f55abe50b34",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{},
-			"x":-2400,
-			"y":1760,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"3cff2800c5a59069",
-			"type":"text",
-			"text":"# Source: Aurel \n## Material: Flesh \n### Creations: Generic beings",
-			"styleAttributes":{},
-			"x":-2840,
-			"y":-4020,
-			"width":540,
-			"height":180,
-			"color":"3"
-		},
-		{
-			"id":"2ff899a6212a58f5",
-			"type":"text",
-			"text":"# Orange",
-			"styleAttributes":{},
-			"x":-5220,
-			"y":-3100,
-			"width":260,
-			"height":120,
-			"color":"2"
-		},
-		{"id":"5b92d416415b7664","type":"file","file":"World/Stories of the World/Stolen Legacy.md","x":-2760,"y":-2480,"width":960,"height":800,"color":"1"},
-		{
-			"id":"62cf755c8c01d21e",
-			"type":"text",
-			"text":"# Source: Etyo\n## Material: Shattered Fragments of Etyo\n### Creations: Divine\n",
-			"styleAttributes":{},
-			"x":-1480,
-			"y":-4015,
-			"width":600,
-			"height":175,
-			"color":"3"
-		},
-		{
-			"id":"3ac763584d0bc0c8",
-			"type":"text",
-			"text":"# Source: Lesser Beings\n## Material: Twist \n### Creations: Mystical and Fae beings",
-			"styleAttributes":{},
-			"x":-2160,
-			"y":-4015,
-			"width":540,
-			"height":175,
-			"color":"3"
-		},
-		{
-			"id":"4225707b7e6c50d1",
-			"type":"text",
-			"text":"# Blue",
-			"styleAttributes":{},
-			"x":-5220,
-			"y":-3480,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"ca3f965d5ec67151",
-			"type":"text",
-			"text":"# Red",
-			"styleAttributes":{},
-			"x":-5220,
-			"y":-3300,
-			"width":260,
-			"height":60,
-			"color":"1"
-		},
-		{
-			"id":"0eee807ecf548f97",
-			"type":"text",
-			"text":"Basic involvement. e.g. X is linked to Y",
-			"styleAttributes":{},
-			"x":-4700,
-			"y":-3480,
-			"width":260,
-			"height":60
-		},
 		{
 			"id":"3dcc9e1bf16717e2",
 			"type":"text",
@@ -212,26 +55,57 @@
 			"color":"3"
 		},
 		{
-			"id":"7f4b20aab502606e",
+			"id":"4225707b7e6c50d1",
 			"type":"text",
-			"text":"Links to a story that the origin is involved in.",
+			"text":"# Blue",
 			"styleAttributes":{},
-			"x":-4700,
+			"x":-5220,
+			"y":-3480,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"2ff899a6212a58f5",
+			"type":"text",
+			"text":"# Orange",
+			"styleAttributes":{},
+			"x":-5220,
+			"y":-3100,
+			"width":260,
+			"height":120,
+			"color":"2"
+		},
+		{
+			"id":"ca3f965d5ec67151",
+			"type":"text",
+			"text":"# Red",
+			"styleAttributes":{},
+			"x":-5220,
 			"y":-3300,
 			"width":260,
 			"height":60,
 			"color":"1"
 		},
 		{
-			"id":"b2d4524bfd647481",
+			"id":"0eee807ecf548f97",
 			"type":"text",
-			"text":"Indicates personal ownership/responsibility. e.g. X belongs to/exists because of Y",
+			"text":"Basic involvement. e.g. X is linked to Y",
 			"styleAttributes":{},
 			"x":-4700,
-			"y":-3100,
+			"y":-3480,
 			"width":260,
-			"height":120,
-			"color":"2"
+			"height":60
+		},
+		{
+			"id":"5d5fcf3a4465bd9d",
+			"type":"text",
+			"text":"Of the countless civilizations and lesser deities that had been eradicated in the collapse of their universe. The most powerful, in hopeless desperation, tried to view into the new universe; simply to witness the birth of a new reality before facing a universe where it was certain they'd never have an after-life.\n\n",
+			"styleAttributes":{},
+			"x":-2760,
+			"y":-3140,
+			"width":340,
+			"height":280,
+			"color":"3"
 		},
 		{
 			"id":"414063f1dec3e83f",
@@ -254,6 +128,28 @@
 			"width":260,
 			"height":60,
 			"color":"4"
+		},
+		{
+			"id":"7f4b20aab502606e",
+			"type":"text",
+			"text":"Links to a story that the origin is involved in.",
+			"styleAttributes":{},
+			"x":-4700,
+			"y":-3300,
+			"width":260,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"b2d4524bfd647481",
+			"type":"text",
+			"text":"Indicates personal ownership/responsibility. e.g. X belongs to/exists because of Y",
+			"styleAttributes":{},
+			"x":-4700,
+			"y":-3100,
+			"width":260,
+			"height":120,
+			"color":"2"
 		},
 		{
 			"id":"ce013539ed9b3053",
@@ -284,33 +180,61 @@
 			"height":130,
 			"color":"1"
 		},
-		{"id":"098a6edd7da87a0d","type":"file","file":"World/Aspects/Malaiza.md","x":-1360,"y":-2900,"width":520,"height":180},
 		{
-			"id":"0b2ae9447410dfc9",
-			"type":"file",
-			"file":"World/Deity Tree.canvas",
-			"portal":false,
-			"styleAttributes":{
-				"border":null
-			},
-			"x":4640,
-			"y":-13280,
-			"width":6420,
-			"height":6680
-		},
-		{"id":"b0f9085ef4b6ee38","type":"file","file":"World/Aspects/Ilusioq.md","x":-780,"y":-2900,"width":440,"height":180},
-		{
-			"id":"27014640ac58ec6c",
+			"id":"e610eca850cebf69",
 			"type":"text",
-			"text":"# Elozor, The Root (Life)\na deity known for it's resilience that created an illusion of immortality, the burn shadows left behind from it's destruction are it's formless aspects and form the foundational concepts of this universe.",
+			"text":"# The Lesser beings\nThese were advanced civilizations, lesser deities and natural phenomena.\n\nEither through research, blind luck, divinity or inexplicable abnormalities, these entities were aware of their impending doom and that a new universe would be born thereafter.\n",
+			"styleAttributes":{},
+			"x":-2080,
+			"y":-960,
+			"width":440,
+			"height":280
+		},
+		{
+			"id":"d09f3b35102b9841",
+			"type":"text",
+			"text":"# Creation of the Universe\nThis universe is born from the death of another.\nThe gods of the previous universe formed the foundation of this one.",
+			"styleAttributes":{},
+			"x":-1810,
+			"y":-580,
+			"width":340,
+			"height":280
+		},
+		{
+			"id":"2b90d22df344461f",
+			"type":"text",
+			"text":"# Nilatia, The Altruist (Known)\na deity the embodies spite and hatred. The fundamental enemy of \"Unknown\". It is a rabid dog whose sole purpose is to rip and tear from \"unknown\" and scatter it's pieces across the universe.\n",
 			"styleAttributes":{},
 			"x":-1060,
-			"y":-1340,
+			"y":-580,
 			"width":320,
 			"height":300
 		},
-		{"id":"0758bcea7bbe129c","type":"file","file":"World/Aspects/Etyo.md","x":-700,"y":-3320,"width":360,"height":300},
-		{"id":"fe3a7a4f238ccc11","type":"file","file":"World/Aspects/Lorda.md","x":-1060,"y":-3320,"width":360,"height":300},
+		{"id":"b362340a2f2c34e8","type":"file","file":"Story&Plot/People/Aurel, The Comet of Divine Indomination.md","x":-2320,"y":-3140,"width":440,"height":520},
+		{"id":"5b92d416415b7664","type":"file","file":"World/Stories of the World/Stolen Legacy.md","x":-2760,"y":-2480,"width":960,"height":800,"color":"1"},
+		{"id":"0046a98a697e09cc","type":"file","file":"World/Aspects/Creation.md","x":-1370,"y":-2640,"width":1060,"height":180},
+		{
+			"id":"3ac763584d0bc0c8",
+			"type":"text",
+			"text":"# Source: Lesser Beings\n## Material: Twist \n### Creations: Mystical and Fae beings",
+			"styleAttributes":{},
+			"x":-2160,
+			"y":-4015,
+			"width":540,
+			"height":175,
+			"color":"3"
+		},
+		{
+			"id":"62cf755c8c01d21e",
+			"type":"text",
+			"text":"# Source: Etyo\n## Material: Shattered Fragments of Etyo\n### Creations: Divine\n",
+			"styleAttributes":{},
+			"x":-1480,
+			"y":-4015,
+			"width":600,
+			"height":175,
+			"color":"3"
+		},
 		{"id":"a8f679ecb84c4203","type":"file","file":"World/Aspects/Lizerta.md","x":-1400,"y":-3320,"width":340,"height":300},
 		{
 			"id":"08b89b0538733901",
@@ -323,7 +247,6 @@
 			"height":200,
 			"color":"3"
 		},
-		{"id":"246e9a1095a8d84c","type":"file","file":"World/Stories of the World/Birth of The Primordials.md","x":340,"y":-4800,"width":400,"height":400,"color":"1"},
 		{
 			"id":"712eec23caad5104",
 			"type":"text",
@@ -335,23 +258,710 @@
 			"height":180,
 			"color":"3"
 		},
-		{"id":"cd7ad8d7597e86df","type":"file","file":"World/Primordials/Novun, The Primordial Light.md","x":2240,"y":-4680,"width":400,"height":160},
-		{"id":"c6e29886a8fc9604","type":"file","file":"World/Primordials/Anela, The Primordial Darkness.md","x":2740,"y":-4680,"width":400,"height":160},
-		{"id":"2bb21fa1e8cdf5ec","type":"file","file":"World/Primordials/Etyan, Primordial of Etya.md","x":1240,"y":-4680,"width":400,"height":160},
-		{"id":"c261d01bcccbdb9a","type":"file","file":"World/Primordials/Linifa, Primordial of Incubation.md","x":1740,"y":-4680,"width":400,"height":160},
-		{"id":"021c69a6c3221eaa","type":"file","file":"World/Primordials/Lathot, Primordial of Law.md","x":3240,"y":-4680,"width":400,"height":160},
+		{"id":"246e9a1095a8d84c","type":"file","file":"World/Stories of the World/Birth of The Primordials.md","x":340,"y":-4800,"width":400,"height":400,"color":"1"},
+		{"id":"098a6edd7da87a0d","type":"file","file":"World/Aspects/Malaiza.md","x":-1360,"y":-2900,"width":520,"height":180},
+		{"id":"b0f9085ef4b6ee38","type":"file","file":"World/Aspects/Ilusioq.md","x":-780,"y":-2900,"width":440,"height":180},
+		{"id":"0758bcea7bbe129c","type":"file","file":"World/Aspects/Etyo.md","x":-700,"y":-3320,"width":360,"height":300},
+		{"id":"fe3a7a4f238ccc11","type":"file","file":"World/Aspects/Lorda.md","x":-1060,"y":-3320,"width":360,"height":300},
+		{
+			"id":"dfcba559e0725d5f",
+			"type":"text",
+			"text":"# Lyrdia, The Miser (Unknown)\na conceptually immortal and greedy deity. Their death violates the very nature of their existence.",
+			"styleAttributes":{},
+			"x":-1060,
+			"y":-980,
+			"width":320,
+			"height":280
+		},
+		{
+			"id":"27014640ac58ec6c",
+			"type":"text",
+			"text":"# Elozor, The Root (Life)\na deity known for it's resilience that created an illusion of immortality, the burn shadows left behind from it's destruction are it's formless aspects and form the foundational concepts of this universe.",
+			"styleAttributes":{},
+			"x":-1060,
+			"y":-1340,
+			"width":320,
+			"height":300
+		},
+		{
+			"id":"3cff2800c5a59069",
+			"type":"text",
+			"text":"# Source: Aurel \n## Material: Flesh \n### Creations: Generic beings",
+			"styleAttributes":{},
+			"x":-2840,
+			"y":-4020,
+			"width":540,
+			"height":180,
+			"color":"3"
+		},
+		{
+			"id":"718e8a85bbf32f48",
+			"type":"text",
+			"text":"# Tesaset, The Ignorant (Creation)\nA determined deity, ignorant and happy. It knows everything, aware of every single creation, concept and existence but with no mind or desire to utilize that power",
+			"styleAttributes":{},
+			"x":-1060,
+			"y":-200,
+			"width":320,
+			"height":320
+		},
+		{
+			"id":"084ea4177068b16b",
+			"type":"text",
+			"text":"# The Greater Beings\nThose responsible for the previous universes collapse.\n\nThese deities, unable to accept the civilizations of their universe had surpassed their power, sought to destroy their universe and begin anew in one were they would neuter the power of it's inhabitants.\n\nIn the final moments of this universe, the gods were ambushed. Massacred by the civilizations they were fleeing. \n\nWhen the annihilation occurred, no great deity witnessed it. Their corpses became the cosmic jelly that the new universe would be formed from.",
+			"styleAttributes":{},
+			"x":-2680,
+			"y":-960,
+			"width":460,
+			"height":420
+		},
+		{
+			"id":"1d19132aa48b90bf",
+			"type":"text",
+			"text":"# Stignus, God of Prowess",
+			"styleAttributes":{},
+			"x":-5520,
+			"y":-10180,
+			"width":440,
+			"height":60
+		},
+		{
+			"id":"bc1ef4d040521c13",
+			"type":"text",
+			"text":"# Trodario, God of Celebration",
+			"styleAttributes":{},
+			"x":-5280,
+			"y":-10660,
+			"width":480,
+			"height":60
+		},
+		{
+			"id":"9eaf1c5e931cadc5",
+			"type":"text",
+			"text":"# Crimdanir, God of Summer",
+			"styleAttributes":{},
+			"x":-5080,
+			"y":-10440,
+			"width":500,
+			"height":60
+		},
+		{
+			"id":"0ac7c33288c16cbe",
+			"type":"text",
+			"text":"# Ignim, God of  Fire",
+			"styleAttributes":{},
+			"x":-5060,
+			"y":-10850,
+			"width":380,
+			"height":60
+		},
+		{
+			"id":"37224262660e3abd",
+			"type":"text",
+			"text":"# Odengo, God of Adventure",
+			"styleAttributes":{},
+			"x":-6080,
+			"y":-10150,
+			"width":480,
+			"height":60
+		},
+		{
+			"id":"e17ae6bb9aa26be1",
+			"type":"text",
+			"text":"# Boran, God of Courage",
+			"styleAttributes":{},
+			"x":-5320,
+			"y":-10020,
+			"width":420,
+			"height":80
+		},
+		{
+			"id":"b87c41ac42634275",
+			"type":"text",
+			"text":"# Kili, Goddess of Joy",
+			"styleAttributes":{},
+			"x":-6050,
+			"y":-9880,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"3395bcef61b3e917",
+			"type":"text",
+			"text":"# Loam, God of Altruism",
+			"styleAttributes":{},
+			"x":-5360,
+			"y":-9740,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"7d5d7315ff6ef3eb",
+			"type":"text",
+			"text":"# Memoria, Goddess of Promises",
+			"styleAttributes":{},
+			"x":-6110,
+			"y":-10600,
+			"width":570,
+			"height":60
+		},
+		{
+			"id":"69de52d6080bd1d0",
+			"type":"text",
+			"text":"# Karaka, God of Storms",
+			"styleAttributes":{},
+			"x":-6110,
+			"y":-10370,
+			"width":390,
+			"height":60
+		},
+		{
+			"id":"fea4a5b0c3d85ce6",
+			"type":"text",
+			"text":"# Lifala, Goddess of Sex",
+			"styleAttributes":{},
+			"x":-6015,
+			"y":-10820,
+			"width":380,
+			"height":60
+		},
+		{
+			"id":"6e028bc89cd968d8",
+			"type":"text",
+			"text":"# Lifana, Goddess of Love",
+			"styleAttributes":{},
+			"x":-6010,
+			"y":-10910,
+			"width":430,
+			"height":60
+		},
+		{
+			"id":"05e07cf37ba4a088",
+			"type":"text",
+			"text":"# Kari, Goddess of Peace",
+			"styleAttributes":{},
+			"x":-5580,
+			"y":-10400,
+			"width":390,
+			"height":60
+		},
+		{
+			"id":"45b72d43a29a6570",
+			"type":"text",
+			"text":"# Cytron, God of Destruction",
+			"styleAttributes":{},
+			"x":-4220,
+			"y":-12980,
+			"width":480,
+			"height":60
+		},
+		{
+			"id":"8f49525c2caddb89",
+			"type":"text",
+			"text":"# Farlid, God of Fall",
+			"styleAttributes":{},
+			"x":-4340,
+			"y":-12780,
+			"width":340,
+			"height":80
+		},
+		{
+			"id":"3df384faa847d82b",
+			"type":"text",
+			"text":"# Goran, Goddess of Mountains",
+			"styleAttributes":{},
+			"x":-4180,
+			"y":-12380,
+			"width":500,
+			"height":60
+		},
+		{
+			"id":"34ebb24e964d0fa3",
+			"type":"text",
+			"text":"# Bestia, Goddess of Animals",
+			"styleAttributes":{},
+			"x":-4160,
+			"y":-12060,
+			"width":480,
+			"height":60
+		},
+		{
+			"id":"0c39f35f36a50ee5",
+			"type":"text",
+			"text":"# Milia, Goddess of Motherhood",
+			"styleAttributes":{},
+			"x":-5260,
+			"y":-13260,
+			"width":560,
+			"height":60
+		},
+		{
+			"id":"6737a9bc3bb66ef6",
+			"type":"text",
+			"text":"# Filum, God of Fartherhood",
+			"styleAttributes":{},
+			"x":-4630,
+			"y":-13260,
+			"width":460,
+			"height":60
+		},
+		{
+			"id":"3b7735f0f3095ddb",
+			"type":"text",
+			"text":"# Hokvna, Goddess of the Hunt",
+			"styleAttributes":{},
+			"x":-4955,
+			"y":-12520,
+			"width":510,
+			"height":60
+		},
+		{
+			"id":"996afa250fb1647a",
+			"type":"text",
+			"text":"# Imoba, Goddess of Earth",
+			"styleAttributes":{},
+			"x":-5260,
+			"y":-12360,
+			"width":440,
+			"height":80
+		},
+		{
+			"id":"f478189e21b2fd23",
+			"type":"text",
+			"text":"# Vescal, God of Forests",
+			"styleAttributes":{},
+			"x":-5000,
+			"y":-12000,
+			"width":463,
+			"height":60
+		},
+		{
+			"id":"24590e5048508a59",
+			"type":"text",
+			"text":"# Khaney, Goddess of War",
+			"styleAttributes":{},
+			"x":-4785,
+			"y":-13130,
+			"width":495,
+			"height":60
+		},
+		{
+			"id":"f249b3f084e60103",
+			"type":"text",
+			"text":"# Nuphar, Goddess of Disease and  Poison",
+			"styleAttributes":{},
+			"x":-4920,
+			"y":-12980,
+			"width":580,
+			"height":100
+		},
+		{
+			"id":"f55077ec731001ee",
+			"type":"text",
+			"text":"# Driflin, God of  Wind",
+			"styleAttributes":{},
+			"x":-5200,
+			"y":-12660,
+			"width":415,
+			"height":60
+		},
+		{
+			"id":"33de97887ceae429",
+			"type":"text",
+			"text":"# Fascia, Goddess of Illusion",
+			"styleAttributes":{},
+			"x":-5760,
+			"y":-14960,
+			"width":440,
+			"height":80
+		},
+		{
+			"id":"92a32658b9321408",
+			"type":"text",
+			"text":"# Gilly, Goddess of Trickery",
+			"styleAttributes":{},
+			"x":-5160,
+			"y":-14740,
+			"width":500,
+			"height":60
+		},
+		{
+			"id":"e8bfb4e85fe9bba2",
+			"type":"text",
+			"text":"# Todara, God of Change",
+			"styleAttributes":{},
+			"x":-5960,
+			"y":-14600,
+			"width":460,
+			"height":80
+		},
+		{
+			"id":"de03fb942cc102c0",
+			"type":"text",
+			"text":"# Lumbia, Goddess of Luck",
+			"styleAttributes":{},
+			"x":-6000,
+			"y":-15740,
+			"width":460,
+			"height":60
+		},
+		{
+			"id":"f1169422d713e3a3",
+			"type":"text",
+			"text":"# Pavo, God of Alchemy",
+			"styleAttributes":{},
+			"x":-5500,
+			"y":-15460,
+			"width":400,
+			"height":60
+		},
+		{
+			"id":"4a80f7dbb1fb83a1",
+			"type":"text",
+			"text":"# Barnak, God of Chaos",
+			"styleAttributes":{},
+			"x":-5180,
+			"y":-15240,
+			"width":460,
+			"height":70
+		},
+		{
+			"id":"9a85de228124ab5c",
+			"type":"text",
+			"text":"# Garpid, God of  Mystery",
+			"styleAttributes":{},
+			"x":-5830,
+			"y":-15200,
+			"width":470,
+			"height":60
+		},
+		{
+			"id":"21973d974459af05",
+			"type":"text",
+			"text":"# [[Aurel, The Comet of Divine Indomination]]",
+			"styleAttributes":{},
+			"x":-6920,
+			"y":-12720,
+			"width":320,
+			"height":160
+		},
+		{
+			"id":"f471556d85d5ff2b",
+			"type":"text",
+			"text":"# Oro, Goddess of  Life",
+			"styleAttributes":{},
+			"x":-9880,
+			"y":-13220,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"8e84929e4eab37c5",
+			"type":"text",
+			"text":"# Sheo, God of Art",
+			"styleAttributes":{},
+			"x":-8990,
+			"y":-13220,
+			"width":330,
+			"height":60
+		},
+		{
+			"id":"f6793c55647296a0",
+			"type":"text",
+			"text":"# Verdo, Goddess of Spring",
+			"styleAttributes":{},
+			"x":-9880,
+			"y":-13000,
+			"width":460,
+			"height":60
+		},
+		{
+			"id":"2e58f4cda55ed49a",
+			"type":"text",
+			"text":"# Ostulfi, God of Endurance",
+			"styleAttributes":{},
+			"x":-9210,
+			"y":-13000,
+			"width":500,
+			"height":60
+		},
+		{
+			"id":"1fd1b2b36029e6d4",
+			"type":"text",
+			"text":"# Crotan, God of Crafting",
+			"styleAttributes":{},
+			"x":-9880,
+			"y":-12780,
+			"width":440,
+			"height":60
+		},
+		{
+			"id":"bbbf70fd7622607b",
+			"type":"text",
+			"text":"# Alita, God of  Agriculture",
+			"styleAttributes":{},
+			"x":-9060,
+			"y":-12780,
+			"width":470,
+			"height":70
+		},
+		{
+			"id":"978155a3d5e8ed3e",
+			"type":"text",
+			"text":"# Phacia, Goddess of Healing",
+			"styleAttributes":{},
+			"x":-9810,
+			"y":-12640,
+			"width":500,
+			"height":70
+		},
+		{
+			"id":"1f20a6622867fee0",
+			"type":"text",
+			"text":"# Pendra, Goddess of Fertility",
+			"styleAttributes":{},
+			"x":-9160,
+			"y":-12480,
+			"width":580,
+			"height":60
+		},
+		{
+			"id":"297d00bf17f4c478",
+			"type":"text",
+			"text":"# Kai, God of Youth",
+			"styleAttributes":{},
+			"x":-9770,
+			"y":-12340,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"1e834f63ba5ef0e5",
+			"type":"text",
+			"text":"# Eva, Goddess of Beauty",
+			"styleAttributes":{},
+			"x":-9210,
+			"y":-12120,
+			"width":490,
+			"height":60
+		},
+		{
+			"id":"1f9bdcc32110481e",
+			"type":"text",
+			"text":"#  Mavencald, Goddess of Death ",
+			"styleAttributes":{},
+			"x":-9040,
+			"y":-15880,
+			"width":500,
+			"height":60
+		},
+		{
+			"id":"5c7799dc1dcc4613",
+			"type":"text",
+			"text":"# Inopsyn, Goddess of Silence",
+			"styleAttributes":{},
+			"x":-8220,
+			"y":-15880,
+			"width":460,
+			"height":60
+		},
+		{
+			"id":"4a21a37e5303d9ea",
+			"type":"text",
+			"text":"# Chasta, Goddess of Frost",
+			"styleAttributes":{},
+			"x":-9060,
+			"y":-15680,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"6383023cf539346a",
+			"type":"text",
+			"text":"# Ivarty, God of the Afterlife",
+			"styleAttributes":{},
+			"x":-8300,
+			"y":-15680,
+			"width":440,
+			"height":60
+		},
+		{
+			"id":"2d4a2de92c281b0b",
+			"type":"text",
+			"text":"# Tzield, God of Fear",
+			"styleAttributes":{},
+			"x":-9020,
+			"y":-15480,
+			"width":340,
+			"height":60
+		},
+		{
+			"id":"0034b59cbf982c8f",
+			"type":"text",
+			"text":"# Niloca, Goddess of the Sea",
+			"styleAttributes":{},
+			"x":-8390,
+			"y":-15480,
+			"width":480,
+			"height":80
+		},
+		{
+			"id":"0639a3ac9e01c071",
+			"type":"text",
+			"text":"# Lunsun, Goddess of  Moon",
+			"styleAttributes":{},
+			"x":-8375,
+			"y":-15320,
+			"width":450,
+			"height":60
+		},
+		{
+			"id":"4a359ca11bb37185",
+			"type":"text",
+			"text":"# Goji, Goddess of Dreams",
+			"styleAttributes":{},
+			"x":-9020,
+			"y":-15260,
+			"width":440,
+			"height":60
+		},
+		{
+			"id":"4d56eff7902ccbf6",
+			"type":"text",
+			"text":"# Iselda, goddess of Pain",
+			"styleAttributes":{},
+			"x":-8345,
+			"y":-15180,
+			"width":390,
+			"height":80
+		},
+		{
+			"id":"8ce4e41ea3725b1c",
+			"type":"text",
+			"text":"# Frey, Goddess of Law and Knowledge",
+			"styleAttributes":{},
+			"x":-8240,
+			"y":-10760,
+			"width":600,
+			"height":60
+		},
+		{
+			"id":"155dc9f3362de778",
+			"type":"text",
+			"text":"# Furnum, God of Protection",
+			"styleAttributes":{},
+			"x":-8100,
+			"y":-10520,
+			"width":490,
+			"height":60
+		},
+		{
+			"id":"c835b5ebbd2bde92",
+			"type":"text",
+			"text":"# Balad, God of Fate",
+			"styleAttributes":{},
+			"x":-8100,
+			"y":-10320,
+			"width":460,
+			"height":60
+		},
+		{
+			"id":"320b1b92e1d4c78f",
+			"type":"text",
+			"text":"# Crull, God of Wisdom",
+			"styleAttributes":{},
+			"x":-8100,
+			"y":-10120,
+			"width":380,
+			"height":60
+		},
+		{
+			"id":"565d8c76300ac380",
+			"type":"text",
+			"text":"# Driznit, God of Deceit",
+			"styleAttributes":{},
+			"x":-9090,
+			"y":-10920,
+			"width":500,
+			"height":60
+		},
+		{
+			"id":"42b6e3ce4203052e",
+			"type":"text",
+			"text":"# Lodania, Goddess of  Justice",
+			"styleAttributes":{},
+			"x":-9000,
+			"y":-10520,
+			"width":500,
+			"height":60
+		},
+		{
+			"id":"734d5c0f50443674",
+			"type":"text",
+			"text":"# Craw, God of Trade and Travel",
+			"styleAttributes":{},
+			"x":-8950,
+			"y":-9740,
+			"width":500,
+			"height":60
+		},
+		{
+			"id":"d4eca6f2fd7b396d",
+			"type":"text",
+			"text":"# Gahlia, God of Order",
+			"styleAttributes":{},
+			"x":-8840,
+			"y":-10160,
+			"width":390,
+			"height":70
+		},
+		{
+			"id":"daf15787290d3bba",
+			"type":"text",
+			"text":"Beyond god-like beings that were sent from the dying universe to birth this one. These forces formed the materials from which the aspects and their respective influences on the world were birthed.",
+			"styleAttributes":{},
+			"x":-1030,
+			"y":160,
+			"width":260,
+			"height":220,
+			"color":"3"
+		},
+		{
+			"id":"20284f55abe50b34",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-2400,
+			"y":1760,
+			"width":260,
+			"height":60
+		},
+		{"id":"c6e29886a8fc9604","type":"file","file":"World/Primordials/Anela, The Primordial Darkness.md","x":4120,"y":-6080,"width":400,"height":160},
+		{"id":"2bb21fa1e8cdf5ec","type":"file","file":"World/Primordials/Etyan, Primordial of Etya.md","x":-3000,"y":-6080,"width":400,"height":160},
 		{
 			"id":"7bdee6e78c42c40b",
 			"type":"text",
 			"text":"- The primordials are the minds of the aspects, orchestrating their wills and desires.\n- \"Hands of the Kings\"\n",
 			"styleAttributes":{},
-			"x":4360,
-			"y":-4680,
+			"x":9880,
+			"y":-6080,
 			"width":360,
 			"height":160,
 			"color":"3"
 		},
-		{"id":"6d5c21901926b543","type":"file","file":"World/Primordials/Ylem, Primordial of Matter.md","x":3760,"y":-4680,"width":400,"height":160}
+		{"id":"c261d01bcccbdb9a","type":"file","file":"World/Primordials/Linifa, Primordial of Incubation.md","x":-640,"y":-6080,"width":400,"height":160},
+		{"id":"cd7ad8d7597e86df","type":"file","file":"World/Primordials/Novun, The Primordial Light.md","x":1920,"y":-6080,"width":400,"height":160},
+		{"id":"021c69a6c3221eaa","type":"file","file":"World/Primordials/Lathot, Primordial of Law.md","x":6640,"y":-6080,"width":400,"height":160},
+		{"id":"6d5c21901926b543","type":"file","file":"World/Primordials/Ylem, Primordial of Matter.md","x":8640,"y":-6080,"width":400,"height":160},
+		{
+			"id":"2775d47a67a7e627",
+			"type":"text",
+			"text":"# Creol, Replica gods of the Grails",
+			"styleAttributes":{},
+			"x":-3080,
+			"y":-6320,
+			"width":560,
+			"height":80
+		}
 	],
 	"edges":[
 		{
@@ -611,16 +1221,6 @@
 			"color":"3"
 		},
 		{
-			"id":"fe1174e4f8f18c4f",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"0758bcea7bbe129c",
-			"fromSide":"right",
-			"toNode":"2bb21fa1e8cdf5ec",
-			"toSide":"bottom",
-			"color":"2"
-		},
-		{
 			"id":"7a9b25c64e4244f9",
 			"styleAttributes":{},
 			"toFloating":false,
@@ -652,16 +1252,6 @@
 			"color":"2"
 		},
 		{
-			"id":"f6dfa952d6a66a25",
-			"styleAttributes":{"path":"long-dashed"},
-			"toFloating":false,
-			"fromNode":"2bb21fa1e8cdf5ec",
-			"fromSide":"top",
-			"toNode":"df77bbf1124ccf33",
-			"toSide":"top",
-			"color":"2"
-		},
-		{
 			"id":"0819cf54ea5bf503",
 			"styleAttributes":{},
 			"toFloating":false,
@@ -683,16 +1273,6 @@
 			"color":"2"
 		},
 		{
-			"id":"ed693a3f0380f012",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"df77bbf1124ccf33",
-			"fromSide":"top",
-			"toNode":"0b2ae9447410dfc9",
-			"toSide":"bottom",
-			"color":"2"
-		},
-		{
 			"id":"43e914de193a75b1",
 			"styleAttributes":{},
 			"toFloating":false,
@@ -701,6 +1281,27 @@
 			"toNode":"a5763b28e509c9ea",
 			"toSide":"left",
 			"color":"4"
+		},
+		{
+			"id":"fe1174e4f8f18c4f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0758bcea7bbe129c",
+			"fromSide":"right",
+			"toNode":"2bb21fa1e8cdf5ec",
+			"toSide":"bottom",
+			"color":"2"
+		},
+		{
+			"id":"f6dfa952d6a66a25",
+			"styleAttributes":{"path":"long-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2bb21fa1e8cdf5ec",
+			"fromSide":"bottom",
+			"toNode":"df77bbf1124ccf33",
+			"toSide":"bottom",
+			"color":"2"
 		}
 	],
 	"metadata":{
