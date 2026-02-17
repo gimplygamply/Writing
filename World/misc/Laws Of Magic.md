@@ -1,32 +1,32 @@
-# Etyo
-[[Etyo]] is an omnipresent field in the universe, they are an imaginary ocean that fills the space between space. [[#Grail]] holders are people that are born with a [[Etyo#Shards of Etyo|Shard of Etyo]], acting as a catalyst able to channel the Etyo around them. Through rigorous training this shards can be enhanced and fortified to endure longer and resist exertion from the absorption of Etyo from around them.
+# Etya
+[[World/Aspects/Etyo]] is an omnipresent field in the universe, they are an imaginary ocean that fills the space between space. [[#Grail]] holders are people that are born with a [[World/Aspects/Etyo#Shards of Etyo|Shard of Etyo]], acting as a catalyst able to channel the Etya around them. Through rigorous training this shards can be enhanced and fortified to endure longer and resist exertion from the absorption of Etya from around them.
 
 ## Etyan Clouds
-The [[Etyo#Fragments of Etyo|Fragment of Etyo]] litter the universe, their presence is of massive cosmic consequence but manifest to mortals as Etyan Clouds.
+The [[World/Aspects/Etyo#Fragments of Etyo|Fragment of Etyo]] litter the universe, their presence is of massive cosmic consequence but manifest to mortals as Etyan Clouds.
 
-These clouds are the physical aura of a fragment and their unconstrained nature makes them hazardous to casters. The Etyo in this clouds will interfere in spell casting with great consequence.
+These clouds are the physical aura of a fragment and their unconstrained nature makes them hazardous to casters. The Etya in this clouds will interfere in spell casting with great consequence.
 
 Grail users are able to determine the presence through the taste of metal along the centre of their tongue down into their throat.
 
-## Harnessing Etyo
-Etyo is a fickle, unstable material. It exists in a near uniform ocean in the universe, to harness it is to draw from that ocean and concentrate the extract into the form the caster desires.
+## Harnessing Etya
+Etya is a fickle, unstable material. It exists in a near uniform ocean in the universe, to harness it is to draw from that ocean and concentrate the extract into the form the caster desires.
 
-The ocean of Etyo craves uniformity and resists it's manipulation and concentration by attempting to burst back out into itself. [[#Grail]] holders are individuals capable of controlling the Etyo for long enough to shape the release into the desired result when the Etyo releases back into itself. An uncontrolled or unintentional release of Etyo will often have a grim result.
-### Overflowing Etyo
-To lose control of your Etyo is for it to overflow out of your Grail. A Grail calms the Etyo you harness and momentarily prevents it from exploding outwards back into itself. If your Grail does overflow, the Etyo is no longer contained and will violently return into itself. 
+The ocean of Etya craves uniformity and resists it's manipulation and concentration by attempting to burst back out into itself. [[#Grail]] holders are individuals capable of controlling the Etya for long enough to shape the release into the desired result when the Etya releases back into itself. An uncontrolled or unintentional release of Etya will often have a grim result.
+### Overflowing Etya
+To lose control of your Etya is for it to overflow out of your Grail. A Grail calms the Etya you harness and momentarily prevents it from exploding outwards back into itself. If your Grail does overflow, the Etya is no longer contained and will violently return into itself. 
 
 Any user can attempt to cast high-level magic, but the overflow almost inevitably 
 #### Stress
-Balancing the amount of Etyo required for a cast is an art that requires extreme precision. The exact amount of Etyo must be extracted and expended or else the spell will fail in the case of an over-utilization, under-utilization results in an excess of Etyo making it's way into the spell destabilizing it.
+Balancing the amount of Etya required for a cast is an art that requires extreme precision. The exact amount of Etya must be extracted and expended or else the spell will fail in the case of an over-utilization, under-utilization results in an excess of Etya making it's way into the spell destabilizing it.
 Most Grail-Holder are capable of directing small overflows into [[#Sparks]]. Large overflows form devastating [[#Surges]].
 
-The stresses of battle, medical treatment and higher-level casting can often cause a Grail-Holders to miscalculate and imprecisely utilize their Etyo. 
-Additionally, [[#Etyan Clouds]] act sporadically and inconsistently, making it near impossible for a caster to precisely harness the Etyo. 
+The stresses of battle, medical treatment and higher-level casting can often cause a Grail-Holders to miscalculate and imprecisely utilize their Etya. 
+Additionally, [[#Etyan Clouds]] act sporadically and inconsistently, making it near impossible for a caster to precisely harness the Etya. 
 ##### Sparks
-Sparks are the result of an inaccurate concentration of Etyo in a spell, the effects tend to be mild and unassuming but are uncontrolled nonetheless. 
-Sparks specifically aren't an overflow of Etyo and just a larger amount than needed. They're an unintended fuel on a fire and come out as wild effects
+Sparks are the result of an inaccurate concentration of Etya in a spell, the effects tend to be mild and unassuming but are uncontrolled nonetheless. 
+Sparks specifically aren't an overflow of Etya and just a larger amount than needed. They're an unintended fuel on a fire and come out as wild effects
 ##### Surges
-A surge is a complete overflow of Etyo, in this situation a Grail-Holder and those near them are in mortal danger. Where a spark is a small unintended deviation, a surge is a complete backfire with the full power of the overflowing Etyo.
+A surge is a complete overflow of Etya, in this situation a Grail-Holder and those near them are in mortal danger. Where a spark is a small unintended deviation, a surge is a complete backfire with the full power of the overflowing Etya.
 The effects range from healing spells swelling a limb until it malforms and crumbles off the caster to fireballs detonating inside the caster.
 ###### Necrotic Surges
 While all other schools of magic's surges have completely random effect, correlating to their school, the school of necromancy always has the same surge. 
@@ -37,24 +37,24 @@ While all other schools of magic's surges have completely random effect, correla
 > Nearby witnesses experience absolute silence for the instant the holder is vaporized followed immediately by a deep, percussive thump followed by a whip-like crack and rush of air before experiencing partial deafness and extreme vertigo.
 > Those a small distance away will feel a tug on their clothing, belongings and hair before being hit with a dull pressure wave carrying dust towards the source of the tug.
 
-In reality this is the interference of [[Anela, Primordial Darkness]]. 
+In reality this is the interference of [[Anela, The Primordial Darkness]]. 
 
 ##### Influences on magic types
 - **Cantrips**
-	- These spells are so stable and minor that even non spell casters that spend even the smallest bit of dedication can weave the passive Etyo around them into these simple spells.
-	- They're negligible Etyo requirements means that even inside an Etyan cloud, they won't spark or surge unless a caster actively attempts to.
+	- These spells are so stable and minor that even non spell casters that spend even the smallest bit of dedication can weave the passive Etya around them into these simple spells.
+	- They're negligible Etya requirements means that even inside an Etyan cloud, they won't spark or surge unless a caster actively attempts to.
 - **Rituals**
-	- These spells harness the same minute amount of Etyo with exceptional precision.
-	- This makes them unusable inside an Etyan cloud. The passive interference of Etyo will always cause the spell to spark before completion.
+	- These spells harness the same minute amount of Etya with exceptional precision.
+	- This makes them unusable inside an Etyan cloud. The passive interference of Etya will always cause the spell to spark before completion.
 - **Concentration**
-	- These spells cast the same as any spell but instead work by tending to the same Etyo for an extended period of time. 
-	- once the spell is cast the Etyo is constrained to the spell and can't be interfered with, but it an still spark when it is cast or if the concentration is broken.
+	- These spells cast the same as any spell but instead work by tending to the same Etya for an extended period of time. 
+	- once the spell is cast the Etya is constrained to the spell and can't be interfered with, but it an still spark when it is cast or if the concentration is broken.
 ### Grails
-Grail-Holders are said to hold a Grail. This Grail is the catalyst with which the caster can harness the Etyo around them.
+Grail-Holders are said to hold a Grail. This Grail is the catalyst with which the caster can harness the Etya around them.
 
-It is named as such due to the action of "drinking from the Etyo around you".
+It is named as such due to the action of "drinking from the Etya around you".
 
-A Grail is much like a muscle with drawing from the ocean of Etyo exerting it, trained and skilled Grail-Holders are able to safely draw more frequently and larger amounts from the Etyo around them.
+A Grail is much like a muscle with drawing from the ocean of Etya exerting it, trained and skilled Grail-Holders are able to safely draw more frequently and larger amounts from the Etya around them.
 
 #### Divine Grail
 	Clerics and Paladins
@@ -78,7 +78,7 @@ These holders often bare major injuries, their over-estimations and personal bon
 ##### Virtuoso's Grail
 	Bards
 A latent Grail that remains dormant in the holder until the holder dedicates themselves to their true passion and discover their talent in that passion. It's disputed whether all mortals hold this Grail and only those that have pursued their talents have activated it or if it is the source of their talent.
-These Grails function wholly of the Holders innate passion and talent, these holders harness Etyo as a secondary effect of their talent. This has the result of them never sparking unless sabotaged but also on the trade-off that their over-reliance on natural talent makes them hyper-susceptible to sparks and surges inside Etyan clouds.
+These Grails function wholly of the Holders innate passion and talent, these holders harness Etya as a secondary effect of their talent. This has the result of them never sparking unless sabotaged but also on the trade-off that their over-reliance on natural talent makes them hyper-susceptible to sparks and surges inside Etyan clouds.
 ##### Hinterland Grail
 	Druids
 These Grails are the rawest power of the Grails. The power of these shards is linked to the user spiritual connection to natural world around them.
@@ -95,8 +95,13 @@ These Grails embody adaptation and specialization. Though weak and rarely sparki
 	Warlocks and Eldritch knights
 	Divine and Billowing Grails
 Some people in the world are born with a Grail so insignificant that they will not even know it is present. These holders are often completely unaware of their Grail, but forces from beyond often become aware of them.
-Most Grails often hold too much agency and inherent-protection for others to manipulate, but the deformed Tainted Grails are seen as seed crystals by those with excess amounts of Etyon control and desires. These otherworldly patrons often seek out those with the Tainted Grail and promise them power, often in exchange for the agency of their Grail. These patrons then grow the Grails power in exchange for the holders cooperation and/or obedience.
-The Tainted Grail is weak in it's foundation, resulting in it's users not possessing the ability to detect Etyan Clouds. This weak nature does play into the holders favour by marking them as Grail-less to all but the most perceptive inquisitors.
+Most Grails often hold too much agency and inherent-protection for others to manipulate, but the deformed Tainted Grails are seen as seed crystals by those with excess amounts of Etyan control and desires. These otherworldly patrons often seek out those with the Tainted Grail and promise them power, often in exchange for the agency of their Grail. These patrons then grow the Grails power in exchange for the holders cooperation and/or obedience.
+
+The Tainted Grail is weak in it's foundation, resulting in it's users not possessing the ability to detect Etyan Clouds. This weak nature does play into the holders favour by marking them as Grail-less to only the most exemplary inquisitors.
 ##### Architects Grail
 	Artificers and Arcane Tricksters
 	Virtuoso's and Prospective Grails
+This Architects Grail is a personal creation [[Linifa, Primordial of Incubation]]. She desired a way to bond her desire for progress and creativity with her sibling primordial's power. 
+Those born with the Architects Grail are blessed with the ability to bring any creation and idea to life through Etya. These shards grow with the aspirations and scale of the holders ideas, feeding of the potential power rather than the existing power.
+
+These holders have the unique speciality of fragmenting small parts of their Grail to imbue inside other objects. When these imbued objects are exposed to Etyan clouds the, objects themselves resist the spark for a short while before detonating. This makes Etyan clouds particularly dangerous to these Holders but those with a great sense of creativity have made use of this effect to create volatile explosive weapons when inside an Etyan cloud.

@@ -2,5 +2,5 @@
 - Scraps of Etyo were strewn across the universe
 - The aspect of Creation gathered it and harnessed it into Etyan from which the primal gods were made.
 - Primal gods are able to craft their own descendants.
-	- The Aspects [[Malaiza]] and [[Ilusioq]] manipulated [[Creation]] into crafting their patron deities.
-	- [[Creation]] created the other primal deities.
+	- The Aspects [[Malaiza]] and [[World/Aspects/Ilusioq]] manipulated [[World/Aspects/Creation]] into crafting their patron deities.
+	- [[World/Aspects/Creation]] created the other primal deities.

@@ -1,10 +1,9 @@
 {
 	"nodes":[
-		{"id":"e42b25ee849b523a","type":"group","x":-3220,"y":-4240,"width":3380,"height":4640,"label":"The Origin of The Universe"},
-		{"id":"856ddaa2ee3ae345","type":"group","x":-1400,"y":-3320,"width":1200,"height":1520,"label":"Aspects"},
+		{"id":"e42b25ee849b523a","type":"group","x":-3220,"y":-4240,"width":3380,"height":4960,"label":"The Origin of The Universe"},
+		{"id":"f2dc7e454c282e03","type":"group","x":-5540,"y":-2220,"width":1180,"height":2480,"label":"Misc"},
 		{"id":"892332ac5a35b295","type":"group","x":-2800,"y":-3320,"width":1040,"height":1680,"label":"\"The Forms of Spirit\""},
-		{"id":"60824a14862f857a","type":"group","x":1200,"y":-7840,"width":4080,"height":2960,"label":"Deities"},
-		{"id":"f2dc7e454c282e03","type":"group","x":-5540,"y":-2220,"width":1180,"height":2480,"label":"Draft Ideas"},
+		{"id":"856ddaa2ee3ae345","type":"group","x":-1400,"y":-3320,"width":1140,"height":1220,"label":"Aspects"},
 		{
 			"id":"c8e9665542d37bfa",
 			"type":"group",
@@ -15,26 +14,156 @@
 			"height":880,
 			"label":"Before Creation"
 		},
+		{"id":"df77bbf1124ccf33","type":"group","x":1200,"y":-4760,"width":3560,"height":300,"label":"Primordials"},
 		{"id":"d805484d50dc19aa","type":"group","x":-5240,"y":-3520,"width":880,"height":1040,"color":"3","label":"Legend"},
-		{"id":"04e2dabd74b71bff","type":"group","x":-1140,"y":-1380,"width":500,"height":1640,"label":"Founding Forces"},
+		{"id":"04e2dabd74b71bff","type":"group","x":-1140,"y":-1380,"width":460,"height":1900,"label":"Founding Forces"},
 		{"id":"4281e868fcdb5b1f","type":"group","x":-2920,"y":-4040,"width":2850,"height":213,"label":"Origins of the physical world"},
 		{"id":"ed53d9b4fd5cb13e","type":"group","x":-5460,"y":-2090,"width":660,"height":500,"label":"Core concept Ideas"},
+		{
+			"id":"e610eca850cebf69",
+			"type":"text",
+			"text":"# The Lesser beings\nThese were advanced civilizations, lesser deities and natural phenomena.\n\nEither through research, blind luck, divinity or inexplicable abnormalities, these entities were aware of their impending doom and that a new universe would be born thereafter.\n",
+			"styleAttributes":{},
+			"x":-2080,
+			"y":-960,
+			"width":440,
+			"height":280
+		},
+		{
+			"id":"daf15787290d3bba",
+			"type":"text",
+			"text":"Beyond god-like beings that were sent from the dying universe to birth this one. These forces formed the materials from which the aspects and their respective influences on the world were birthed.",
+			"styleAttributes":{},
+			"x":-1030,
+			"y":160,
+			"width":260,
+			"height":220,
+			"color":"3"
+		},
+		{
+			"id":"d09f3b35102b9841",
+			"type":"text",
+			"text":"# Creation of the Universe\nThis universe is born from the death of another.\nThe gods of the previous universe formed the foundation of this one.",
+			"styleAttributes":{},
+			"x":-1810,
+			"y":-580,
+			"width":340,
+			"height":280
+		},
+		{
+			"id":"2b90d22df344461f",
+			"type":"text",
+			"text":"# Nilatia, The Altruist (Known)\na deity the embodies spite and hatred. The fundamental enemy of \"Unknown\". It is a rabid dog whose sole purpose is to rip and tear from \"unknown\" and scatter it's pieces across the universe.\n",
+			"styleAttributes":{},
+			"x":-1060,
+			"y":-580,
+			"width":320,
+			"height":300
+		},
+		{
+			"id":"718e8a85bbf32f48",
+			"type":"text",
+			"text":"# Tesaset, The Ignorant (Creation)\nA determined deity, ignorant and happy. It knows everything, aware of every single creation, concept and existence but with no mind or desire to utilize that power",
+			"styleAttributes":{},
+			"x":-1060,
+			"y":-200,
+			"width":320,
+			"height":320
+		},
+		{
+			"id":"dfcba559e0725d5f",
+			"type":"text",
+			"text":"# Lyrdia, The Miser (Unknown)\na conceptually immortal and greedy deity. Their death violates the very nature of their existence.",
+			"styleAttributes":{},
+			"x":-1060,
+			"y":-980,
+			"width":320,
+			"height":280
+		},
+		{
+			"id":"084ea4177068b16b",
+			"type":"text",
+			"text":"# The Greater Beings\nThose responsible for the previous universes collapse.\n\nThese deities, unable to accept the civilizations of their universe had surpassed their power, sought to destroy their universe and begin anew in one were they would neuter the power of it's inhabitants.\n\nIn the final moments of this universe, the gods were ambushed. Massacred by the civilizations they were fleeing. \n\nWhen the annihilation occurred, no great deity witnessed it. Their corpses became the cosmic jelly that the new universe would be formed from.",
+			"styleAttributes":{},
+			"x":-2680,
+			"y":-960,
+			"width":460,
+			"height":420
+		},
+		{"id":"b362340a2f2c34e8","type":"file","file":"Story&Plot/People/Aurel, The Comet of Divine Indomination.md","x":-2320,"y":-3140,"width":440,"height":520},
+		{
+			"id":"5d5fcf3a4465bd9d",
+			"type":"text",
+			"text":"Of the countless civilizations and lesser deities that had been eradicated in the collapse of their universe. The most powerful, in hopeless desperation, tried to view into the new universe; simply to witness the birth of a new reality before facing a universe where it was certain they'd never have an after-life.\n\n",
+			"styleAttributes":{},
+			"x":-2760,
+			"y":-3140,
+			"width":340,
+			"height":280,
+			"color":"3"
+		},
+		{"id":"0046a98a697e09cc","type":"file","file":"World/Aspects/Creation.md","x":-1370,"y":-2640,"width":1060,"height":180},
+		{
+			"id":"20284f55abe50b34",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-2400,
+			"y":1760,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"3cff2800c5a59069",
+			"type":"text",
+			"text":"# Source: Aurel \n## Material: Flesh \n### Creations: Generic beings",
+			"styleAttributes":{},
+			"x":-2840,
+			"y":-4020,
+			"width":540,
+			"height":180,
+			"color":"3"
+		},
+		{
+			"id":"2ff899a6212a58f5",
+			"type":"text",
+			"text":"# Orange",
+			"styleAttributes":{},
+			"x":-5220,
+			"y":-3100,
+			"width":260,
+			"height":120,
+			"color":"2"
+		},
+		{"id":"5b92d416415b7664","type":"file","file":"World/Stories of the World/Stolen Legacy.md","x":-2760,"y":-2480,"width":960,"height":800,"color":"1"},
+		{
+			"id":"62cf755c8c01d21e",
+			"type":"text",
+			"text":"# Source: Etyo\n## Material: Shattered Fragments of Etyo\n### Creations: Divine\n",
+			"styleAttributes":{},
+			"x":-1480,
+			"y":-4015,
+			"width":600,
+			"height":175,
+			"color":"3"
+		},
+		{
+			"id":"3ac763584d0bc0c8",
+			"type":"text",
+			"text":"# Source: Lesser Beings\n## Material: Twist \n### Creations: Mystical and Fae beings",
+			"styleAttributes":{},
+			"x":-2160,
+			"y":-4015,
+			"width":540,
+			"height":175,
+			"color":"3"
+		},
 		{
 			"id":"4225707b7e6c50d1",
 			"type":"text",
 			"text":"# Blue",
 			"styleAttributes":{},
 			"x":-5220,
-			"y":-3480,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"0eee807ecf548f97",
-			"type":"text",
-			"text":"Basic involvement. e.g. X is linked to Y",
-			"styleAttributes":{},
-			"x":-4700,
 			"y":-3480,
 			"width":260,
 			"height":60
@@ -49,6 +178,16 @@
 			"width":260,
 			"height":60,
 			"color":"1"
+		},
+		{
+			"id":"0eee807ecf548f97",
+			"type":"text",
+			"text":"Basic involvement. e.g. X is linked to Y",
+			"styleAttributes":{},
+			"x":-4700,
+			"y":-3480,
+			"width":260,
+			"height":60
 		},
 		{
 			"id":"3dcc9e1bf16717e2",
@@ -84,17 +223,6 @@
 			"color":"1"
 		},
 		{
-			"id":"2ff899a6212a58f5",
-			"type":"text",
-			"text":"# Orange",
-			"styleAttributes":{},
-			"x":-5220,
-			"y":-3100,
-			"width":260,
-			"height":120,
-			"color":"2"
-		},
-		{
 			"id":"b2d4524bfd647481",
 			"type":"text",
 			"text":"Indicates personal ownership/responsibility. e.g. X belongs to/exists because of Y",
@@ -106,141 +234,26 @@
 			"color":"2"
 		},
 		{
-			"id":"3cff2800c5a59069",
+			"id":"414063f1dec3e83f",
 			"type":"text",
-			"text":"# Source: Aurel \n## Material: Flesh \n### Creations: Generic beings",
+			"text":"# Green",
 			"styleAttributes":{},
-			"x":-2840,
-			"y":-4020,
-			"width":540,
-			"height":180,
-			"color":"3"
-		},
-		{"id":"246e9a1095a8d84c","type":"file","file":"World/Stories of Creation/Birth of The Deities.md","x":340,"y":-4800,"width":400,"height":400,"color":"1"},
-		{
-			"id":"20284f55abe50b34",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{},
-			"x":-2400,
-			"y":1760,
+			"x":-5220,
+			"y":-2800,
 			"width":260,
-			"height":60
+			"height":60,
+			"color":"4"
 		},
 		{
-			"id":"5d5fcf3a4465bd9d",
+			"id":"a5763b28e509c9ea",
 			"type":"text",
-			"text":"Of the countless civilizations and lesser deities that had been eradicated in the collapse of their universe. The most powerful, in hopeless desperation, tried to view into the new universe; simply to witness the birth of a new reality before facing a universe where it was certain they'd never have an after-life.\n\n",
+			"text":"Describes some relationship",
 			"styleAttributes":{},
-			"x":-2760,
-			"y":-3140,
-			"width":340,
-			"height":280,
-			"color":"3"
-		},
-		{"id":"b362340a2f2c34e8","type":"file","file":"Story&Plot/People/Aurel, The Comet of Divine Indomination.md","x":-2320,"y":-3140,"width":440,"height":520},
-		{
-			"id":"62cf755c8c01d21e",
-			"type":"text",
-			"text":"# Source: Etyo\n## Material: Shattered Fragments of Etyo\n### Creations: Divine\n",
-			"styleAttributes":{},
-			"x":-1480,
-			"y":-4015,
-			"width":600,
-			"height":175,
-			"color":"3"
-		},
-		{
-			"id":"3ac763584d0bc0c8",
-			"type":"text",
-			"text":"# Source: Lesser Beings\n## Material: Twist \n### Creations: Mystical and Fae beings",
-			"styleAttributes":{},
-			"x":-2160,
-			"y":-4015,
-			"width":540,
-			"height":175,
-			"color":"3"
-		},
-		{
-			"id":"d09f3b35102b9841",
-			"type":"text",
-			"text":"# Creation of the Universe\nThis universe is born from the death of another.\nThe gods of the previous universe formed the foundation of this one.",
-			"styleAttributes":{},
-			"x":-1810,
-			"y":-580,
-			"width":340,
-			"height":280
-		},
-		{
-			"id":"712eec23caad5104",
-			"type":"text",
-			"text":"# Source: Greater beings\n## Material: Cosmic Jelly\n### Creations: All Matter",
-			"styleAttributes":{},
-			"x":-760,
-			"y":-4020,
-			"width":540,
-			"height":180,
-			"color":"3"
-		},
-		{
-			"id":"084ea4177068b16b",
-			"type":"text",
-			"text":"# The Greater Beings\nThose responsible for the previous universes collapse.\n\nThese deities, unable to accept the civilizations of their universe had surpassed their power, sought to destroy their universe and begin anew in one were they would neuter the power of it's inhabitants.\n\nIn the final moments of this universe, the gods were ambushed. Massacred by the civilizations they were fleeing. \n\nWhen the annihilation occurred, no great deity witnessed it. Their corpses became the cosmic jelly that the new universe would be formed from.",
-			"styleAttributes":{},
-			"x":-2680,
-			"y":-960,
-			"width":460,
-			"height":420
-		},
-		{
-			"id":"e610eca850cebf69",
-			"type":"text",
-			"text":"# The Lesser beings\nThese were advanced civilizations, lesser deities and natural phenomena.\n\nEither through research, blind luck, divinity or inexplicable abnormalities, these entities were aware of their impending doom and that a new universe would be born thereafter.\n",
-			"styleAttributes":{},
-			"x":-2080,
-			"y":-960,
-			"width":440,
-			"height":280
-		},
-		{
-			"id":"dfcba559e0725d5f",
-			"type":"text",
-			"text":"# Lyrdia, The Miser (Unknown)\na conceptually immortal and greedy deity. Their death violates the very nature of their existence.",
-			"styleAttributes":{},
-			"x":-1060,
-			"y":-980,
-			"width":320,
-			"height":280
-		},
-		{
-			"id":"2b90d22df344461f",
-			"type":"text",
-			"text":"# Nilatia, The Altruist (Known)\na deity the embodies spite and hatred. The fundamental enemy of \"Unknown\". It is a rabid dog whose sole purpose is to rip and tear from \"unknown\" and scatter it's pieces across the universe.\n",
-			"styleAttributes":{},
-			"x":-1060,
-			"y":-580,
-			"width":320,
-			"height":300
-		},
-		{
-			"id":"718e8a85bbf32f48",
-			"type":"text",
-			"text":"# Tesaset, The Ignorant (Creation)\nA determined deity, ignorant and happy. It knows everything, aware of every single creation, concept and existence but with no mind or desire to utilize that power",
-			"styleAttributes":{},
-			"x":-1060,
-			"y":-200,
-			"width":320,
-			"height":320
-		},
-		{
-			"id":"27014640ac58ec6c",
-			"type":"text",
-			"text":"# Elozor, The Root (Life)\na deity known for it's resilience that created an illusion of immortality, the burn shadows left behind from it's destruction are it's formless aspects and form the foundational concepts of this universe.",
-			"styleAttributes":{},
-			"x":-1060,
-			"y":-1340,
-			"width":320,
-			"height":300
+			"x":-4700,
+			"y":-2800,
+			"width":260,
+			"height":60,
+			"color":"4"
 		},
 		{
 			"id":"ce013539ed9b3053",
@@ -256,6 +269,7 @@
 			"height":80,
 			"color":"1"
 		},
+		{"id":"f9e1281eefb37e20","type":"file","file":"World/misc/Laws Of Magic.md","x":-5460,"y":-1540,"width":1060,"height":1220,"color":"3"},
 		{
 			"id":"028966c46f0f5a3d",
 			"type":"text",
@@ -270,14 +284,74 @@
 			"height":130,
 			"color":"1"
 		},
-		{"id":"f9e1281eefb37e20","type":"file","file":"World/misc/Laws Of Magic.md","x":-5460,"y":-1540,"width":1060,"height":1220,"color":"3"},
-		{"id":"0046a98a697e09cc","type":"file","file":"World/Aspects/Creation.md","x":-1360,"y":-2320,"width":1060,"height":480},
-		{"id":"b0f9085ef4b6ee38","type":"file","file":"World/Aspects/Ilusioq.md","x":-780,"y":-2900,"width":440,"height":540},
-		{"id":"098a6edd7da87a0d","type":"file","file":"World/Aspects/Malaiza.md","x":-1360,"y":-2900,"width":520,"height":540},
-		{"id":"a8f679ecb84c4203","type":"file","file":"World/Aspects/Lizerta.md","x":-1400,"y":-3320,"width":340,"height":300},
-		{"id":"fe3a7a4f238ccc11","type":"file","file":"World/Aspects/Lorda.md","x":-1060,"y":-3320,"width":360,"height":300},
+		{"id":"098a6edd7da87a0d","type":"file","file":"World/Aspects/Malaiza.md","x":-1360,"y":-2900,"width":520,"height":180},
+		{
+			"id":"0b2ae9447410dfc9",
+			"type":"file",
+			"file":"World/Deity Tree.canvas",
+			"portal":false,
+			"styleAttributes":{
+				"border":null
+			},
+			"x":4640,
+			"y":-13280,
+			"width":6420,
+			"height":6680
+		},
+		{"id":"b0f9085ef4b6ee38","type":"file","file":"World/Aspects/Ilusioq.md","x":-780,"y":-2900,"width":440,"height":180},
+		{
+			"id":"27014640ac58ec6c",
+			"type":"text",
+			"text":"# Elozor, The Root (Life)\na deity known for it's resilience that created an illusion of immortality, the burn shadows left behind from it's destruction are it's formless aspects and form the foundational concepts of this universe.",
+			"styleAttributes":{},
+			"x":-1060,
+			"y":-1340,
+			"width":320,
+			"height":300
+		},
 		{"id":"0758bcea7bbe129c","type":"file","file":"World/Aspects/Etyo.md","x":-700,"y":-3320,"width":360,"height":300},
-		{"id":"5b92d416415b7664","type":"file","file":"World/Stories of Creation/Stolen Legacy.md","x":-2760,"y":-2480,"width":960,"height":800,"color":"1"}
+		{"id":"fe3a7a4f238ccc11","type":"file","file":"World/Aspects/Lorda.md","x":-1060,"y":-3320,"width":360,"height":300},
+		{"id":"a8f679ecb84c4203","type":"file","file":"World/Aspects/Lizerta.md","x":-1400,"y":-3320,"width":340,"height":300},
+		{
+			"id":"08b89b0538733901",
+			"type":"text",
+			"text":"- Embodiment of the founding forces\n- Created as the fields that would define existence.\n- Sources from which the laws of this world are synthesized\n- The \"Kings of their Realms\"",
+			"styleAttributes":{},
+			"x":-1370,
+			"y":-2400,
+			"width":360,
+			"height":200,
+			"color":"3"
+		},
+		{"id":"246e9a1095a8d84c","type":"file","file":"World/Stories of the World/Birth of The Primordials.md","x":340,"y":-4800,"width":400,"height":400,"color":"1"},
+		{
+			"id":"712eec23caad5104",
+			"type":"text",
+			"text":"# Source: Greater beings\n## Material: Cosmic Jelly\n### Creations: All Matter",
+			"styleAttributes":{},
+			"x":-760,
+			"y":-4020,
+			"width":540,
+			"height":180,
+			"color":"3"
+		},
+		{"id":"cd7ad8d7597e86df","type":"file","file":"World/Primordials/Novun, The Primordial Light.md","x":2240,"y":-4680,"width":400,"height":160},
+		{"id":"c6e29886a8fc9604","type":"file","file":"World/Primordials/Anela, The Primordial Darkness.md","x":2740,"y":-4680,"width":400,"height":160},
+		{"id":"2bb21fa1e8cdf5ec","type":"file","file":"World/Primordials/Etyan, Primordial of Etya.md","x":1240,"y":-4680,"width":400,"height":160},
+		{"id":"c261d01bcccbdb9a","type":"file","file":"World/Primordials/Linifa, Primordial of Incubation.md","x":1740,"y":-4680,"width":400,"height":160},
+		{"id":"021c69a6c3221eaa","type":"file","file":"World/Primordials/Lathot, Primordial of Law.md","x":3240,"y":-4680,"width":400,"height":160},
+		{
+			"id":"7bdee6e78c42c40b",
+			"type":"text",
+			"text":"- The primordials are the minds of the aspects, orchestrating their wills and desires.\n- \"Hands of the Kings\"\n",
+			"styleAttributes":{},
+			"x":4360,
+			"y":-4680,
+			"width":360,
+			"height":160,
+			"color":"3"
+		},
+		{"id":"6d5c21901926b543","type":"file","file":"World/Primordials/Ylem, Primordial of Matter.md","x":3760,"y":-4680,"width":400,"height":160}
 	],
 	"edges":[
 		{
@@ -474,10 +548,11 @@
 			"id":"8839fda2626d4eb1",
 			"styleAttributes":{},
 			"toFloating":false,
-			"fromNode":"3cff2800c5a59069",
-			"fromSide":"bottom",
-			"toNode":"b362340a2f2c34e8",
-			"toSide":"top",
+			"fromFloating":false,
+			"fromNode":"b362340a2f2c34e8",
+			"fromSide":"top",
+			"toNode":"3cff2800c5a59069",
+			"toSide":"bottom",
 			"color":"3"
 		},
 		{
@@ -520,19 +595,112 @@
 			"fromFloating":false,
 			"fromNode":"246e9a1095a8d84c",
 			"fromSide":"right",
-			"toNode":"60824a14862f857a",
-			"toSide":"bottom",
+			"toNode":"df77bbf1124ccf33",
+			"toSide":"left",
 			"color":"2"
 		},
 		{
 			"id":"97ae8ee20a59f68d",
 			"styleAttributes":{"path":"long-dashed"},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"62cf755c8c01d21e",
 			"fromSide":"bottom",
 			"toNode":"f9e1281eefb37e20",
 			"toSide":"top",
 			"color":"3"
+		},
+		{
+			"id":"fe1174e4f8f18c4f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0758bcea7bbe129c",
+			"fromSide":"right",
+			"toNode":"2bb21fa1e8cdf5ec",
+			"toSide":"bottom",
+			"color":"2"
+		},
+		{
+			"id":"7a9b25c64e4244f9",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0046a98a697e09cc",
+			"fromSide":"right",
+			"toNode":"c261d01bcccbdb9a",
+			"toSide":"bottom",
+			"color":"2"
+		},
+		{
+			"id":"82d8d2594d39fdad",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"b0f9085ef4b6ee38",
+			"fromSide":"right",
+			"toNode":"cd7ad8d7597e86df",
+			"toSide":"bottom",
+			"color":"2"
+		},
+		{
+			"id":"ef1f46179eb6800a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"098a6edd7da87a0d",
+			"fromSide":"right",
+			"toNode":"c6e29886a8fc9604",
+			"toSide":"bottom",
+			"color":"2"
+		},
+		{
+			"id":"f6dfa952d6a66a25",
+			"styleAttributes":{"path":"long-dashed"},
+			"toFloating":false,
+			"fromNode":"2bb21fa1e8cdf5ec",
+			"fromSide":"top",
+			"toNode":"df77bbf1124ccf33",
+			"toSide":"top",
+			"color":"2"
+		},
+		{
+			"id":"0819cf54ea5bf503",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a8f679ecb84c4203",
+			"fromSide":"top",
+			"toNode":"021c69a6c3221eaa",
+			"toSide":"bottom",
+			"color":"2"
+		},
+		{
+			"id":"403e89475581c083",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"fe3a7a4f238ccc11",
+			"fromSide":"top",
+			"toNode":"6d5c21901926b543",
+			"toSide":"bottom",
+			"color":"2"
+		},
+		{
+			"id":"ed693a3f0380f012",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"df77bbf1124ccf33",
+			"fromSide":"top",
+			"toNode":"0b2ae9447410dfc9",
+			"toSide":"bottom",
+			"color":"2"
+		},
+		{
+			"id":"43e914de193a75b1",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"414063f1dec3e83f",
+			"fromSide":"right",
+			"toNode":"a5763b28e509c9ea",
+			"toSide":"left",
+			"color":"4"
 		}
 	],
 	"metadata":{
