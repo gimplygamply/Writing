@@ -1,0 +1,8 @@
+- Linifa hated that the other primordials hated their gods.
+- They schemed to force the other Numens to work with her gods.
+	- They fooled the other aspects deities into copulating with Ora and Aro.
+- This not only tainted the aspects Numens but reinforced the lineage system.
+- Gods were no longer created from raw material but instead would birth a new god.
+- This meant all gods held some flesh, this lead to the aspects and primordials and aspects no longer interested in direct action with the deities.
+- The aspect and primordials would not neglect their duties though, instead allowing their deities to harness their power in order to avoid the dominance in flesh in their lineages.
+	- Reluctantly agreeing to the new order.

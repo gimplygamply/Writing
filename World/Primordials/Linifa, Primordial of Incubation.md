@@ -1,8 +1,8 @@
-The primal deity of progress, the patron of [[World/Aspects/Creation]].
+The primal deity of progress, the patron of [[Creation]].
 
-- Birthed when Etyan asked [[World/Aspects/Creation]] for a sibling. 
+- Birthed when Etyan asked [[Creation]] for a sibling. 
 
 # Manifesting Form
 
 # Laws of Creation
-- Strong and Weak Nuclear forces
+- Chemistry and Biology

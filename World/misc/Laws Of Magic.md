@@ -1,5 +1,5 @@
 # Etya
-[[World/Aspects/Etyo]] is an omnipresent field in the universe, they are an imaginary ocean that fills the space between space. [[#Grail]] holders are people that are born with a [[World/Aspects/Etyo#Shards of Etyo|Shard of Etyo]], acting as a catalyst able to channel the Etya around them. Through rigorous training this shards can be enhanced and fortified to endure longer and resist exertion from the absorption of Etya from around them.
+[[Etyo]] is an omnipresent field in the universe, they are an imaginary ocean that fills the space between space. [[#Grail]] holders are people that are born with a [[World/Aspects/Etyo#Shards of Etyo|Shard of Etyo]], acting as a catalyst able to channel the Etya around them. Through rigorous training this shards can be enhanced and fortified to endure longer and resist exertion from the absorption of Etya from around them.
 
 ## Etyan Clouds
 The [[World/Aspects/Etyo#Fragments of Etyo|Fragment of Etyo]] litter the universe, their presence is of massive cosmic consequence but manifest to mortals as Etyan Clouds.
@@ -28,10 +28,10 @@ Sparks specifically aren't an overflow of Etya and just a larger amount than nee
 ##### Surges
 A surge is a complete overflow of Etya, in this situation a Grail-Holder and those near them are in mortal danger. Where a spark is a small unintended deviation, a surge is a complete backfire with the full power of the overflowing Etya.
 The effects range from healing spells swelling a limb until it malforms and crumbles off the caster to fireballs detonating inside the caster.
-###### Necrotic Surges
+###### Necrotic and Evocation Surges
 While all other schools of magic's surges have completely random effect, correlating to their school, the school of necromancy always has the same surge. 
 
-> [!NOTE] Necrotic Surge
+> [!NOTE] Necrotic and Evocation Surge
 > The Grail-Holder, shadow included, collapse to a single unseen point around their torso, followed by a toroidal ejection of blood and fine biological particulate. Those within the immediate radius of the Grail-Holder are violently jerked towards them, their clothes are torn and loose belongings fly towards the Holders original position. Those within arms reach have their shoulders dislocated, muscles torn and/or nearest bones fractured. Those making direct contact, i.e. grappled have their nearest limbs shredded and their chest cavity and organs explode outwards. 
 > In the immediate vicinity, wood splinters, stone cracks and glass explodes as dust and debris fly inwards like an inverted shock wave.
 > Nearby witnesses experience absolute silence for the instant the holder is vaporized followed immediately by a deep, percussive thump followed by a whip-like crack and rush of air before experiencing partial deafness and extreme vertigo.

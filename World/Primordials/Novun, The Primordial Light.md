@@ -1,4 +1,4 @@
-Primal Deity of Light and patron of [[World/Aspects/Ilusioq]]
+Primal Deity of Light and patron of [[Ilusioq]]
 
 # Manifesting Form
 

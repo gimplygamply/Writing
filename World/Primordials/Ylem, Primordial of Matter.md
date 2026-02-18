@@ -1,5 +1,5 @@
-Patron of [[World/Aspects/Lorda]].
+Patron of [[Lorda]].
 # Manifesting Form
 
 # Laws of Existence
-- Chemistry
+- Strong and Weak Nuclear forces
