@@ -1,13 +1,15 @@
 {
 	"nodes":[
-		{"id":"c2cdc2d70f6bb213","type":"group","x":-4180,"y":-2380,"width":2240,"height":4760,"label":"Linifan Lineage"},
+		{"id":"5e3b57ef5405ec30","type":"group","x":-8400,"y":-800,"width":16080,"height":800,"label":"First-Generation Gods"},
+		{"id":"905eb1d28ed9b175","type":"group","x":-8400,"y":-2240,"width":16080,"height":800,"label":"Second-Generation Gods"},
+		{"id":"c2cdc2d70f6bb213","type":"group","x":-5920,"y":-2380,"width":2560,"height":4760,"label":"Linifan Lineage"},
+		{"id":"699bbcfed42f5cae","type":"group","x":-2880,"y":-2380,"width":2440,"height":4760,"label":"Novun Lineage"},
+		{"id":"52344d67a1c622e5","type":"group","x":-8400,"y":640,"width":16080,"height":720,"label":"High-Gods"},
+		{"id":"6a1dbcacaa0dd86c","type":"group","x":255,"y":-2380,"width":2285,"height":4760,"label":"Anelan Lineage"},
+		{"id":"5b732a60f3825e78","type":"group","x":-8400,"y":-2380,"width":2240,"height":4760,"label":"Etyan Lineage"},
 		{"id":"baffbab33d6bf9d3","type":"group","x":3020,"y":-2380,"width":2080,"height":4760,"label":"Lathotian Lineage"},
-		{"id":"699bbcfed42f5cae","type":"group","x":-1620,"y":-2380,"width":1920,"height":4760,"label":"Novun Lineage"},
-		{"id":"6a1dbcacaa0dd86c","type":"group","x":660,"y":-2380,"width":1880,"height":4760,"label":"Anelan Lineage"},
-		{"id":"5b732a60f3825e78","type":"group","x":-6300,"y":-2380,"width":1670,"height":4760,"label":"Etyan Lineage"},
-		{"id":"2ab600b768c22c44","type":"group","x":5340,"y":-2380,"width":1600,"height":4760,"label":"Lathotian Lineage"},
-		{"id":"52344d67a1c622e5","type":"group","x":-6300,"y":1300,"width":13240,"height":480,"label":"High-Gods"},
-		{"id":"dd4772e5849e1ca3","type":"group","x":-6300,"y":1980,"width":13240,"height":280,"label":"Numens"},
+		{"id":"2ab600b768c22c44","type":"group","x":5600,"y":-2380,"width":2080,"height":4760,"label":"Lathotian Lineage"},
+		{"id":"dd4772e5849e1ca3","type":"group","x":-8400,"y":1980,"width":16080,"height":280,"label":"Numens"},
 		{"id":"77098dcddd6a39b1","type":"group","x":-11019,"y":-3922,"width":1800,"height":1760,"label":"Novun Deities"},
 		{"id":"64cbf45cfd69cfd1","type":"group","x":-13979,"y":-3922,"width":1760,"height":1760,"label":"Lathotian Deities"},
 		{"id":"7350b9843e73b59e","type":"group","x":-11019,"y":-8882,"width":1780,"height":1720,"label":"Etyan Deities"},
@@ -15,64 +17,14 @@
 		{"id":"2316718eb0c31050","type":"group","x":-10179,"y":-6222,"width":1760,"height":1700,"label":"Ylemen Deities"},
 		{"id":"dd4824e5d3a07b3e","type":"group","x":-14819,"y":-6222,"width":1760,"height":1660,"label":"Linifan Deities"},
 		{
-			"id":"4c341a2d37f2cf87",
+			"id":"9a89742893db5168",
 			"type":"text",
-			"text":"# Verdo, Goddess of Spring",
+			"text":"#  Maven, Numen of Ending\n- God of death, extinction and destruction",
 			"styleAttributes":{},
-			"x":-14739,
-			"y":-5882,
-			"width":460,
-			"height":60
-		},
-		{
-			"id":"3d2fb95e0804b8eb",
-			"type":"text",
-			"text":"# Crotan, God of Crafting",
-			"styleAttributes":{},
-			"x":-14739,
-			"y":-5662,
-			"width":440,
-			"height":60
-		},
-		{
-			"id":"1267c04db66802b8",
-			"type":"text",
-			"text":"# Phacia, Goddess of Healing",
-			"styleAttributes":{},
-			"x":-14669,
-			"y":-5522,
-			"width":500,
-			"height":70
-		},
-		{
-			"id":"5dfdc305a36e91d6",
-			"type":"text",
-			"text":"# Kai, God of Youth",
-			"styleAttributes":{},
-			"x":-14629,
-			"y":-5222,
-			"width":420,
-			"height":60
-		},
-		{
-			"id":"d9242130c66f2890",
-			"type":"text",
-			"text":"# Ora, God of Bone and Meat\n- Born from the other ovary of Aurel, given form by Linifa\n- First male god\n- God of Fertility, Prowess, Endurance and Virility",
-			"styleAttributes":{},
-			"x":-2940,
+			"x":1315,
 			"y":2060,
-			"width":560,
+			"width":530,
 			"height":120
-		},
-		{
-			"id":"e195681d614eb320",
-			"type":"text",
-			"text":"# Crull, God of Wisdom",
-			"styleAttributes":{},
-			"x":3180,
-			"y":1380,
-			"width":380,
-			"height":60
 		},
 		{
 			"id":"40e2dc1c9430e58f",
@@ -85,126 +37,6 @@
 			"height":118
 		},
 		{
-			"id":"290eb6f502ce8f43",
-			"type":"text",
-			"text":"# Karaka, Numen of Power and Energy",
-			"styleAttributes":{},
-			"x":-901,
-			"y":2090,
-			"width":562,
-			"height":130
-		},
-		{
-			"id":"54c0962dc0dc66f5",
-			"type":"text",
-			"text":"# Aro, Goddess of  Blood and Marrow\n- Born from an ovary of Aurel, given form by Linifa\n- First female goddess\n- Goddess of birth, life, desire and healing",
-			"styleAttributes":{},
-			"x":-4020,
-			"y":2060,
-			"width":580,
-			"height":120
-		},
-		{
-			"id":"8673ceca74d4be0e",
-			"type":"text",
-			"text":"# Leo",
-			"styleAttributes":{},
-			"x":-5240,
-			"y":2040,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"2e3a6809e8428a6a",
-			"type":"text",
-			"text":"# Reo",
-			"styleAttributes":{},
-			"x":-5670,
-			"y":2040,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a79d2eed5d5803a4",
-			"type":"text",
-			"text":"# Nutia, God of Misfortune\n- God of ill-fate, bad luck, loss and defeat",
-			"styleAttributes":{},
-			"x":-6240,
-			"y":1600,
-			"width":540,
-			"height":120
-		},
-		{
-			"id":"a6396fc7a0874a37",
-			"type":"text",
-			"text":"# Lumbia, Goddess of Good Fortune\n- Goddess of good luck and victory",
-			"styleAttributes":{},
-			"x":-5670,
-			"y":1600,
-			"width":540,
-			"height":120
-		},
-		{
-			"id":"081f4a9e8df1550e",
-			"type":"text",
-			"text":"# Gilly, Goddess of Trickery\n- Goddess of seduction, persuasion and deception",
-			"styleAttributes":{},
-			"x":-4150,
-			"y":1540,
-			"width":500,
-			"height":100
-		},
-		{
-			"id":"bc369dedfe1df0ef",
-			"type":"text",
-			"text":"# Creo",
-			"styleAttributes":{},
-			"x":-6100,
-			"y":2040,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"7273ff8bc437f38d",
-			"type":"text",
-			"text":"# Lifana, Goddess of Love",
-			"styleAttributes":{},
-			"x":-3440,
-			"y":1480,
-			"width":430,
-			"height":60
-		},
-		{
-			"id":"e4cc684423a23e62",
-			"type":"text",
-			"text":"# Driflin, God of  Air",
-			"styleAttributes":{},
-			"x":5413,
-			"y":1620,
-			"width":415,
-			"height":60
-		},
-		{
-			"id":"10c7d520c5c7120f",
-			"type":"text",
-			"text":"# Ignim, God of  Fire",
-			"styleAttributes":{},
-			"x":-1380,
-			"y":1380,
-			"width":380,
-			"height":60
-		},
-		{
-			"id":"2293048e6e7dc797",
-			"type":"text",
-			"text":"# Creol, Replica Numens of the Grails",
-			"styleAttributes":{},
-			"x":-5840,
-			"y":2180,
-			"width":600,
-			"height":60
-		},
-		{
 			"id":"6aa9c57abfef52dc",
 			"type":"text",
 			"text":"# The fundamentals of physics and math\n- Distance, speed, acceleration\n- Sequence, causality, one thing must cause another\n- Fate and future\n- Resistance to change, Tradition\n- Nothingness, the space between emptyness",
@@ -214,100 +46,6 @@
 			"width":574,
 			"height":320,
 			"color":"5"
-		},
-		{
-			"id":"5a198fc41860aeee",
-			"type":"text",
-			"text":"# Memoria, Goddess of Promises",
-			"styleAttributes":{},
-			"x":-10969,
-			"y":-3482,
-			"width":570,
-			"height":60
-		},
-		{
-			"id":"37ae33354b85381f",
-			"type":"text",
-			"text":"# Kari, Goddess of Peace",
-			"styleAttributes":{},
-			"x":-10439,
-			"y":-3282,
-			"width":390,
-			"height":60
-		},
-		{"id":"d14bd086f25d98b2","type":"file","file":"World/Stories of the World/Linifa's Taint on the Numen.md","x":-6940,"y":1680,"width":400,"height":400,"color":"1"},
-		{
-			"id":"9a89742893db5168",
-			"type":"text",
-			"text":"#  Maven, Numen of Ending\n- God of death, extinction and destruction",
-			"styleAttributes":{},
-			"x":1315,
-			"y":2060,
-			"width":530,
-			"height":120
-		},
-		{
-			"id":"ed7bd5cb1c69b0d4",
-			"type":"text",
-			"text":"# Garpid, God of  Mystery\n- God of shadows, night and secrets",
-			"styleAttributes":{},
-			"x":740,
-			"y":1480,
-			"width":470,
-			"height":120
-		},
-		{
-			"id":"dfd69cb3a4d342fb",
-			"type":"text",
-			"text":"# The parts of a black-hole\nSpecifically a focus on items relating to black holes:\n- Singularity\n- Event Horizon\n- Spaghettification\n- Accretion Disk\n- Time Dilation\n- Hawking Radiation",
-			"styleAttributes":{},
-			"x":1260,
-			"y":2480,
-			"width":740,
-			"height":400,
-			"color":"5"
-		},
-		{
-			"id":"67cfc10bf2db4a88",
-			"type":"text",
-			"text":"# Shared by both\nSystems and signals.\n- **Signal** (raw emission)\n- **Encoding** (language, mathematics, runes)\n- **Storage** (memory, archives, crystals)\n- **Transmission** (messengers, light, radiation)\n- **Noise** (entropy, corruption)\n- **Correction** (truth, logic, restoration)\n- **Observation** (measurement collapses possibility)\n- **Prediction** (modeling reality)",
-			"styleAttributes":{},
-			"x":320,
-			"y":2560,
-			"width":500,
-			"height":380,
-			"color":"5"
-		},
-		{
-			"id":"a202a554c973c387",
-			"type":"text",
-			"text":"# Novun Theme constraint\n## Cosmic bodies\nRepresented by the types of cosmic bodies in the universe. Except black holes.",
-			"styleAttributes":{},
-			"x":-810,
-			"y":2560,
-			"width":471,
-			"height":220,
-			"color":"5"
-		},
-		{
-			"id":"60ff2bff08f4d7cc",
-			"type":"text",
-			"text":"# Lifala, Goddess of Sex",
-			"styleAttributes":{},
-			"x":-10874,
-			"y":-3702,
-			"width":380,
-			"height":60
-		},
-		{
-			"id":"3e45cd1fbbf2d671",
-			"type":"text",
-			"text":"# Lifana, Goddess of Love",
-			"styleAttributes":{},
-			"x":-10869,
-			"y":-3792,
-			"width":430,
-			"height":60
 		},
 		{
 			"id":"0b29c9d37c7458a7",
@@ -330,33 +68,13 @@
 			"height":60
 		},
 		{
-			"id":"8036a72a7cf25855",
+			"id":"37ae33354b85381f",
 			"type":"text",
-			"text":"# Loam, God of Altruism",
+			"text":"# Kari, Goddess of Peace",
 			"styleAttributes":{},
-			"x":-10219,
-			"y":-2622,
-			"width":420,
-			"height":60
-		},
-		{
-			"id":"eb7e7f2003b08d43",
-			"type":"text",
-			"text":"# Stignus, God of Prowess",
-			"styleAttributes":{},
-			"x":-10379,
-			"y":-3062,
-			"width":440,
-			"height":60
-		},
-		{
-			"id":"1ff69b0cebf916f2",
-			"type":"text",
-			"text":"# Kili, Goddess of Joy",
-			"styleAttributes":{},
-			"x":-10909,
-			"y":-2762,
-			"width":420,
+			"x":-10439,
+			"y":-3282,
+			"width":390,
 			"height":60
 		},
 		{
@@ -370,15 +88,24 @@
 			"height":80
 		},
 		{
-			"id":"efe99fedf437609c",
+			"id":"5a198fc41860aeee",
 			"type":"text",
-			"text":"# Linifan Theme constraint\nEvery god is born from some organ and embodies it",
+			"text":"# Memoria, Goddess of Promises",
 			"styleAttributes":{},
-			"x":-3320,
-			"y":2480,
-			"width":310,
-			"height":240,
-			"color":"5"
+			"x":-10969,
+			"y":-3482,
+			"width":570,
+			"height":60
+		},
+		{
+			"id":"3e45cd1fbbf2d671",
+			"type":"text",
+			"text":"# Lifana, Goddess of Love",
+			"styleAttributes":{},
+			"x":-10869,
+			"y":-3792,
+			"width":430,
+			"height":60
 		},
 		{
 			"id":"95f54aa3dbfaf6b0",
@@ -388,6 +115,16 @@
 			"x":-10939,
 			"y":-3032,
 			"width":480,
+			"height":60
+		},
+		{
+			"id":"60ff2bff08f4d7cc",
+			"type":"text",
+			"text":"# Lifala, Goddess of Sex",
+			"styleAttributes":{},
+			"x":-10874,
+			"y":-3702,
+			"width":380,
 			"height":60
 		},
 		{
@@ -401,36 +138,6 @@
 			"height":60
 		},
 		{
-			"id":"5d0441fb4c50eb96",
-			"type":"text",
-			"text":"# Nuphar, Goddess of Disease and  Poison",
-			"styleAttributes":{},
-			"x":-9779,
-			"y":-5862,
-			"width":580,
-			"height":100
-		},
-		{
-			"id":"e3c37fc24453c990",
-			"type":"text",
-			"text":"# Cytron, God of Destruction",
-			"styleAttributes":{},
-			"x":-9079,
-			"y":-5862,
-			"width":480,
-			"height":60
-		},
-		{
-			"id":"8a0065badf49043b",
-			"type":"text",
-			"text":"# Hokvna, Goddess of the Hunt",
-			"styleAttributes":{},
-			"x":-9814,
-			"y":-5402,
-			"width":510,
-			"height":60
-		},
-		{
 			"id":"2ac7baef9bffdbd8",
 			"type":"text",
 			"text":"# Bestia, Goddess of Animals",
@@ -438,36 +145,6 @@
 			"x":-9019,
 			"y":-4942,
 			"width":480,
-			"height":60
-		},
-		{
-			"id":"7aabab02a7b7bcd6",
-			"type":"text",
-			"text":"# Farlid, God of Fall",
-			"styleAttributes":{},
-			"x":-9199,
-			"y":-5662,
-			"width":340,
-			"height":80
-		},
-		{
-			"id":"7e3e2e8bdf676115",
-			"type":"text",
-			"text":"# Sheo, God of Art",
-			"styleAttributes":{},
-			"x":-13849,
-			"y":-6102,
-			"width":330,
-			"height":60
-		},
-		{
-			"id":"dcc2e512a757c91c",
-			"type":"text",
-			"text":"# Goji, Goddess of Dreams",
-			"styleAttributes":{},
-			"x":-13879,
-			"y":-8142,
-			"width":440,
 			"height":60
 		},
 		{
@@ -481,13 +158,13 @@
 			"height":60
 		},
 		{
-			"id":"7787eda6a7f66180",
+			"id":"8a0065badf49043b",
 			"type":"text",
-			"text":"# Frey, Goddess of Law and Knowledge",
+			"text":"# Hokvna, Goddess of the Hunt",
 			"styleAttributes":{},
-			"x":-13099,
-			"y":-3642,
-			"width":600,
+			"x":-9814,
+			"y":-5402,
+			"width":510,
 			"height":60
 		},
 		{
@@ -501,94 +178,128 @@
 			"height":60
 		},
 		{
-			"id":"5a1eccc2835d8c03",
+			"id":"e9951efe86192879",
 			"type":"text",
-			"text":"# Iselda, goddess of Pain",
+			"text":"# Pendra, Goddess of Fertility",
 			"styleAttributes":{},
-			"x":-13204,
-			"y":-8062,
-			"width":390,
+			"x":-14019,
+			"y":-5362,
+			"width":580,
+			"height":60
+		},
+		{
+			"id":"7aabab02a7b7bcd6",
+			"type":"text",
+			"text":"# Farlid, God of Fall",
+			"styleAttributes":{},
+			"x":-9199,
+			"y":-5662,
+			"width":340,
 			"height":80
 		},
 		{
-			"id":"b3b41bf32704d7df",
+			"id":"1f10096c80fc0363",
 			"type":"text",
-			"text":"# Ivarty, God of the Afterlife",
-			"styleAttributes":{},
-			"x":-13159,
-			"y":-8562,
-			"width":440,
-			"height":60
-		},
-		{
-			"id":"0681665558eba160",
-			"type":"text",
-			"text":"# Inopsyn, Goddess of Silence",
-			"styleAttributes":{},
-			"x":-13079,
-			"y":-8762,
-			"width":460,
-			"height":60
-		},
-		{
-			"id":"335c4a74525ab83c",
-			"type":"text",
-			"text":"# Tzield, God of Fear",
-			"styleAttributes":{},
-			"x":-13879,
-			"y":-8362,
-			"width":340,
-			"height":60
-		},
-		{
-			"id":"deb9e8a6131db8bd",
-			"type":"text",
-			"text":"# Chasta, Goddess of Frost",
+			"text":"# Alita, God of  Agriculture",
 			"styleAttributes":{},
 			"x":-13919,
-			"y":-8562,
-			"width":420,
-			"height":60
+			"y":-5662,
+			"width":470,
+			"height":70
 		},
 		{
-			"id":"68d52d8fed52458b",
+			"id":"5d0441fb4c50eb96",
 			"type":"text",
-			"text":"# Lunsun, Goddess of  Moon",
+			"text":"# Nuphar, Goddess of Disease and  Poison",
 			"styleAttributes":{},
-			"x":-13234,
-			"y":-8202,
-			"width":450,
-			"height":60
+			"x":-9779,
+			"y":-5862,
+			"width":580,
+			"height":100
 		},
 		{
-			"id":"d33be2e9081ca517",
+			"id":"54c0962dc0dc66f5",
 			"type":"text",
-			"text":"# Balad, God of Fate",
+			"text":"# Aro, Progenitor of Blood and Marrow\n- Female repoductive\n- First female goddess",
 			"styleAttributes":{},
-			"x":-12959,
-			"y":-3202,
-			"width":460,
-			"height":60
+			"x":-5440,
+			"y":2060,
+			"width":580,
+			"height":160
 		},
 		{
-			"id":"a9a2a9d2541a45f7",
+			"id":"d9242130c66f2890",
 			"type":"text",
-			"text":"# Craw, God of Trade and Travel",
+			"text":"# Ora, Progenitor of Bone and Meat\n- Male Repoductive\n- First male god\n",
 			"styleAttributes":{},
-			"x":-13809,
-			"y":-2622,
-			"width":500,
-			"height":60
+			"x":-4360,
+			"y":2060,
+			"width":560,
+			"height":120
 		},
 		{
-			"id":"33cc82887ae3a3f3",
+			"id":"290eb6f502ce8f43",
 			"type":"text",
-			"text":"# Lodania, Goddess of  Justice",
+			"text":"# Karaka, Numen of Discovery",
 			"styleAttributes":{},
-			"x":-13859,
-			"y":-3402,
-			"width":500,
-			"height":60
+			"x":-2161,
+			"y":2090,
+			"width":562,
+			"height":130
+		},
+		{
+			"id":"efe99fedf437609c",
+			"type":"text",
+			"text":"# Linifan Theme constraint\nEvery god is born from some organ and embodies it. Higher gods represent bodily systems",
+			"styleAttributes":{},
+			"x":-4860,
+			"y":2540,
+			"width":310,
+			"height":240,
+			"color":"5"
+		},
+		{
+			"id":"a202a554c973c387",
+			"type":"text",
+			"text":"# Novun Theme constraint\n## Cosmic bodies\nRepresented by the types of cosmic bodies in the universe. Except black holes.",
+			"styleAttributes":{},
+			"x":-2070,
+			"y":2640,
+			"width":471,
+			"height":220,
+			"color":"5"
+		},
+		{
+			"id":"dfd69cb3a4d342fb",
+			"type":"text",
+			"text":"# The parts of a black-hole\nSpecifically a focus on items relating to black holes:\n- Singularity\n- Event Horizon\n- Spaghettification\n- Accretion Disk\n- Time Dilation\n- Hawking Radiation",
+			"styleAttributes":{},
+			"x":1210,
+			"y":2660,
+			"width":740,
+			"height":400,
+			"color":"5"
+		},
+		{
+			"id":"7efef17a7f75ce4d",
+			"type":"text",
+			"text":"# The layers of earth and their contents\n- The atmosphere, protection from outside\n- the ocean, erosion\n- magnetism, materials sciences, it's influence on the things we create and work with\n- the crust and tectonics, formation and change\n- the mantle, precious and dangerous\n- the outer core, pressure, fire \n- The inner-core, unseen value (needed for magnetic sphere) and hardness",
+			"styleAttributes":{},
+			"x":7100,
+			"y":2480,
+			"width":520,
+			"height":360,
+			"color":"5"
+		},
+		{
+			"id":"ec0cd21d78824383",
+			"type":"text",
+			"text":"# Imoba, Numen of Earth\n- God of realms, galactic events and planets",
+			"styleAttributes":{},
+			"x":6620,
+			"y":2080,
+			"width":440,
+			"height":97
 		},
 		{
 			"id":"441a599644d796b2",
@@ -601,14 +312,125 @@
 			"height":60
 		},
 		{
-			"id":"ad567dee24b4fbbc",
+			"id":"5dfdc305a36e91d6",
 			"type":"text",
-			"text":"# Todara, God of Change",
+			"text":"# Kai, God of Youth",
 			"styleAttributes":{},
-			"x":-10819,
-			"y":-7482,
+			"x":-14629,
+			"y":-5222,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"4c341a2d37f2cf87",
+			"type":"text",
+			"text":"# Verdo, Goddess of Spring",
+			"styleAttributes":{},
+			"x":-14739,
+			"y":-5882,
 			"width":460,
+			"height":60
+		},
+		{
+			"id":"3d2fb95e0804b8eb",
+			"type":"text",
+			"text":"# Crotan, God of Crafting",
+			"styleAttributes":{},
+			"x":-14739,
+			"y":-5662,
+			"width":440,
+			"height":60
+		},
+		{
+			"id":"4a810045b07f3553",
+			"type":"text",
+			"text":"# Psychology, Philosopy and emotion\n- Cognitive Dissonance, paradoxes, conflict\n- The Collective Unconscious, myths and stories\n- Catharsis, release \n- Solipsism, will and Isolation\n- Sublimation, art and transform\n- The Ego & Shadow, Duality / Identity",
+			"styleAttributes":{},
+			"x":-7715,
+			"y":2520,
+			"width":670,
+			"height":320,
+			"color":"5"
+		},
+		{
+			"id":"a79d2eed5d5803a4",
+			"type":"text",
+			"text":"# Nutia, God of Misfortune\n- God of ill-fate, bad luck, loss and defeat",
+			"styleAttributes":{},
+			"x":-10589,
+			"y":1100,
+			"width":540,
+			"height":120
+		},
+		{
+			"id":"7273ff8bc437f38d",
+			"type":"text",
+			"text":"# Lifana, Goddess of Love",
+			"styleAttributes":{},
+			"x":-10589,
+			"y":320,
+			"width":540,
 			"height":80
+		},
+		{
+			"id":"081f4a9e8df1550e",
+			"type":"text",
+			"text":"# Gilly, Goddess of Trickery\n- Goddess of seduction, persuasion and deception",
+			"styleAttributes":{},
+			"x":-10589,
+			"y":560,
+			"width":540,
+			"height":80
+		},
+		{
+			"id":"a6396fc7a0874a37",
+			"type":"text",
+			"text":"# Lumbia, Goddess of Good Fortune\n- Goddess of good luck and victory",
+			"styleAttributes":{},
+			"x":-10589,
+			"y":800,
+			"width":540,
+			"height":120
+		},
+		{
+			"id":"2e3a6809e8428a6a",
+			"type":"text",
+			"text":"# Reo",
+			"styleAttributes":{},
+			"x":-7510,
+			"y":2150,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"bc369dedfe1df0ef",
+			"type":"text",
+			"text":"# Creo",
+			"styleAttributes":{},
+			"x":-7940,
+			"y":2150,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8673ceca74d4be0e",
+			"type":"text",
+			"text":"# Leo",
+			"styleAttributes":{},
+			"x":-7080,
+			"y":2150,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"2293048e6e7dc797",
+			"type":"text",
+			"text":"# Creol, Replica Numens of the Grails",
+			"styleAttributes":{},
+			"x":-7680,
+			"y":2020,
+			"width":600,
+			"height":60
 		},
 		{
 			"id":"a8fca41e8d601137",
@@ -631,6 +453,16 @@
 			"height":70
 		},
 		{
+			"id":"68d52d8fed52458b",
+			"type":"text",
+			"text":"# Lunsun, Goddess of  Moon",
+			"styleAttributes":{},
+			"x":-13234,
+			"y":-8202,
+			"width":450,
+			"height":60
+		},
+		{
 			"id":"e84278614b04784b",
 			"type":"text",
 			"text":"# Pavo, God of Alchemy",
@@ -641,96 +473,532 @@
 			"height":60
 		},
 		{
-			"id":"e9951efe86192879",
+			"id":"dcc2e512a757c91c",
 			"type":"text",
-			"text":"# Pendra, Goddess of Fertility",
+			"text":"# Goji, Goddess of Dreams",
 			"styleAttributes":{},
-			"x":-14019,
-			"y":-5362,
-			"width":580,
+			"x":-13879,
+			"y":-8142,
+			"width":440,
 			"height":60
 		},
 		{
-			"id":"3349ea9ab7ea8ef7",
+			"id":"deb9e8a6131db8bd",
 			"type":"text",
-			"text":"# Ostulfi, God of Endurance",
-			"styleAttributes":{},
-			"x":-14069,
-			"y":-5882,
-			"width":500,
-			"height":60
-		},
-		{
-			"id":"a904259b45f5b93a",
-			"type":"text",
-			"text":"# Eva, Goddess of Beauty",
-			"styleAttributes":{},
-			"x":-14069,
-			"y":-5002,
-			"width":490,
-			"height":60
-		},
-		{
-			"id":"1f10096c80fc0363",
-			"type":"text",
-			"text":"# Alita, God of  Agriculture",
+			"text":"# Chasta, Goddess of Frost",
 			"styleAttributes":{},
 			"x":-13919,
-			"y":-5662,
-			"width":470,
-			"height":70
+			"y":-8562,
+			"width":420,
+			"height":60
 		},
 		{
-			"id":"ec0cd21d78824383",
+			"id":"b3a2a0813701371e",
 			"type":"text",
-			"text":"# Imoba, Numen of Earth\n- God of realms, galactic events and planets",
+			"text":"# Imnorius, God of Minerals\n- Mantle\n- Symbol: Asteroids (Resources came from them)",
 			"styleAttributes":{},
-			"x":5880,
-			"y":2080,
-			"width":440,
-			"height":97
+			"x":7720,
+			"y":1345,
+			"width":380,
+			"height":150
 		},
 		{
-			"id":"5b5ae7a8b3ad9334",
+			"id":"67cfc10bf2db4a88",
 			"type":"text",
-			"text":"# Goran, Goddess of Land",
+			"text":"# Shared by both\nSystems and signals.\n- **Signal** (raw emission)\n- **Encoding** (language, mathematics, runes)\n- **Storage** (memory, archives, crystals)\n- **Transmission** (messengers, light, radiation)\n- **Noise** (entropy, corruption)\n- **Correction** (truth, logic, restoration)\n- **Observation** (measurement collapses possibility)\n- **Prediction** (modeling reality)",
 			"styleAttributes":{},
-			"x":5900,
-			"y":1590,
+			"x":-320,
+			"y":2400,
 			"width":500,
-			"height":60
+			"height":380,
+			"color":"5"
 		},
 		{
-			"id":"d6e772e9f6fe9af3",
+			"id":"e195681d614eb320",
 			"type":"text",
-			"text":"# Niloca, Goddess of Water",
+			"text":"# Crull, God of Wisdom",
 			"styleAttributes":{},
-			"x":6460,
-			"y":1590,
-			"width":440,
-			"height":60
+			"x":-10589,
+			"y":-640,
+			"width":540,
+			"height":120
 		},
 		{
-			"id":"7efef17a7f75ce4d",
+			"id":"11846022850135cd",
 			"type":"text",
-			"text":"# The layers of earth and their contents\n- The atmosphere, protection from outside\n- the ocean, erosion\n- magnetism, materials sciences, it's influence on the things we create and work with\n- the crust and tectonics, formation and change\n- the mantle, precious and dangerous\n- the outer core, pressure, fire \n- The inner-core, unseen value (needed for magnetic sphere) and hardness",
+			"text":"# Ignim, God of  Fire\n- Outer Core",
 			"styleAttributes":{},
-			"x":5880,
-			"y":2480,
+			"x":6120,
+			"y":700,
+			"width":340,
+			"height":120
+		},
+		{
+			"id":"12e28e04ed6d078b",
+			"type":"text",
+			"text":"# Aylucia, Goddess of Water\n- Ocean",
+			"styleAttributes":{},
+			"x":7180,
+			"y":700,
+			"width":340,
+			"height":150
+		},
+		{
+			"id":"1c1a482cf3c2aaa6",
+			"type":"text",
+			"text":"# Goran, Goddess of the Land\n- Crust",
+			"styleAttributes":{},
+			"x":6620,
+			"y":700,
+			"width":400,
+			"height":160
+		},
+		{
+			"id":"0d4e9088ed7dead5",
+			"type":"text",
+			"text":"# Driflin, God of  Air\n- Atmosphere",
+			"styleAttributes":{},
+			"x":5640,
+			"y":700,
+			"width":400,
+			"height":120
+		},
+		{
+			"id":"1561c4d6be3102a4",
+			"type":"text",
+			"text":"# Balad, God of Fate",
+			"styleAttributes":{},
+			"x":3760,
+			"y":700,
+			"width":480,
+			"height":120
+		},
+		{
+			"id":"d1b9b5b535e67a92",
+			"type":"text",
+			"text":"# Nulva, God of Void",
+			"styleAttributes":{},
+			"x":4520,
+			"y":700,
+			"width":360,
+			"height":80
+		},
+		{
+			"id":"408c137859cd44ec",
+			"type":"text",
+			"text":"# Vump, God of Tradition\n- Conservation",
+			"styleAttributes":{},
+			"x":3454,
+			"y":940,
+			"width":546,
+			"height":120
+		},
+		{
+			"id":"a248c4ed52a4083a",
+			"type":"text",
+			"text":"# Craw, God of Causality\n- Cause and effect",
+			"styleAttributes":{},
+			"x":3080,
+			"y":700,
+			"width":546,
+			"height":120
+		},
+		{
+			"id":"f0839788ce442320",
+			"type":"text",
+			"text":"# Inopsyn, Goddess of Afterlife\n- Singularity",
+			"styleAttributes":{},
+			"x":1920,
+			"y":660,
 			"width":520,
-			"height":360,
-			"color":"5"
+			"height":160
 		},
 		{
-			"id":"4a810045b07f3553",
+			"id":"58f4f2e37a257ef1",
 			"type":"text",
-			"text":"# Psychology, Philosopy and emotion\n- Cognitive Dissonance, paradoxes, conflict\n- The Collective Unconscious, myths and stories\n- Catharsis, release \n- Solipsism, will and Isolation\n- Sublimation, art and transform\n- The Ego & Shadow, Duality / Identity",
+			"text":"# Ivarty, Goddess of the Death\n- Event Horizon",
 			"styleAttributes":{},
-			"x":-5780,
-			"y":2460,
-			"width":670,
-			"height":320,
-			"color":"5"
+			"x":1210,
+			"y":740,
+			"width":480,
+			"height":140
+		},
+		{
+			"id":"e98773803c12e065",
+			"type":"text",
+			"text":"# Tzield, Goddess of Fear\n- Accretion disk",
+			"styleAttributes":{},
+			"x":320,
+			"y":660,
+			"width":480,
+			"height":160
+		},
+		{
+			"id":"c75e2463ead19ba3",
+			"type":"text",
+			"text":"# Oregva, God of Genesis\n- Formation of material in stars",
+			"styleAttributes":{},
+			"x":-2161,
+			"y":700,
+			"width":460,
+			"height":113
+		},
+		{
+			"id":"ee79a9a75fca13f5",
+			"type":"text",
+			"text":"# Lyon, God of Legacy\n- Supernova",
+			"styleAttributes":{},
+			"x":-1028,
+			"y":700,
+			"width":520,
+			"height":120
+		},
+		{
+			"id":"c47947170ebc08f2",
+			"type":"text",
+			"text":"# Todara, God of Change\n- Galactic formation/Star birth",
+			"styleAttributes":{},
+			"x":-1560,
+			"y":700,
+			"width":460,
+			"height":149
+		},
+		{
+			"id":"a9cc148ad0c030a3",
+			"type":"text",
+			"text":"# Lodania, Goddess of Truth\n- Pulsar",
+			"styleAttributes":{},
+			"x":-1268,
+			"y":940,
+			"width":500,
+			"height":120
+		},
+		{
+			"id":"72bd3360da656b0c",
+			"type":"text",
+			"text":"# Nebulus, Goddess of Unformed\n- Nebula",
+			"styleAttributes":{},
+			"x":-2400,
+			"y":930,
+			"width":440,
+			"height":120
+		},
+		{
+			"id":"60a8962eaf11320e",
+			"type":"text",
+			"text":"# Stignus, God of Labour\n- Main body star",
+			"styleAttributes":{},
+			"x":-2840,
+			"y":700,
+			"width":440,
+			"height":113
+		},
+		{
+			"id":"ed7bd5cb1c69b0d4",
+			"type":"text",
+			"text":"# Garpid, God of Hunger\n- Digestive",
+			"styleAttributes":{},
+			"x":-5880,
+			"y":680,
+			"width":540,
+			"height":120
+		},
+		{
+			"id":"f23c231dea86da10",
+			"type":"text",
+			"text":"# Kili, God of Endurance\n- Respitory",
+			"styleAttributes":{},
+			"x":-5220,
+			"y":680,
+			"width":420,
+			"height":130
+		},
+		{
+			"id":"5a76a7eb5e0b6840",
+			"type":"text",
+			"text":"# Niloca, Goddess of Cleansing\n- Urinary",
+			"styleAttributes":{},
+			"x":-4660,
+			"y":680,
+			"width":500,
+			"height":120
+		},
+		{
+			"id":"be2225360329ee87",
+			"type":"text",
+			"text":"# Ostulfi, God of percipience\n- nervous",
+			"styleAttributes":{},
+			"x":-4080,
+			"y":680,
+			"width":500,
+			"height":120
+		},
+		{
+			"id":"83ae3a9f843249d2",
+			"type":"text",
+			"text":"# Phacia, Goddess of Healing\n- Lymphatic",
+			"styleAttributes":{},
+			"x":-4360,
+			"y":920,
+			"width":500,
+			"height":140
+		},
+		{
+			"id":"03c9e24a60e3ddd5",
+			"type":"text",
+			"text":"# Loam, God of Survival\n- Circulatory",
+			"styleAttributes":{},
+			"x":-4915,
+			"y":920,
+			"width":420,
+			"height":140
+		},
+		{
+			"id":"059d2db19a948ab3",
+			"type":"text",
+			"text":"# Frey, God of Instinct\n- Endocrine",
+			"styleAttributes":{},
+			"x":-5550,
+			"y":920,
+			"width":540,
+			"height":140
+		},
+		{"id":"d14bd086f25d98b2","type":"file","file":"World/Stories of the World/Linifa's Taint on the Numen.md","x":-9200,"y":1400,"width":400,"height":400,"color":"1"},
+		{
+			"id":"5fb73871e2b3a79e",
+			"type":"text",
+			"text":"# Libera, Goddess of Release\n- Catharsis",
+			"styleAttributes":{},
+			"x":-8340,
+			"y":810,
+			"width":500,
+			"height":100
+		},
+		{
+			"id":"1805a6288060b50c",
+			"type":"text",
+			"text":"# Pairin, Goddess of Mystery\n- Cognitive dissonance",
+			"styleAttributes":{},
+			"x":-7680,
+			"y":820,
+			"width":490,
+			"height":100
+		},
+		{
+			"id":"d32a7386784ae91c",
+			"type":"text",
+			"text":"# Misra, God of Stories\n- Myths",
+			"styleAttributes":{},
+			"x":-8090,
+			"y":1120,
+			"width":500,
+			"height":100
+		},
+		{
+			"id":"1a00c07950fb063a",
+			"type":"text",
+			"text":"# Sheo, God of Art\n- Sublimation",
+			"styleAttributes":{},
+			"x":-7115,
+			"y":1020,
+			"width":330,
+			"height":100
+		},
+		{
+			"id":"c62fabc8b14ad927",
+			"type":"text",
+			"text":"# Solis, God of Self\n- Solipsism",
+			"styleAttributes":{},
+			"x":-6720,
+			"y":820,
+			"width":490,
+			"height":100
+		},
+		{
+			"id":"32044567c2da8f77",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-5210,
+			"y":1680,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"02bc320ebf2413ba",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-4190,
+			"y":1680,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"9ee6527ed9918d45",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-7865,
+			"y":1600,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"fe913610fc2a3eaa",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-6845,
+			"y":1600,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"a1ca8761af644bb1",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-2240,
+			"y":1650,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"7400a0e061740196",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-1220,
+			"y":1650,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"377dcbdc6e2a4262",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":930,
+			"y":1680,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"b66e01be70e92a8f",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":1950,
+			"y":1680,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"fdfcee0bcd41df4f",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":3620,
+			"y":1620,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"b9b649ff1054602f",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":4640,
+			"y":1620,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"60a6c9370017bde9",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":6160,
+			"y":1650,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"fc1f17a1a6ac69a2",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":7180,
+			"y":1650,
+			"width":60,
+			"height":60
+		},
+		{
+			"id":"030b117a6ee9fab6",
+			"type":"text",
+			"text":"# Cytron, God of Destruction\n- Hawking Radiation",
+			"styleAttributes":{},
+			"x":1280,
+			"y":-590,
+			"width":540,
+			"height":160
+		},
+		{
+			"id":"4d0ea05b1fa1778c",
+			"type":"text",
+			"text":"# Iselda, goddess of Torment\n- Spaghetiffication",
+			"styleAttributes":{},
+			"x":360,
+			"y":-640,
+			"width":520,
+			"height":130
+		},
+		{
+			"id":"b3f6f70f0d62cc76",
+			"type":"text",
+			"text":"# Iskenar, God of Progress",
+			"styleAttributes":{},
+			"x":-2280,
+			"y":-660,
+			"width":440,
+			"height":85
+		},
+		{
+			"id":"54dd3c37a5ddcb8c",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-1298,
+			"y":160,
+			"width":60,
+			"height":60
 		}
 	],
 	"edges":[
@@ -761,9 +1029,9 @@
 			"toFloating":false,
 			"fromFloating":false,
 			"fromNode":"2293048e6e7dc797",
-			"fromSide":"top",
+			"fromSide":"bottom",
 			"toNode":"bc369dedfe1df0ef",
-			"toSide":"bottom",
+			"toSide":"top",
 			"fromEnd":"arrow"
 		},
 		{
@@ -772,19 +1040,20 @@
 			"toFloating":false,
 			"fromFloating":false,
 			"fromNode":"2293048e6e7dc797",
-			"fromSide":"top",
+			"fromSide":"bottom",
 			"toNode":"8673ceca74d4be0e",
-			"toSide":"bottom",
+			"toSide":"top",
 			"fromEnd":"arrow"
 		},
 		{
 			"id":"7df9689339102076",
 			"styleAttributes":{},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"2293048e6e7dc797",
-			"fromSide":"top",
+			"fromSide":"bottom",
 			"toNode":"2e3a6809e8428a6a",
-			"toSide":"bottom",
+			"toSide":"top",
 			"fromEnd":"arrow"
 		},
 		{
@@ -795,6 +1064,523 @@
 			"fromSide":"right",
 			"toNode":"67cfc10bf2db4a88",
 			"toSide":"left"
+		},
+		{
+			"id":"d126b2e5956e7bf7",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"dfd69cb3a4d342fb",
+			"fromSide":"left",
+			"toNode":"67cfc10bf2db4a88",
+			"toSide":"right"
+		},
+		{
+			"id":"08124536ec060d6a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"54c0962dc0dc66f5",
+			"fromSide":"top",
+			"toNode":"32044567c2da8f77",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"760412a472f24d08",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d9242130c66f2890",
+			"fromSide":"top",
+			"toNode":"02bc320ebf2413ba",
+			"toSide":"bottom"
+		},
+		{
+			"id":"06f7428d94eb5577",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"d9242130c66f2890",
+			"fromSide":"top",
+			"toNode":"32044567c2da8f77",
+			"toSide":"bottom"
+		},
+		{
+			"id":"2892298ba0ee79aa",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"54c0962dc0dc66f5",
+			"fromSide":"top",
+			"toNode":"02bc320ebf2413ba",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"26a3b40c2e3f2b68",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2293048e6e7dc797",
+			"fromSide":"top",
+			"toNode":"fe913610fc2a3eaa",
+			"toSide":"bottom",
+			"color":"4"
+		},
+		{
+			"id":"8d0375114a0f737c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d9242130c66f2890",
+			"fromSide":"top",
+			"toNode":"fe913610fc2a3eaa",
+			"toSide":"bottom"
+		},
+		{
+			"id":"3e16234069d2913e",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2293048e6e7dc797",
+			"fromSide":"top",
+			"toNode":"9ee6527ed9918d45",
+			"toSide":"bottom",
+			"color":"4"
+		},
+		{
+			"id":"cd4e5389ffa1c833",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"54c0962dc0dc66f5",
+			"fromSide":"top",
+			"toNode":"9ee6527ed9918d45",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"0e9e20b7500fb654",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d9242130c66f2890",
+			"fromSide":"top",
+			"toNode":"7400a0e061740196",
+			"toSide":"bottom"
+		},
+		{
+			"id":"0262a709b0e654bb",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"d9242130c66f2890",
+			"fromSide":"top",
+			"toNode":"b66e01be70e92a8f",
+			"toSide":"bottom"
+		},
+		{
+			"id":"8226b47c65a1e299",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d9242130c66f2890",
+			"fromSide":"top",
+			"toNode":"b9b649ff1054602f",
+			"toSide":"bottom"
+		},
+		{
+			"id":"0357a729288807f0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d9242130c66f2890",
+			"fromSide":"top",
+			"toNode":"fc1f17a1a6ac69a2",
+			"toSide":"bottom"
+		},
+		{
+			"id":"da4979aacd4a9301",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"54c0962dc0dc66f5",
+			"fromSide":"top",
+			"toNode":"a1ca8761af644bb1",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"6334c999253fe7b3",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"54c0962dc0dc66f5",
+			"fromSide":"top",
+			"toNode":"377dcbdc6e2a4262",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"c00110dfdf0af12f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"54c0962dc0dc66f5",
+			"fromSide":"top",
+			"toNode":"fdfcee0bcd41df4f",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"0378efbc6f54a206",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"54c0962dc0dc66f5",
+			"fromSide":"top",
+			"toNode":"60a6c9370017bde9",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"471a25b9bd2dc2ac",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"9ee6527ed9918d45",
+			"fromSide":"top",
+			"toNode":"1a00c07950fb063a",
+			"toSide":"bottom"
+		},
+		{
+			"id":"86eefec7dd00ce24",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"9ee6527ed9918d45",
+			"fromSide":"top",
+			"toNode":"1805a6288060b50c",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"2eee243d73a60404",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"32044567c2da8f77",
+			"fromSide":"top",
+			"toNode":"03c9e24a60e3ddd5",
+			"toSide":"bottom"
+		},
+		{
+			"id":"e798b802d413a2ce",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"32044567c2da8f77",
+			"fromSide":"top",
+			"toNode":"83ae3a9f843249d2",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"2483e0a2c68d81eb",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"32044567c2da8f77",
+			"fromSide":"top",
+			"toNode":"059d2db19a948ab3",
+			"toSide":"bottom"
+		},
+		{
+			"id":"62bb561483292889",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"32044567c2da8f77",
+			"fromSide":"top",
+			"toNode":"5a76a7eb5e0b6840",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"5ac6b6293ac26fd1",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"a1ca8761af644bb1",
+			"fromSide":"top",
+			"toNode":"60a8962eaf11320e",
+			"toSide":"bottom"
+		},
+		{
+			"id":"4ba9509d156d3c0f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"290eb6f502ce8f43",
+			"fromSide":"top",
+			"toNode":"a1ca8761af644bb1",
+			"toSide":"bottom",
+			"color":"4"
+		},
+		{
+			"id":"f4f3db4abae33c66",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"290eb6f502ce8f43",
+			"fromSide":"top",
+			"toNode":"7400a0e061740196",
+			"toSide":"bottom",
+			"color":"4"
+		},
+		{
+			"id":"717570b2a68bdd18",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"9a89742893db5168",
+			"fromSide":"top",
+			"toNode":"377dcbdc6e2a4262",
+			"toSide":"bottom",
+			"color":"4"
+		},
+		{
+			"id":"99de7265acc0ada2",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"9a89742893db5168",
+			"fromSide":"top",
+			"toNode":"b66e01be70e92a8f",
+			"toSide":"bottom",
+			"color":"4"
+		},
+		{
+			"id":"bafa30cf9bc7b9b1",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"40e2dc1c9430e58f",
+			"fromSide":"top",
+			"toNode":"fdfcee0bcd41df4f",
+			"toSide":"bottom",
+			"color":"4"
+		},
+		{
+			"id":"224be5c3dd900c28",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"40e2dc1c9430e58f",
+			"fromSide":"top",
+			"toNode":"b9b649ff1054602f",
+			"toSide":"bottom",
+			"color":"4"
+		},
+		{
+			"id":"3c820b930835f303",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ec0cd21d78824383",
+			"fromSide":"top",
+			"toNode":"60a6c9370017bde9",
+			"toSide":"bottom",
+			"color":"4"
+		},
+		{
+			"id":"0b8fc21542191345",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ec0cd21d78824383",
+			"fromSide":"top",
+			"toNode":"fc1f17a1a6ac69a2",
+			"toSide":"bottom",
+			"color":"4"
+		},
+		{
+			"id":"3193aaa035c4782e",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a1ca8761af644bb1",
+			"fromSide":"top",
+			"toNode":"72bd3360da656b0c",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"b55f1431c7894dce",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a1ca8761af644bb1",
+			"fromSide":"top",
+			"toNode":"c75e2463ead19ba3",
+			"toSide":"bottom"
+		},
+		{
+			"id":"1d6878374a08a9e0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"377dcbdc6e2a4262",
+			"fromSide":"top",
+			"toNode":"e98773803c12e065",
+			"toSide":"bottom"
+		},
+		{
+			"id":"9e63ffd421c88b54",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fdfcee0bcd41df4f",
+			"fromSide":"top",
+			"toNode":"d1b9b5b535e67a92",
+			"toSide":"bottom"
+		},
+		{
+			"id":"8c748b71c3e3cc75",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fdfcee0bcd41df4f",
+			"fromSide":"top",
+			"toNode":"408c137859cd44ec",
+			"toSide":"bottom"
+		},
+		{
+			"id":"94a4bbe7568dce84",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fdfcee0bcd41df4f",
+			"fromSide":"top",
+			"toNode":"1561c4d6be3102a4",
+			"toSide":"bottom"
+		},
+		{
+			"id":"20af5e8698b6763e",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"60a6c9370017bde9",
+			"fromSide":"top",
+			"toNode":"11846022850135cd",
+			"toSide":"bottom"
+		},
+		{
+			"id":"26f4d4a9e9beced9",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"60a6c9370017bde9",
+			"fromSide":"top",
+			"toNode":"12e28e04ed6d078b",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"8a6c658d538a91af",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fc1f17a1a6ac69a2",
+			"fromSide":"top",
+			"toNode":"1c1a482cf3c2aaa6",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"95515c0dc981c075",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fc1f17a1a6ac69a2",
+			"fromSide":"top",
+			"toNode":"0d4e9088ed7dead5",
+			"toSide":"bottom"
+		},
+		{
+			"id":"f9c5d916152bfebc",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"b9b649ff1054602f",
+			"fromSide":"top",
+			"toNode":"a248c4ed52a4083a",
+			"toSide":"bottom"
+		},
+		{
+			"id":"950a0fc94d2f01f6",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"b66e01be70e92a8f",
+			"fromSide":"top",
+			"toNode":"f0839788ce442320",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"c439c952d885093b",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"b66e01be70e92a8f",
+			"fromSide":"top",
+			"toNode":"58f4f2e37a257ef1",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"66f15a8a1af32fde",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"7400a0e061740196",
+			"fromSide":"top",
+			"toNode":"ee79a9a75fca13f5",
+			"toSide":"bottom"
+		},
+		{
+			"id":"6ac89cf6e2b0c176",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"7400a0e061740196",
+			"fromSide":"top",
+			"toNode":"c47947170ebc08f2",
+			"toSide":"bottom"
+		},
+		{
+			"id":"7de9baaad2554d79",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"7400a0e061740196",
+			"fromSide":"top",
+			"toNode":"a9cc148ad0c030a3",
+			"toSide":"bottom",
+			"color":"1"
+		},
+		{
+			"id":"3d74c31b9f8007e1",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"02bc320ebf2413ba",
+			"fromSide":"top",
+			"toNode":"be2225360329ee87",
+			"toSide":"bottom"
+		},
+		{
+			"id":"e3bc6daced8b5763",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"02bc320ebf2413ba",
+			"fromSide":"top",
+			"toNode":"f23c231dea86da10",
+			"toSide":"bottom"
+		},
+		{
+			"id":"376e74450e4ad3cc",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"02bc320ebf2413ba",
+			"fromSide":"top",
+			"toNode":"ed7bd5cb1c69b0d4",
+			"toSide":"bottom"
+		},
+		{
+			"id":"8d6e23b333d38805",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fe913610fc2a3eaa",
+			"fromSide":"top",
+			"toNode":"c62fabc8b14ad927",
+			"toSide":"bottom"
+		},
+		{
+			"id":"e062c39c79eeaa10",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"fe913610fc2a3eaa",
+			"fromSide":"top",
+			"toNode":"5fb73871e2b3a79e",
+			"toSide":"bottom",
+			"color":"1"
 		}
 	],
 	"metadata":{
