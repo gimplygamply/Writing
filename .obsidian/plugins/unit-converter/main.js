@@ -6,16 +6,18 @@ var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __commonJS = (cb, mod) => function() {
-	return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
-};
+var __commonJSMin = (cb, mod) => () => (mod || cb((mod = { exports: {} }).exports, mod), mod.exports);
 var __copyProps = (to, from, except, desc) => {
-	if (from && typeof from === "object" || typeof from === "function") for (var keys$3 = __getOwnPropNames(from), i = 0, n = keys$3.length, key; i < n; i++) {
-		key = keys$3[i];
-		if (!__hasOwnProp.call(to, key) && key !== except) __defProp(to, key, {
-			get: ((k) => from[k]).bind(null, key),
-			enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable
-		});
+	if (from && typeof from === "object" || typeof from === "function") {
+		for (var keys = __getOwnPropNames(from), i = 0, n = keys.length, key; i < n; i++) {
+			key = keys[i];
+			if (!__hasOwnProp.call(to, key) && key !== except) {
+				__defProp(to, key, {
+					get: ((k) => from[k]).bind(null, key),
+					enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable
+				});
+			}
+		}
 	}
 	return to;
 };
@@ -25,17 +27,17 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 }) : target, mod));
 
 //#endregion
-const obsidian = __toESM(require("obsidian"));
-const __codemirror_view = __toESM(require("@codemirror/view"));
-const __codemirror_state = __toESM(require("@codemirror/state"));
+let obsidian = require("obsidian");
+let _codemirror_view = require("@codemirror/view");
+let _codemirror_state = require("@codemirror/state");
 
 //#region src/settings.ts
 const DEFAULT_SETTINGS = {
 	useDescriptiveNames: false,
-	isAutosuggestEnabled: true
+	isAutosuggestEnabled: true,
+	showOriginalUnits: false
 };
 var UnitConverterSettingTab = class extends obsidian.PluginSettingTab {
-	plugin;
 	constructor(plugin) {
 		super(plugin.app, plugin);
 		this.plugin = plugin;
@@ -51,12 +53,16 @@ var UnitConverterSettingTab = class extends obsidian.PluginSettingTab {
 			this.plugin.settings.isAutosuggestEnabled = value;
 			await this.plugin.saveSettings();
 		}));
+		new obsidian.Setting(containerEl).setName("Show Original Units").setDesc("Enable to display the original entered value in addition to the converted one").addToggle((toggle) => toggle.setValue(this.plugin.settings.showOriginalUnits).onChange(async (value) => {
+			this.plugin.settings.showOriginalUnits = value;
+			await this.plugin.saveSettings();
+		}));
 	}
 };
 
 //#endregion
 //#region node_modules/.pnpm/lodash._objecttypes@2.3.0/node_modules/lodash._objecttypes/index.js
-var require_lodash$18 = __commonJS({ "node_modules/.pnpm/lodash._objecttypes@2.3.0/node_modules/lodash._objecttypes/index.js"(exports, module) {
+var require_lodash$18 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -66,7 +72,7 @@ var require_lodash$18 = __commonJS({ "node_modules/.pnpm/lodash._objecttypes@2.3
 	* Available under MIT license <http://lodash.com/license>
 	*/
 	/** Used to determine if values are of the language type Object */
-	var objectTypes$3 = {
+	var objectTypes = {
 		"boolean": false,
 		"function": true,
 		"object": true,
@@ -74,12 +80,12 @@ var require_lodash$18 = __commonJS({ "node_modules/.pnpm/lodash._objecttypes@2.3
 		"string": false,
 		"undefined": false
 	};
-	module.exports = objectTypes$3;
-} });
+	module.exports = objectTypes;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash.isobject@2.3.0/node_modules/lodash.isobject/index.js
-var require_lodash$17 = __commonJS({ "node_modules/.pnpm/lodash.isobject@2.3.0/node_modules/lodash.isobject/index.js"(exports, module) {
+var require_lodash$17 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -88,7 +94,7 @@ var require_lodash$17 = __commonJS({ "node_modules/.pnpm/lodash.isobject@2.3.0/n
 	* Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	* Available under MIT license <http://lodash.com/license>
 	*/
-	var objectTypes$2 = require_lodash$18();
+	var objectTypes = require_lodash$18();
 	/**
 	* Checks if `value` is the language type of Object.
 	* (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
@@ -109,35 +115,25 @@ var require_lodash$17 = __commonJS({ "node_modules/.pnpm/lodash.isobject@2.3.0/n
 	* _.isObject(1);
 	* // => false
 	*/
-	function isObject$4(value) {
-		return !!(value && objectTypes$2[typeof value]);
+	function isObject(value) {
+		return !!(value && objectTypes[typeof value]);
 	}
-	module.exports = isObject$4;
-} });
+	module.exports = isObject;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash._renative@2.3.0/node_modules/lodash._renative/index.js
-var require_lodash$16 = __commonJS({ "node_modules/.pnpm/lodash._renative@2.3.0/node_modules/lodash._renative/index.js"(exports, module) {
-	/**
-	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
-	* Build: `lodash modularize modern exports="npm" -o ./npm/`
-	* Copyright 2012-2013 The Dojo Foundation <http://dojofoundation.org/>
-	* Based on Underscore.js 1.5.2 <http://underscorejs.org/LICENSE>
-	* Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
-	* Available under MIT license <http://lodash.com/license>
-	*/
-	/** Used for native method references */
-	var objectProto$1 = Object.prototype;
+var require_lodash$16 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/** Used to resolve the internal [[Class]] of values */
-	var toString = objectProto$1.toString;
+	var toString = Object.prototype.toString;
 	/** Used to detect if a method is native */
-	var reNative$5 = RegExp("^" + String(toString).replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/toString| for [^\]]+/g, ".*?") + "$");
-	module.exports = reNative$5;
-} });
+	var reNative = RegExp("^" + String(toString).replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/toString| for [^\]]+/g, ".*?") + "$");
+	module.exports = reNative;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash._shimkeys@2.3.0/node_modules/lodash._shimkeys/index.js
-var require_lodash$15 = __commonJS({ "node_modules/.pnpm/lodash._shimkeys@2.3.0/node_modules/lodash._shimkeys/index.js"(exports, module) {
+var require_lodash$15 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -146,11 +142,9 @@ var require_lodash$15 = __commonJS({ "node_modules/.pnpm/lodash._shimkeys@2.3.0/
 	* Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	* Available under MIT license <http://lodash.com/license>
 	*/
-	var objectTypes$1 = require_lodash$18();
-	/** Used for native method references */
-	var objectProto = Object.prototype;
+	var objectTypes = require_lodash$18();
 	/** Native method shortcuts */
-	var hasOwnProperty = objectProto.hasOwnProperty;
+	var hasOwnProperty = Object.prototype.hasOwnProperty;
 	/**
 	* A fallback implementation of `Object.keys` which produces an array of the
 	* given object's own enumerable property names.
@@ -160,19 +154,19 @@ var require_lodash$15 = __commonJS({ "node_modules/.pnpm/lodash._shimkeys@2.3.0/
 	* @param {Object} object The object to inspect.
 	* @returns {Array} Returns an array of property names.
 	*/
-	var shimKeys$1 = function(object) {
+	var shimKeys = function(object) {
 		var index, iterable = object, result = [];
 		if (!iterable) return result;
-		if (!objectTypes$1[typeof object]) return result;
+		if (!objectTypes[typeof object]) return result;
 		for (index in iterable) if (hasOwnProperty.call(iterable, index)) result.push(index);
 		return result;
 	};
-	module.exports = shimKeys$1;
-} });
+	module.exports = shimKeys;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash.keys@2.3.0/node_modules/lodash.keys/index.js
-var require_lodash$14 = __commonJS({ "node_modules/.pnpm/lodash.keys@2.3.0/node_modules/lodash.keys/index.js"(exports, module) {
+var require_lodash$14 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -181,8 +175,8 @@ var require_lodash$14 = __commonJS({ "node_modules/.pnpm/lodash.keys@2.3.0/node_
 	* Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	* Available under MIT license <http://lodash.com/license>
 	*/
-	var isObject$3 = require_lodash$17(), reNative$4 = require_lodash$16(), shimKeys = require_lodash$15();
-	var nativeKeys = reNative$4.test(nativeKeys = Object.keys) && nativeKeys;
+	var isObject = require_lodash$17(), reNative = require_lodash$16(), shimKeys = require_lodash$15();
+	var nativeKeys = reNative.test(nativeKeys = Object.keys) && nativeKeys;
 	/**
 	* Creates an array composed of the own enumerable property names of an object.
 	*
@@ -196,16 +190,16 @@ var require_lodash$14 = __commonJS({ "node_modules/.pnpm/lodash.keys@2.3.0/node_
 	* _.keys({ 'one': 1, 'two': 2, 'three': 3 });
 	* // => ['one', 'two', 'three'] (property order is not guaranteed across environments)
 	*/
-	var keys$2 = !nativeKeys ? shimKeys : function(object) {
-		if (!isObject$3(object)) return [];
+	var keys = !nativeKeys ? shimKeys : function(object) {
+		if (!isObject(object)) return [];
 		return nativeKeys(object);
 	};
-	module.exports = keys$2;
-} });
+	module.exports = keys;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash.noop@2.3.0/node_modules/lodash.noop/index.js
-var require_lodash$13 = __commonJS({ "node_modules/.pnpm/lodash.noop@2.3.0/node_modules/lodash.noop/index.js"(exports, module) {
+var require_lodash$13 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -226,13 +220,13 @@ var require_lodash$13 = __commonJS({ "node_modules/.pnpm/lodash.noop@2.3.0/node_
 	* _.noop(object) === undefined;
 	* // => true
 	*/
-	function noop$2() {}
-	module.exports = noop$2;
-} });
+	function noop() {}
+	module.exports = noop;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash._basecreate@2.3.0/node_modules/lodash._basecreate/index.js
-var require_lodash$12 = __commonJS({ "node_modules/.pnpm/lodash._basecreate@2.3.0/node_modules/lodash._basecreate/index.js"(exports, module) {
+var require_lodash$12 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -241,8 +235,9 @@ var require_lodash$12 = __commonJS({ "node_modules/.pnpm/lodash._basecreate@2.3.
 	* Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	* Available under MIT license <http://lodash.com/license>
 	*/
-	var isObject$2 = require_lodash$17(), noop$1 = require_lodash$13(), reNative$3 = require_lodash$16();
-	var nativeCreate = reNative$3.test(nativeCreate = Object.create) && nativeCreate;
+	var isObject = require_lodash$17();
+	require_lodash$13();
+	var nativeCreate = require_lodash$16().test(nativeCreate = Object.create) && nativeCreate;
 	/**
 	* The base implementation of `_.create` without support for assigning
 	* properties to the created object.
@@ -251,26 +246,26 @@ var require_lodash$12 = __commonJS({ "node_modules/.pnpm/lodash._basecreate@2.3.
 	* @param {Object} prototype The object to inherit from.
 	* @returns {Object} Returns the new object.
 	*/
-	function baseCreate$2(prototype, properties) {
-		return isObject$2(prototype) ? nativeCreate(prototype) : {};
+	function baseCreate(prototype, properties) {
+		return isObject(prototype) ? nativeCreate(prototype) : {};
 	}
-	if (!nativeCreate) baseCreate$2 = function() {
-		function Object$1() {}
+	if (!nativeCreate) baseCreate = function() {
+		function Object() {}
 		return function(prototype) {
-			if (isObject$2(prototype)) {
-				Object$1.prototype = prototype;
-				var result = new Object$1();
-				Object$1.prototype = null;
+			if (isObject(prototype)) {
+				Object.prototype = prototype;
+				var result = new Object();
+				Object.prototype = null;
 			}
 			return result || global.Object();
 		};
 	}();
-	module.exports = baseCreate$2;
-} });
+	module.exports = baseCreate;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash._setbinddata@2.3.0/node_modules/lodash._setbinddata/index.js
-var require_lodash$11 = __commonJS({ "node_modules/.pnpm/lodash._setbinddata@2.3.0/node_modules/lodash._setbinddata/index.js"(exports, module) {
+var require_lodash$11 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -279,7 +274,7 @@ var require_lodash$11 = __commonJS({ "node_modules/.pnpm/lodash._setbinddata@2.3
 	* Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	* Available under MIT license <http://lodash.com/license>
 	*/
-	var noop = require_lodash$13(), reNative$2 = require_lodash$16();
+	var noop = require_lodash$13(), reNative = require_lodash$16();
 	/** Used as the property descriptor for `__bindData__` */
 	var descriptor = {
 		"configurable": false,
@@ -290,7 +285,7 @@ var require_lodash$11 = __commonJS({ "node_modules/.pnpm/lodash._setbinddata@2.3
 	/** Used to set meta data on functions */
 	var defineProperty = function() {
 		try {
-			var o = {}, func = reNative$2.test(func = Object.defineProperty) && func, result = func(o, o, o) && func;
+			var o = {}, func = reNative.test(func = Object.defineProperty) && func, result = func(o, o, o) && func;
 		} catch (e) {}
 		return result;
 	}();
@@ -301,16 +296,16 @@ var require_lodash$11 = __commonJS({ "node_modules/.pnpm/lodash._setbinddata@2.3
 	* @param {Function} func The function to set data on.
 	* @param {Array} value The data array to set.
 	*/
-	var setBindData$3 = !defineProperty ? noop : function(func, value) {
+	var setBindData = !defineProperty ? noop : function(func, value) {
 		descriptor.value = value;
 		defineProperty(func, "__bindData__", descriptor);
 	};
-	module.exports = setBindData$3;
-} });
+	module.exports = setBindData;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash._basebind@2.3.0/node_modules/lodash._basebind/index.js
-var require_lodash$10 = __commonJS({ "node_modules/.pnpm/lodash._basebind@2.3.0/node_modules/lodash._basebind/index.js"(exports, module) {
+var require_lodash$10 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -319,16 +314,9 @@ var require_lodash$10 = __commonJS({ "node_modules/.pnpm/lodash._basebind@2.3.0/
 	* Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	* Available under MIT license <http://lodash.com/license>
 	*/
-	var baseCreate$1 = require_lodash$12(), isObject$1 = require_lodash$17(), setBindData$2 = require_lodash$11();
-	/**
-	* Used for `Array` method references.
-	*
-	* Normally `Array.prototype` would suffice, however, using an array literal
-	* avoids issues in Narwhal.
-	*/
-	var arrayRef$2 = [];
+	var baseCreate = require_lodash$12(), isObject = require_lodash$17(), setBindData = require_lodash$11();
 	/** Native method shortcuts */
-	var push$2 = arrayRef$2.push;
+	var push = [].push;
 	/**
 	* The base implementation of `_.bind` that creates the bound function and
 	* sets its meta data.
@@ -337,28 +325,28 @@ var require_lodash$10 = __commonJS({ "node_modules/.pnpm/lodash._basebind@2.3.0/
 	* @param {Array} bindData The bind data array.
 	* @returns {Function} Returns the new bound function.
 	*/
-	function baseBind$1(bindData) {
+	function baseBind(bindData) {
 		var func = bindData[0], partialArgs = bindData[2], thisArg = bindData[4];
 		function bound() {
 			if (partialArgs) {
 				var args = partialArgs.slice();
-				push$2.apply(args, arguments);
+				push.apply(args, arguments);
 			}
 			if (this instanceof bound) {
-				var thisBinding = baseCreate$1(func.prototype), result = func.apply(thisBinding, args || arguments);
-				return isObject$1(result) ? result : thisBinding;
+				var thisBinding = baseCreate(func.prototype), result = func.apply(thisBinding, args || arguments);
+				return isObject(result) ? result : thisBinding;
 			}
 			return func.apply(thisArg, args || arguments);
 		}
-		setBindData$2(bound, bindData);
+		setBindData(bound, bindData);
 		return bound;
 	}
-	module.exports = baseBind$1;
-} });
+	module.exports = baseBind;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash._slice@2.3.0/node_modules/lodash._slice/index.js
-var require_lodash$9 = __commonJS({ "node_modules/.pnpm/lodash._slice@2.3.0/node_modules/lodash._slice/index.js"(exports, module) {
+var require_lodash$9 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -380,19 +368,19 @@ var require_lodash$9 = __commonJS({ "node_modules/.pnpm/lodash._slice@2.3.0/node
 	* @param {number} end The end index.
 	* @returns {Array} Returns the new array.
 	*/
-	function slice$2(array, start, end) {
+	function slice(array, start, end) {
 		start || (start = 0);
 		if (typeof end == "undefined") end = array ? array.length : 0;
 		var index = -1, length = end - start || 0, result = Array(length < 0 ? 0 : length);
 		while (++index < length) result[index] = array[start + index];
 		return result;
 	}
-	module.exports = slice$2;
-} });
+	module.exports = slice;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash._basecreatewrapper@2.3.0/node_modules/lodash._basecreatewrapper/index.js
-var require_lodash$8 = __commonJS({ "node_modules/.pnpm/lodash._basecreatewrapper@2.3.0/node_modules/lodash._basecreatewrapper/index.js"(exports, module) {
+var require_lodash$8 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -401,16 +389,9 @@ var require_lodash$8 = __commonJS({ "node_modules/.pnpm/lodash._basecreatewrappe
 	* Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	* Available under MIT license <http://lodash.com/license>
 	*/
-	var baseCreate = require_lodash$12(), isObject = require_lodash$17(), setBindData$1 = require_lodash$11(), slice$1 = require_lodash$9();
-	/**
-	* Used for `Array` method references.
-	*
-	* Normally `Array.prototype` would suffice, however, using an array literal
-	* avoids issues in Narwhal.
-	*/
-	var arrayRef$1 = [];
+	var baseCreate = require_lodash$12(), isObject = require_lodash$17(), setBindData = require_lodash$11(), slice = require_lodash$9();
 	/** Native method shortcuts */
-	var push$1 = arrayRef$1.push;
+	var push = [].push;
 	/**
 	* The base implementation of `createWrapper` that creates the wrapper and
 	* sets its meta data.
@@ -419,21 +400,21 @@ var require_lodash$8 = __commonJS({ "node_modules/.pnpm/lodash._basecreatewrappe
 	* @param {Array} bindData The bind data array.
 	* @returns {Function} Returns the new function.
 	*/
-	function baseCreateWrapper$1(bindData) {
+	function baseCreateWrapper(bindData) {
 		var func = bindData[0], bitmask = bindData[1], partialArgs = bindData[2], partialRightArgs = bindData[3], thisArg = bindData[4], arity = bindData[5];
 		var isBind = bitmask & 1, isBindKey = bitmask & 2, isCurry = bitmask & 4, isCurryBound = bitmask & 8, key = func;
 		function bound() {
 			var thisBinding = isBind ? thisArg : this;
 			if (partialArgs) {
 				var args = partialArgs.slice();
-				push$1.apply(args, arguments);
+				push.apply(args, arguments);
 			}
 			if (partialRightArgs || isCurry) {
-				args || (args = slice$1(arguments));
-				if (partialRightArgs) push$1.apply(args, partialRightArgs);
+				args || (args = slice(arguments));
+				if (partialRightArgs) push.apply(args, partialRightArgs);
 				if (isCurry && args.length < arity) {
 					bitmask |= 16;
-					return baseCreateWrapper$1([
+					return baseCreateWrapper([
 						func,
 						isCurryBound ? bitmask : bitmask & -4,
 						args,
@@ -452,15 +433,15 @@ var require_lodash$8 = __commonJS({ "node_modules/.pnpm/lodash._basecreatewrappe
 			}
 			return func.apply(thisBinding, args);
 		}
-		setBindData$1(bound, bindData);
+		setBindData(bound, bindData);
 		return bound;
 	}
-	module.exports = baseCreateWrapper$1;
-} });
+	module.exports = baseCreateWrapper;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash.isfunction@2.3.0/node_modules/lodash.isfunction/index.js
-var require_lodash$7 = __commonJS({ "node_modules/.pnpm/lodash.isfunction@2.3.0/node_modules/lodash.isfunction/index.js"(exports, module) {
+var require_lodash$7 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -482,15 +463,15 @@ var require_lodash$7 = __commonJS({ "node_modules/.pnpm/lodash.isfunction@2.3.0/
 	* _.isFunction(_);
 	* // => true
 	*/
-	function isFunction$1(value) {
+	function isFunction(value) {
 		return typeof value == "function";
 	}
-	module.exports = isFunction$1;
-} });
+	module.exports = isFunction;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash._createwrapper@2.3.0/node_modules/lodash._createwrapper/index.js
-var require_lodash$6 = __commonJS({ "node_modules/.pnpm/lodash._createwrapper@2.3.0/node_modules/lodash._createwrapper/index.js"(exports, module) {
+var require_lodash$6 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -500,15 +481,8 @@ var require_lodash$6 = __commonJS({ "node_modules/.pnpm/lodash._createwrapper@2.
 	* Available under MIT license <http://lodash.com/license>
 	*/
 	var baseBind = require_lodash$10(), baseCreateWrapper = require_lodash$8(), isFunction = require_lodash$7();
-	/**
-	* Used for `Array` method references.
-	*
-	* Normally `Array.prototype` would suffice, however, using an array literal
-	* avoids issues in Narwhal.
-	*/
-	var arrayRef = [];
 	/** Native method shortcuts */
-	var push = arrayRef.push;
+	var push = [].push;
 	/**
 	* Creates a function that, when called, either curries or invokes `func`
 	* with an optional `this` binding and partially applied arguments.
@@ -531,8 +505,10 @@ var require_lodash$6 = __commonJS({ "node_modules/.pnpm/lodash._createwrapper@2.
 	* @param {number} [arity] The arity of `func`.
 	* @returns {Function} Returns the new function.
 	*/
-	function createWrapper$1(func, bitmask, partialArgs, partialRightArgs, thisArg, arity) {
-		var isBind = bitmask & 1, isBindKey = bitmask & 2, isCurry = bitmask & 4, isCurryBound = bitmask & 8, isPartial = bitmask & 16, isPartialRight = bitmask & 32;
+	function createWrapper(func, bitmask, partialArgs, partialRightArgs, thisArg, arity) {
+		var isBind = bitmask & 1, isBindKey = bitmask & 2, isCurry = bitmask & 4;
+		bitmask & 8;
+		var isPartial = bitmask & 16, isPartialRight = bitmask & 32;
 		if (!isBindKey && !isFunction(func)) throw new TypeError();
 		if (isPartial && !partialArgs.length) {
 			bitmask &= -17;
@@ -551,10 +527,9 @@ var require_lodash$6 = __commonJS({ "node_modules/.pnpm/lodash._createwrapper@2.
 			if (isPartial) push.apply(bindData[2] || (bindData[2] = []), partialArgs);
 			if (isPartialRight) push.apply(bindData[3] || (bindData[3] = []), partialRightArgs);
 			bindData[1] |= bitmask;
-			return createWrapper$1.apply(null, bindData);
+			return createWrapper.apply(null, bindData);
 		}
-		var creater = bitmask == 1 || bitmask === 17 ? baseBind : baseCreateWrapper;
-		return creater([
+		return (bitmask == 1 || bitmask === 17 ? baseBind : baseCreateWrapper)([
 			func,
 			bitmask,
 			partialArgs,
@@ -563,12 +538,12 @@ var require_lodash$6 = __commonJS({ "node_modules/.pnpm/lodash._createwrapper@2.
 			arity
 		]);
 	}
-	module.exports = createWrapper$1;
-} });
+	module.exports = createWrapper;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash.bind@2.3.0/node_modules/lodash.bind/index.js
-var require_lodash$5 = __commonJS({ "node_modules/.pnpm/lodash.bind@2.3.0/node_modules/lodash.bind/index.js"(exports, module) {
+var require_lodash$5 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -577,7 +552,9 @@ var require_lodash$5 = __commonJS({ "node_modules/.pnpm/lodash.bind@2.3.0/node_m
 	* Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	* Available under MIT license <http://lodash.com/license>
 	*/
-	var createWrapper = require_lodash$6(), reNative$1 = require_lodash$16(), slice = require_lodash$9();
+	var createWrapper = require_lodash$6();
+	require_lodash$16();
+	var slice = require_lodash$9();
 	/**
 	* Creates a function that, when called, invokes `func` with the `this`
 	* binding of `thisArg` and prepends any additional `bind` arguments to those
@@ -600,15 +577,15 @@ var require_lodash$5 = __commonJS({ "node_modules/.pnpm/lodash.bind@2.3.0/node_m
 	* func();
 	* // => 'hi fred'
 	*/
-	function bind$1(func, thisArg) {
+	function bind(func, thisArg) {
 		return arguments.length > 2 ? createWrapper(func, 17, slice(arguments, 2), null, thisArg) : createWrapper(func, 1, null, null, thisArg);
 	}
-	module.exports = bind$1;
-} });
+	module.exports = bind;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash.identity@2.3.0/node_modules/lodash.identity/index.js
-var require_lodash$4 = __commonJS({ "node_modules/.pnpm/lodash.identity@2.3.0/node_modules/lodash.identity/index.js"(exports, module) {
+var require_lodash$4 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -631,15 +608,15 @@ var require_lodash$4 = __commonJS({ "node_modules/.pnpm/lodash.identity@2.3.0/no
 	* _.identity(object) === object;
 	* // => true
 	*/
-	function identity$1(value) {
+	function identity(value) {
 		return value;
 	}
-	module.exports = identity$1;
-} });
+	module.exports = identity;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash.support@2.3.0/node_modules/lodash.support/index.js
-var require_lodash$3 = __commonJS({ "node_modules/.pnpm/lodash.support@2.3.0/node_modules/lodash.support/index.js"(exports, module) {
+var require_lodash$3 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -650,7 +627,7 @@ var require_lodash$3 = __commonJS({ "node_modules/.pnpm/lodash.support@2.3.0/nod
 	*/
 	var reNative = require_lodash$16();
 	/** Used to detect functions containing a `this` reference */
-	var reThis$1 = /\bthis\b/;
+	var reThis = /\bthis\b/;
 	/**
 	* An object used to flag environments features.
 	*
@@ -658,7 +635,7 @@ var require_lodash$3 = __commonJS({ "node_modules/.pnpm/lodash.support@2.3.0/nod
 	* @memberOf _
 	* @type Object
 	*/
-	var support$1 = {};
+	var support = {};
 	/**
 	* Detect if functions can be decompiled by `Function#toString`
 	* (all but PS3 and older Opera mobile browsers & avoided in Windows 8 apps).
@@ -666,7 +643,7 @@ var require_lodash$3 = __commonJS({ "node_modules/.pnpm/lodash.support@2.3.0/nod
 	* @memberOf _.support
 	* @type boolean
 	*/
-	support$1.funcDecomp = !reNative.test(global.WinRTError) && reThis$1.test(function() {
+	support.funcDecomp = !reNative.test(global.WinRTError) && reThis.test(function() {
 		return this;
 	});
 	/**
@@ -675,13 +652,13 @@ var require_lodash$3 = __commonJS({ "node_modules/.pnpm/lodash.support@2.3.0/nod
 	* @memberOf _.support
 	* @type boolean
 	*/
-	support$1.funcNames = typeof Function.name == "string";
-	module.exports = support$1;
-} });
+	support.funcNames = typeof Function.name == "string";
+	module.exports = support;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash._basecreatecallback@2.3.0/node_modules/lodash._basecreatecallback/index.js
-var require_lodash$2 = __commonJS({ "node_modules/.pnpm/lodash._basecreatecallback@2.3.0/node_modules/lodash._basecreatecallback/index.js"(exports, module) {
+var require_lodash$2 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -707,7 +684,7 @@ var require_lodash$2 = __commonJS({ "node_modules/.pnpm/lodash._basecreatecallba
 	* @param {number} [argCount] The number of arguments the callback accepts.
 	* @returns {Function} Returns a callback function.
 	*/
-	function baseCreateCallback$2(func, thisArg, argCount) {
+	function baseCreateCallback(func, thisArg, argCount) {
 		if (typeof func != "function") return identity;
 		if (typeof thisArg == "undefined" || !("prototype" in func)) return func;
 		var bindData = func.__bindData__;
@@ -740,12 +717,12 @@ var require_lodash$2 = __commonJS({ "node_modules/.pnpm/lodash._basecreatecallba
 		}
 		return bind(func, thisArg);
 	}
-	module.exports = baseCreateCallback$2;
-} });
+	module.exports = baseCreateCallback;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash.forown@2.3.0/node_modules/lodash.forown/index.js
-var require_lodash$1 = __commonJS({ "node_modules/.pnpm/lodash.forown@2.3.0/node_modules/lodash.forown/index.js"(exports, module) {
+var require_lodash$1 = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -754,7 +731,7 @@ var require_lodash$1 = __commonJS({ "node_modules/.pnpm/lodash.forown@2.3.0/node
 	* Copyright 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
 	* Available under MIT license <http://lodash.com/license>
 	*/
-	var baseCreateCallback$1 = require_lodash$2(), keys$1 = require_lodash$14(), objectTypes = require_lodash$18();
+	var baseCreateCallback = require_lodash$2(), keys = require_lodash$14(), objectTypes = require_lodash$18();
 	/**
 	* Iterates over own enumerable properties of an object, executing the callback
 	* for each property. The callback is bound to `thisArg` and invoked with three
@@ -776,24 +753,24 @@ var require_lodash$1 = __commonJS({ "node_modules/.pnpm/lodash.forown@2.3.0/node
 	* });
 	* // => logs '0', '1', and 'length' (property order is not guaranteed across environments)
 	*/
-	var forOwn$1 = function(collection, callback, thisArg) {
+	var forOwn = function(collection, callback, thisArg) {
 		var index, iterable = collection, result = iterable;
 		if (!iterable) return result;
 		if (!objectTypes[typeof iterable]) return result;
-		callback = callback && typeof thisArg == "undefined" ? callback : baseCreateCallback$1(callback, thisArg, 3);
-		var ownIndex = -1, ownProps = objectTypes[typeof iterable] && keys$1(iterable), length = ownProps ? ownProps.length : 0;
+		callback = callback && typeof thisArg == "undefined" ? callback : baseCreateCallback(callback, thisArg, 3);
+		var ownIndex = -1, ownProps = objectTypes[typeof iterable] && keys(iterable), length = ownProps ? ownProps.length : 0;
 		while (++ownIndex < length) {
 			index = ownProps[ownIndex];
 			if (callback(iterable[index], index, collection) === false) return result;
 		}
 		return result;
 	};
-	module.exports = forOwn$1;
-} });
+	module.exports = forOwn;
+}));
 
 //#endregion
 //#region node_modules/.pnpm/lodash.foreach@2.3.0/node_modules/lodash.foreach/index.js
-var require_lodash = __commonJS({ "node_modules/.pnpm/lodash.foreach@2.3.0/node_modules/lodash.foreach/index.js"(exports, module) {
+var require_lodash = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	/**
 	* Lo-Dash 2.3.0 (Custom Build) <http://lodash.com/>
 	* Build: `lodash modularize modern exports="npm" -o ./npm/`
@@ -838,13 +815,12 @@ var require_lodash = __commonJS({ "node_modules/.pnpm/lodash.foreach@2.3.0/node_
 		return collection;
 	}
 	module.exports = forEach;
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/length.js
-var require_length = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/length.js"(exports, module) {
-	var metric$11, imperial$11;
-	metric$11 = {
+var require_length = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = {
 		mm: {
 			name: {
 				singular: "Millimeter",
@@ -873,8 +849,7 @@ var require_length = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_m
 			},
 			to_anchor: 1e3
 		}
-	};
-	imperial$11 = {
+	}, imperial = {
 		"in": {
 			name: {
 				singular: "Inch",
@@ -912,8 +887,8 @@ var require_length = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_m
 		}
 	};
 	module.exports = {
-		metric: metric$11,
-		imperial: imperial$11,
+		metric,
+		imperial,
 		_anchors: {
 			metric: {
 				unit: "m",
@@ -925,13 +900,12 @@ var require_length = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_m
 			}
 		}
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/area.js
-var require_area = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/area.js"(exports, module) {
-	var metric$10, imperial$10;
-	metric$10 = {
+var require_area = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = {
 		mm2: {
 			name: {
 				singular: "Square Millimeter",
@@ -967,8 +941,7 @@ var require_area = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 			},
 			to_anchor: 1e6
 		}
-	};
-	imperial$10 = {
+	}, imperial = {
 		"in2": {
 			name: {
 				singular: "Square Inch",
@@ -1006,8 +979,8 @@ var require_area = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 		}
 	};
 	module.exports = {
-		metric: metric$10,
-		imperial: imperial$10,
+		metric,
+		imperial,
 		_anchors: {
 			metric: {
 				unit: "m2",
@@ -1019,13 +992,12 @@ var require_area = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 			}
 		}
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/mass.js
-var require_mass = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/mass.js"(exports, module) {
-	var metric$9, imperial$9;
-	metric$9 = {
+var require_mass = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = {
 		mcg: {
 			name: {
 				singular: "Microgram",
@@ -1061,8 +1033,7 @@ var require_mass = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 			},
 			to_anchor: 1e6
 		}
-	};
-	imperial$9 = {
+	}, imperial = {
 		oz: {
 			name: {
 				singular: "Ounce",
@@ -1086,8 +1057,8 @@ var require_mass = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 		}
 	};
 	module.exports = {
-		metric: metric$9,
-		imperial: imperial$9,
+		metric,
+		imperial,
 		_anchors: {
 			metric: {
 				unit: "g",
@@ -1099,13 +1070,12 @@ var require_mass = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 			}
 		}
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/volume.js
-var require_volume = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/volume.js"(exports, module) {
-	var metric$8, imperial$8;
-	metric$8 = {
+var require_volume = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = {
 		mm3: {
 			name: {
 				singular: "Cubic Millimeter",
@@ -1167,7 +1137,7 @@ var require_volume = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_m
 				singular: "Cubic kilometer",
 				plural: "Cubic kilometers"
 			},
-			to_anchor: 1e12
+			to_anchor: 0xe8d4a51000
 		},
 		krm: {
 			name: {
@@ -1211,8 +1181,7 @@ var require_volume = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_m
 			},
 			to_anchor: 2.617
 		}
-	};
-	imperial$8 = {
+	}, imperial = {
 		tsp: {
 			name: {
 				singular: "Teaspoon",
@@ -1285,8 +1254,8 @@ var require_volume = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_m
 		}
 	};
 	module.exports = {
-		metric: metric$8,
-		imperial: imperial$8,
+		metric,
+		imperial,
 		_anchors: {
 			metric: {
 				unit: "l",
@@ -1298,13 +1267,12 @@ var require_volume = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_m
 			}
 		}
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/each.js
-var require_each = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/each.js"(exports, module) {
-	var metric$7, imperial$7;
-	metric$7 = {
+var require_each = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = {
 		ea: {
 			name: {
 				singular: "Each",
@@ -1321,20 +1289,19 @@ var require_each = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 		}
 	};
 	module.exports = {
-		metric: metric$7,
+		metric,
 		imperial: {},
 		_anchors: { metric: {
 			unit: "ea",
 			ratio: 1
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/temperature.js
-var require_temperature = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/temperature.js"(exports, module) {
-	var metric$6, imperial$6;
-	metric$6 = {
+var require_temperature = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = {
 		C: {
 			name: {
 				singular: "degree Celsius",
@@ -1351,8 +1318,7 @@ var require_temperature = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/n
 			to_anchor: 1,
 			anchor_shift: 273.15
 		}
-	};
-	imperial$6 = {
+	}, imperial = {
 		F: {
 			name: {
 				singular: "degree Fahrenheit",
@@ -1370,8 +1336,8 @@ var require_temperature = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/n
 		}
 	};
 	module.exports = {
-		metric: metric$6,
-		imperial: imperial$6,
+		metric,
+		imperial,
 		_anchors: {
 			metric: {
 				unit: "C",
@@ -1387,11 +1353,11 @@ var require_temperature = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/n
 			}
 		}
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/time.js
-var require_time = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/time.js"(exports, module) {
+var require_time = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var time;
 	var daysInYear = 365.25;
 	time = {
@@ -1435,35 +1401,35 @@ var require_time = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 				singular: "Hour",
 				plural: "Hours"
 			},
-			to_anchor: 60 * 60
+			to_anchor: 3600
 		},
 		d: {
 			name: {
 				singular: "Day",
 				plural: "Days"
 			},
-			to_anchor: 60 * 60 * 24
+			to_anchor: 3600 * 24
 		},
 		week: {
 			name: {
 				singular: "Week",
 				plural: "Weeks"
 			},
-			to_anchor: 60 * 60 * 24 * 7
+			to_anchor: 3600 * 24 * 7
 		},
 		month: {
 			name: {
 				singular: "Month",
 				plural: "Months"
 			},
-			to_anchor: 60 * 60 * 24 * daysInYear / 12
+			to_anchor: 3600 * 24 * daysInYear / 12
 		},
 		year: {
 			name: {
 				singular: "Year",
 				plural: "Years"
 			},
-			to_anchor: 60 * 60 * 24 * daysInYear
+			to_anchor: 3600 * 24 * daysInYear
 		}
 	};
 	module.exports = {
@@ -1473,13 +1439,12 @@ var require_time = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 			ratio: 1
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/digital.js
-var require_digital = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/digital.js"(exports, module) {
-	var bits, bytes;
-	bits = {
+var require_digital = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var bits = {
 		b: {
 			name: {
 				singular: "Bit",
@@ -1515,8 +1480,7 @@ var require_digital = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_
 			},
 			to_anchor: 1099511627776
 		}
-	};
-	bytes = {
+	}, bytes = {
 		B: {
 			name: {
 				singular: "Byte",
@@ -1567,13 +1531,12 @@ var require_digital = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_
 			}
 		}
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/partsPer.js
-var require_partsPer = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/partsPer.js"(exports, module) {
-	var metric$5, imperial$5;
-	metric$5 = {
+var require_partsPer = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = {
 		ppm: {
 			name: {
 				singular: "Part-per Million",
@@ -1604,20 +1567,19 @@ var require_partsPer = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node
 		}
 	};
 	module.exports = {
-		metric: metric$5,
+		metric,
 		imperial: {},
 		_anchors: { metric: {
 			unit: "ppm",
 			ratio: 1e-6
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/speed.js
-var require_speed = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/speed.js"(exports, module) {
-	var metric$4, imperial$4;
-	metric$4 = {
+var require_speed = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = {
 		"m/s": {
 			name: {
 				singular: "Metre per second",
@@ -1632,8 +1594,7 @@ var require_speed = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mo
 			},
 			to_anchor: 1
 		}
-	};
-	imperial$4 = {
+	}, imperial = {
 		"m/h": {
 			name: {
 				singular: "Mile per hour",
@@ -1657,8 +1618,8 @@ var require_speed = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mo
 		}
 	};
 	module.exports = {
-		metric: metric$4,
-		imperial: imperial$4,
+		metric,
+		imperial,
 		_anchors: {
 			metric: {
 				unit: "km/h",
@@ -1670,13 +1631,12 @@ var require_speed = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mo
 			}
 		}
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/pace.js
-var require_pace = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/pace.js"(exports, module) {
-	var metric$3, imperial$3;
-	metric$3 = {
+var require_pace = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = {
 		"min/km": {
 			name: {
 				singular: "Minute per kilometre",
@@ -1691,8 +1651,7 @@ var require_pace = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 			},
 			to_anchor: 1
 		}
-	};
-	imperial$3 = {
+	}, imperial = {
 		"min/mi": {
 			name: {
 				singular: "Minute per mile",
@@ -1709,8 +1668,8 @@ var require_pace = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 		}
 	};
 	module.exports = {
-		metric: metric$3,
-		imperial: imperial$3,
+		metric,
+		imperial,
 		_anchors: {
 			metric: {
 				unit: "s/m",
@@ -1722,13 +1681,12 @@ var require_pace = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mod
 			}
 		}
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/pressure.js
-var require_pressure = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/pressure.js"(exports, module) {
-	var metric$2, imperial$2;
-	metric$2 = {
+var require_pressure = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = {
 		Pa: {
 			name: {
 				singular: "pascal",
@@ -1771,8 +1729,7 @@ var require_pressure = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node
 			},
 			to_anchor: 101325 / 76e4
 		}
-	};
-	imperial$2 = {
+	}, imperial = {
 		psi: {
 			name: {
 				singular: "pound per square inch",
@@ -1789,8 +1746,8 @@ var require_pressure = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node
 		}
 	};
 	module.exports = {
-		metric: metric$2,
-		imperial: imperial$2,
+		metric,
+		imperial,
 		_anchors: {
 			metric: {
 				unit: "kPa",
@@ -1802,13 +1759,12 @@ var require_pressure = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node
 			}
 		}
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/current.js
-var require_current = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/current.js"(exports, module) {
-	var current;
-	current = {
+var require_current = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var current = {
 		A: {
 			name: {
 				singular: "Ampere",
@@ -1838,13 +1794,12 @@ var require_current = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_
 			ratio: 1
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/voltage.js
-var require_voltage = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/voltage.js"(exports, module) {
-	var voltage;
-	voltage = {
+var require_voltage = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var voltage = {
 		V: {
 			name: {
 				singular: "Volt",
@@ -1874,13 +1829,12 @@ var require_voltage = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_
 			ratio: 1
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/power.js
-var require_power = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/power.js"(exports, module) {
-	var power;
-	power = {
+var require_power = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var power = {
 		W: {
 			name: {
 				singular: "Watt",
@@ -1924,13 +1878,12 @@ var require_power = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mo
 			ratio: 1
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/reactivePower.js
-var require_reactivePower = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/reactivePower.js"(exports, module) {
-	var reactivePower;
-	reactivePower = {
+var require_reactivePower = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var reactivePower = {
 		VAR: {
 			name: {
 				singular: "Volt-Ampere Reactive",
@@ -1974,13 +1927,12 @@ var require_reactivePower = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4
 			ratio: 1
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/apparentPower.js
-var require_apparentPower = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/apparentPower.js"(exports, module) {
-	var apparentPower;
-	apparentPower = {
+var require_apparentPower = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var apparentPower = {
 		VA: {
 			name: {
 				singular: "Volt-Ampere",
@@ -2024,13 +1976,12 @@ var require_apparentPower = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4
 			ratio: 1
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/energy.js
-var require_energy = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/energy.js"(exports, module) {
-	var energy;
-	energy = {
+var require_energy = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var energy = {
 		Wh: {
 			name: {
 				singular: "Watt-hour",
@@ -2088,13 +2039,12 @@ var require_energy = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_m
 			ratio: 1
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/reactiveEnergy.js
-var require_reactiveEnergy = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/reactiveEnergy.js"(exports, module) {
-	var reactiveEnergy;
-	reactiveEnergy = {
+var require_reactiveEnergy = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var reactiveEnergy = {
 		VARh: {
 			name: {
 				singular: "Volt-Ampere Reactive Hour",
@@ -2138,13 +2088,12 @@ var require_reactiveEnergy = __commonJS({ "node_modules/.pnpm/convert-units@2.3.
 			ratio: 1
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/volumeFlowRate.js
-var require_volumeFlowRate = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/volumeFlowRate.js"(exports, module) {
-	var metric$1, imperial$1;
-	metric$1 = {
+var require_volumeFlowRate = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = {
 		"mm3/s": {
 			name: {
 				singular: "Cubic Millimeter per second",
@@ -2248,10 +2197,9 @@ var require_volumeFlowRate = __commonJS({ "node_modules/.pnpm/convert-units@2.3.
 				singular: "Cubic kilometer per second",
 				plural: "Cubic kilometers per second"
 			},
-			to_anchor: 1e12
+			to_anchor: 0xe8d4a51000
 		}
-	};
-	imperial$1 = {
+	}, imperial = {
 		"tsp/s": {
 			name: {
 				singular: "Teaspoon per second",
@@ -2408,8 +2356,8 @@ var require_volumeFlowRate = __commonJS({ "node_modules/.pnpm/convert-units@2.3.
 		}
 	};
 	module.exports = {
-		metric: metric$1,
-		imperial: imperial$1,
+		metric,
+		imperial,
 		_anchors: {
 			metric: {
 				unit: "l/s",
@@ -2421,20 +2369,18 @@ var require_volumeFlowRate = __commonJS({ "node_modules/.pnpm/convert-units@2.3.
 			}
 		}
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/illuminance.js
-var require_illuminance = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/illuminance.js"(exports, module) {
-	var metric, imperial;
-	metric = { "lx": {
+var require_illuminance = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var metric = { "lx": {
 		name: {
 			singular: "Lux",
 			plural: "Lux"
 		},
 		to_anchor: 1
-	} };
-	imperial = { "ft-cd": {
+	} }, imperial = { "ft-cd": {
 		name: {
 			singular: "Foot-candle",
 			plural: "Foot-candles"
@@ -2455,13 +2401,12 @@ var require_illuminance = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/n
 			}
 		}
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/frequency.js
-var require_frequency = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/frequency.js"(exports, module) {
-	var frequency;
-	frequency = {
+var require_frequency = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var frequency = {
 		mHz: {
 			name: {
 				singular: "millihertz",
@@ -2533,13 +2478,12 @@ var require_frequency = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/nod
 			ratio: 1
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/angle.js
-var require_angle = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/definitions/angle.js"(exports, module) {
-	var angle;
-	angle = {
+var require_angle = /* @__PURE__ */ __commonJSMin(((exports, module) => {
+	var angle = {
 		rad: {
 			name: {
 				singular: "radian",
@@ -2583,11 +2527,11 @@ var require_angle = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_mo
 			ratio: 1
 		} }
 	};
-} });
+}));
 
 //#endregion
 //#region node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/index.js
-var require_lib = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modules/convert-units/lib/index.js"(exports, module) {
+var require_lib = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	var convert, keys = require_lodash$14(), each = require_lodash(), measures = {
 		length: require_length(),
 		area: require_area(),
@@ -2612,8 +2556,7 @@ var require_lib = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modu
 		illuminance: require_illuminance(),
 		frequency: require_frequency(),
 		angle: require_angle()
-	}, Converter;
-	Converter = function(numerator, denominator) {
+	}, Converter = function(numerator, denominator) {
 		if (denominator) this.val = numerator / denominator;
 		else this.val = numerator;
 	};
@@ -2682,8 +2625,7 @@ var require_lib = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modu
 		*/
 		each(this.possibilities(), function(possibility) {
 			var unit = this.describe(possibility);
-			var isIncluded = options.exclude.indexOf(possibility) === -1;
-			if (isIncluded && unit.system === this.origin.system) {
+			if (options.exclude.indexOf(possibility) === -1 && unit.system === this.origin.system) {
 				var result = this.to(possibility);
 				if (!best || result >= options.cutOffNumber && result < best.val) best = {
 					val: result,
@@ -2805,18 +2747,17 @@ var require_lib = __commonJS({ "node_modules/.pnpm/convert-units@2.3.4/node_modu
 		return new Converter(value);
 	};
 	module.exports = convert;
-} });
-var import_lib = __toESM(require_lib(), 1);
+}));
 
 //#endregion
 //#region src/suggest/to-unit-suggest.ts
+var import_lib = /* @__PURE__ */ __toESM(require_lib(), 1);
 var DestinationUnitSuggest = class extends obsidian.EditorSuggest {
 	constructor(plugin) {
 		super(plugin.app);
 	}
 	onTrigger(cursor, editor) {
-		const line = editor.getLine(cursor.line);
-		const subString = line.substring(0, cursor.ch);
+		const subString = editor.getLine(cursor.line).substring(0, cursor.ch);
 		const match = subString.match(/\[([\d.]+)([a-zA-Z0-9\-/]+)\|([a-zA-Z0-9-]*)/);
 		if (!match) return null;
 		const [, , fromUnit] = match;
@@ -2841,13 +2782,10 @@ var DestinationUnitSuggest = class extends obsidian.EditorSuggest {
 	getSuggestions(context) {
 		const fromUnit = context.query;
 		try {
-			const line = context.editor.getLine(context.start.line);
-			const toUnitPartial = line.substring(context.start.ch, context.end.ch).toLowerCase();
-			const possibilities = (0, import_lib.default)().from(fromUnit).possibilities();
-			return possibilities.map((unit) => {
-				const measure = (0, import_lib.default)().describe(unit);
+			const toUnitPartial = context.editor.getLine(context.start.line).substring(context.start.ch, context.end.ch).toLowerCase();
+			return (0, import_lib.default)().from(fromUnit).possibilities().map((unit) => {
 				return {
-					label: measure.plural.toLowerCase(),
+					label: (0, import_lib.default)().describe(unit).plural.toLowerCase(),
 					value: unit
 				};
 			}).filter((suggestion) => suggestion.label.toLowerCase().includes(toUnitPartial) || suggestion.value.toLowerCase().includes(toUnitPartial));
@@ -2882,12 +2820,6 @@ var DestinationUnitSuggest = class extends obsidian.EditorSuggest {
 //#endregion
 //#region src/modal/conversion-modal.ts
 var ConversionModal = class extends obsidian.Modal {
-	value;
-	fromUnit;
-	toUnit;
-	fromUnitDropdown;
-	toUnitDropdown;
-	onSubmit;
 	constructor(app, onSubmit) {
 		super(app);
 		this.onSubmit = onSubmit;
@@ -2930,11 +2862,11 @@ var ConversionModal = class extends obsidian.Modal {
 				this.value = parseFloat(value);
 			});
 		});
-		const measures$1 = (0, import_lib.default)().measures();
-		const initialMeasure = measures$1[0];
+		const measures = (0, import_lib.default)().measures();
+		const initialMeasure = measures[0];
 		const measureFromContainer = contentEl.createDiv({ cls: "measure-from-container" });
 		new obsidian.Setting(measureFromContainer).setName("Measure").addDropdown((dropdown) => {
-			measures$1.forEach((measure) => {
+			measures.forEach((measure) => {
 				dropdown.addOption(measure, measure);
 			});
 			dropdown.setValue(initialMeasure);
@@ -2983,9 +2915,15 @@ var ConversionModal = class extends obsidian.Modal {
 
 //#endregion
 //#region src/utils/conversion.ts
+/**
+* Converts a value from one unit to another
+*/
 function convertValue(value, fromUnit, toUnit) {
 	return (0, import_lib.default)(value).from(fromUnit).to(toUnit);
 }
+/**
+* Gets the display unit name based on the value and unit
+*/
 function getDisplayUnit(value, unit, useDescriptiveNames) {
 	if (!useDescriptiveNames) return unit.toString();
 	try {
@@ -2996,21 +2934,28 @@ function getDisplayUnit(value, unit, useDescriptiveNames) {
 	}
 	return unit.toString();
 }
-function formatConversion(value, fromUnit, toUnit, useDescriptiveNames, precision = 2) {
+/**
+* Performs unit conversion and returns the formatted result
+*/
+function formatConversion(value, fromUnit, toUnit, useDescriptiveNames, showOriginalUnits, precision = 2) {
 	try {
 		const convertedValue = convertValue(value, fromUnit, toUnit);
 		const displayUnit = getDisplayUnit(convertedValue, toUnit, useDescriptiveNames);
-		return `${convertedValue.toFixed(precision)} ${displayUnit}`;
+		if (!showOriginalUnits) return `${convertedValue.toFixed(precision)} ${displayUnit}`;
+		return `${value} ${getDisplayUnit(value, fromUnit, useDescriptiveNames)} (${convertedValue.toFixed(precision)} ${displayUnit})`;
 	} catch (e) {
 		console.error("Conversion error:", e);
 		return `[${value}${fromUnit}|${toUnit}]`;
 	}
 }
+/**
+* Regular expression to match unit conversion syntax
+*/
 const CONVERSION_REGEX = /\[([\d.]+)([a-zA-Z0-9\-/]+)\|([a-zA-Z0-9\-/]+)\]/g;
 
 //#endregion
 //#region src/editor/extension.ts
-var ConversionWidget = class extends __codemirror_view.WidgetType {
+var ConversionWidget = class extends _codemirror_view.WidgetType {
 	constructor(value, fromUnit, toUnit, plugin, view, from, to) {
 		super();
 		this.value = value;
@@ -3023,7 +2968,7 @@ var ConversionWidget = class extends __codemirror_view.WidgetType {
 	}
 	toDOM() {
 		const span = document.createElement("span");
-		span.textContent = formatConversion(this.value, this.fromUnit, this.toUnit, this.plugin.settings.useDescriptiveNames);
+		span.textContent = formatConversion(this.value, this.fromUnit, this.toUnit, this.plugin.settings.useDescriptiveNames, this.plugin.settings.showOriginalUnits);
 		span.style.cursor = "pointer";
 		span.addEventListener("click", (e) => {
 			e.preventDefault();
@@ -3036,10 +2981,9 @@ var ConversionWidget = class extends __codemirror_view.WidgetType {
 	}
 };
 function createUnitConversionExtension(plugin) {
-	return __codemirror_view.ViewPlugin.fromClass(class {
-		decorations;
-		isLivePreview = false;
+	return _codemirror_view.ViewPlugin.fromClass(class {
 		constructor(view) {
+			this.isLivePreview = false;
 			this.isLivePreview = this.detectEditorMode();
 			this.decorations = this.buildDecorations(view);
 		}
@@ -3058,8 +3002,8 @@ function createUnitConversionExtension(plugin) {
 			}
 		}
 		buildDecorations(view) {
-			if (!this.isLivePreview) return __codemirror_view.Decoration.none;
-			const builder = new __codemirror_state.RangeSetBuilder();
+			if (!this.isLivePreview) return _codemirror_view.Decoration.none;
+			const builder = new _codemirror_state.RangeSetBuilder();
 			const cursorPos = view.state.selection.main.head;
 			const cursorLine = view.state.doc.lineAt(cursorPos).number;
 			for (const { from, to } of view.visibleRanges) {
@@ -3068,14 +3012,13 @@ function createUnitConversionExtension(plugin) {
 				while ((match = CONVERSION_REGEX.exec(text)) !== null) {
 					const start = from + match.index;
 					const end = start + match[0].length;
-					const lineAtMatch = view.state.doc.lineAt(start).number;
-					if (lineAtMatch !== cursorLine) {
+					if (view.state.doc.lineAt(start).number !== cursorLine) {
 						const value = parseFloat(match[1]);
 						const fromUnit = match[2];
 						const toUnit = match[3];
 						try {
 							convertValue(value, fromUnit, toUnit);
-							builder.add(start, end, __codemirror_view.Decoration.replace({ widget: new ConversionWidget(value, fromUnit, toUnit, plugin, view, start, end) }));
+							builder.add(start, end, _codemirror_view.Decoration.replace({ widget: new ConversionWidget(value, fromUnit, toUnit, plugin, view, start, end) }));
 						} catch (e) {
 							console.debug("Invalid conversion:", e);
 						}
@@ -3100,8 +3043,7 @@ function createMarkdownPostProcessor(settings) {
 				continue;
 			}
 			const newText = text.replace(CONVERSION_REGEX, (match, valueStr, fromUnit, toUnit) => {
-				const value = parseFloat(valueStr);
-				return formatConversion(value, fromUnit, toUnit, settings.useDescriptiveNames);
+				return formatConversion(parseFloat(valueStr), fromUnit, toUnit, settings.useDescriptiveNames, settings.showOriginalUnits);
 			});
 			if (newText !== text) node.nodeValue = newText;
 			node = walker.nextNode();
@@ -3112,7 +3054,6 @@ function createMarkdownPostProcessor(settings) {
 //#endregion
 //#region src/main.ts
 var UnitConverterPlugin = class extends obsidian.Plugin {
-	settings;
 	async onload() {
 		await this.loadSettings();
 		this.addSettingTab(new UnitConverterSettingTab(this));

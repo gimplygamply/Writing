@@ -1,3 +1,0 @@
-- Etyo emerged malformed
-- Scraps of Etyo were strewn across the universe
-- The aspect of Creation gathered it and harnessed it into the deities.
