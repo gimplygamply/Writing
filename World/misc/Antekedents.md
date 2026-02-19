@@ -1,0 +1,3 @@
+- Literally just based on modern humans
+- Aurel's instincts to avoid the gods meant that Grails were never allowed to reach them. (Magically Inert)
+- Became technologically advanced

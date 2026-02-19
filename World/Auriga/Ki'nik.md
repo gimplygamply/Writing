@@ -1,0 +1,11 @@
+# Aurel, The Red Moon
+- Named Aurel
+	- Some caveman didn't realize he was communication with an eldritch being and could only mutter the words "Aurel" before being melted and floated off to the sky. So it kind of stuck
+	- Became a symbol of destruction and sacrifice. 
+		- It is Geosynchronous and Tidally locked meaning it's only truly visible from [[Hawslit]].
+		- The first men of [[Hawslit]] made sacrificed to it as a Pagan god.
+- Second "Moon" or Auriga
+- No divine being can see the moon, to them it simply doesn't exist. (Aurel's mind is actively shielding her)
+- Was created with [[Aurel's Spark of Life]]
+- Her incubation is now happening inside the moon
+- [[Antekedents]] named it Ki'nik, meaning  
