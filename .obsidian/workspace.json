@@ -27,15 +27,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "World/Lineage of the Deities.canvas",
+                "file": "World/World Tree.canvas",
                 "viewState": {
-                  "x": 560,
-                  "y": 740,
-                  "zoom": -4
+                  "x": -57.761663343739656,
+                  "y": -19435.855304202578,
+                  "zoom": -2.3333333333333326
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Lineage of the Deities"
+              "title": "World Tree"
             }
           }
         ],
@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 226.5
   },
   "right": {
     "id": "ff33b8cef6aed944",
@@ -267,9 +267,19 @@
   },
   "active": "49ef823610ae7b8a",
   "lastOpenFiles": [
-    "World/Primordials/Lathot, Primordial of Law.md",
     "World/Lineage of the Deities.canvas",
     "World/World Tree.canvas",
+    "World/Auriga.canvas",
+    "World/Planes/Realm of the Reality.md",
+    "World/Primordials/Ylem, Primordial of Matter.md",
+    "World/Planes/Realm of the Fae.md",
+    "World/Planes/Realm of Disorder.md",
+    "World/Planes/Realm of Order.md",
+    "World/Planes/Realm of Light.md",
+    "World/Planes/Realm of Dark.md",
+    "World/Planes",
+    "Stupid plots and story ideas.md",
+    "World/Primordials/Lathot, Primordial of Law.md",
     "World/Stories of the World/Birth of The Primordials.md",
     "World/Primordials/Etyan, Primordial of Etya.md",
     "World/misc/Laws Of Magic.md",
@@ -277,7 +287,6 @@
     "World/Stories of the World/Stolen Legacy.md",
     "World/Primordials/Anela, The Primordial Darkness.md",
     "World/Primordials/Linifa, Primordial of Incubation.md",
-    "World/Primordials/Ylem, Primordial of Matter.md",
     "World/Primordials/Novun, The Primordial Light.md",
     "Story&Plot/People/Aurel, The Comet of Divine Indomination.md",
     "Story&Plot/People/Aurel, The Comet of Divine Indomination.png",
@@ -290,13 +299,6 @@
     "World/Aspects/Lorda.md",
     "World/Asp/# The Real (Body)Foundation of all physical existence and the fabric of reality.Untitled.md",
     "World/Aspects/Lizerta.md",
-    "World/Aspects/Lizerta.md",
-    "World/Aspects/Ilusioq.md",
-    "World/Aspects/Ilusioq.md",
-    "World/Aspects/Etyo.md",
-    "World/Aspects/Etyo.md",
-    "World/Aspects/Creation.md",
-    "World/Aspects/Creation.md",
     "World/Aspects",
     "World/Deities",
     "World/Deities/Deities.canvas",
@@ -306,7 +308,6 @@
     "World/Aspects",
     "World/Deities",
     "World/Stories of the World",
-    "World/Deities",
     "DnD/NPCs/NPC Portraits/Catherine deGrey.png",
     "DnD/Locations/Praint.jpg",
     "DnD/NPCs/NPC Portraits/Wolfen Sten.png",
