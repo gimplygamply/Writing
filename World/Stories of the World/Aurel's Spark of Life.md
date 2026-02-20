@@ -10,9 +10,3 @@
 - The mind used the energy to harvest all biological life on the planet into an amniotic fluid. It peeled the blood-soaked crust of earth around itself and settled as the new small red-moon, [[Ki'nik]]. 
 - The [[Linifan Lineage]] obviously investigated the strange event. To their shock and horror they discovered an entire planet that they simply didn't know existed.
 	- They excused it, not having any life left to question.
-- A few megaannums later, once the planet had faded from the minds of even the [[Linifan Lineage]], life evolved again.
-	- The first men of [[Hawslit]] also began worshipping [[Ki'nik]] after accidentally learning how to sacrifice Grail Holders to it. Unknowingly bestowing it with power. 
-- Eventually, the Aurigan's began developing Grails as they evolved. This alone was a natural part of life in this realm, but the inability of the [[Antekedents]] to use grails and the Aurigan's being able to drew the [[Linifan Lineage]] back to Auriga.
-	- Aurel's mind and alien power allowed her to conceal herself from the Lineage.
-- Once returned the Lineage decided this planet was to intriguing not to intervene in. Slowly they revealed all the Lineages to the people, confirming their existence and establishing magic and divine worship in the world.
-- Now Aurel continues to grow in her womb.

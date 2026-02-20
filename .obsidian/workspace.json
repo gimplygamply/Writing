@@ -29,9 +29,9 @@
               "state": {
                 "file": "World/World Tree.canvas",
                 "viewState": {
-                  "x": 3604.3551540365806,
-                  "y": -20995.1179081409,
-                  "zoom": -2.9999999999999996
+                  "x": 1823.0001723844032,
+                  "y": -24842.974602007504,
+                  "zoom": -1.3333333333333333
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 211.5
   },
   "right": {
     "id": "ff33b8cef6aed944",
@@ -267,8 +267,8 @@
   },
   "active": "49ef823610ae7b8a",
   "lastOpenFiles": [
-    "World/World Tree.canvas",
     "World/Stories of the World/Aurel's Spark of Life.md",
+    "World/World Tree.canvas",
     "World/Auriga/Ki'nik.md",
     "World/misc/Antekedents.md",
     "World/Auriga/Kiis.md",
