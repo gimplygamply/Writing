@@ -4,38 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "fe82ea5e49916081",
+        "id": "5c28bdc6b2dc50f4",
         "type": "tabs",
         "children": [
           {
-            "id": "0e11a039d5d9af4a",
+            "id": "4a424f823ca5f8ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "World/misc/Laws Of Magic.md",
+                "file": "World/Auriga/Melda/Meldan Underdark.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Laws Of Magic"
+              "title": "Meldan Underdark"
             }
           },
           {
-            "id": "49ef823610ae7b8a",
+            "id": "20b1bab7befe29cd",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "World/World Tree.canvas",
-                "viewState": {
-                  "x": 1823.0001723844032,
-                  "y": -24842.974602007504,
-                  "zoom": -1.3333333333333333
-                }
+                "file": "World/Civilizations/Historic/The Natal Civilizations/Dendainian Hegemony.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "World Tree"
+              "icon": "lucide-file",
+              "title": "Dendainian Hegemony"
             }
           }
         ],
@@ -96,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 317.5
   },
   "right": {
     "id": "ff33b8cef6aed944",
@@ -200,8 +197,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -227,12 +224,22 @@
                 },
                 "id": "ID_0a0a3a1b6829"
               },
-              "icon": "CALENDARIUM",
-              "title": "Calendarium"
+              "icon": "lucide-ghost",
+              "title": "CALENDARIUM"
             }
           },
           {
             "id": "942458fce2e6b819",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "DICE_ROLLER_VIEW"
+            }
+          },
+          {
+            "id": "637b55b73509350f",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -265,57 +272,58 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "49ef823610ae7b8a",
+  "active": "20b1bab7befe29cd",
   "lastOpenFiles": [
-    "World/Stories of the World/Aurel's Spark of Life.md",
     "World/World Tree.canvas",
-    "World/Auriga/Ki'nik.md",
-    "World/misc/Antekedents.md",
-    "World/Auriga/Kiis.md",
-    "World/Deities/Linifan Lineage/Linifan Lineage.md",
-    "World/misc/Laws Of Magic.md",
+    "World/Auriga/Melda/Meldan Underdark.md",
+    "Auriga Ocean Currents.png",
+    "World/Civilizations/Historic/The Natal Civilizations/Dendainian Hegemony.md",
+    "World/Civilizations/Historic/The Natal Civilizations/Dendain Village.jpg",
+    "World/Civilizations/Historic/The Natal Civilizations/Drsisn.md",
+    "World/Civilizations/Dendainvillage.jpg.opdownload",
+    "World/Auriga/Predna/Dendain Peninsula/Eraden/Lake Eradia.md",
+    "World/misc/The Mypan Migration.md",
+    "World/Auriga/Predna/Dendain Peninsula/Frada/Fradon Rainforest.md",
+    "z_writing Tips/Worldbuilding/Enviromental Notes.md",
+    "z_writing Tips/Worldbuilding/Culture Notes.md",
+    "z_writing Tips/images",
+    "z_writing Tips/images/Pasted image 20260225191856.png",
+    "World/Civilizations/Historic/The Natal Civilizations/Braelic Hermits.md",
+    "Auriga Winds.png",
+    "World/Aurigan Migration.png",
+    "World/Civilizations/Historic/The Natal Civilizations/Halsen.md",
+    "World/Civilizations/Historic/The Natal Civilizations/Marcasian Hill-tribes.md",
+    "World/Stories of the World/Meeting of the Gods.md",
+    "World/Civilizations/Historic/The Natal Civilizations/Sluthhold.md",
+    "World/Civilizations/Historic/The Natal Civilizations/Ronya.md",
+    "World/Civilizations/Historic/The Natal Civilizations/Hawslitian.md",
+    "World/Civilizations/Historic/The Natal Civilizations",
+    "World/Civilizations/Historic",
+    "World/Civilizations",
+    "World/Auriga.png",
+    "World/misc/Primordial Species.md",
     "World/misc/Population Notes.md",
-    "World/Auriga/Hawslit.md",
-    "World/Deities/Anelan Lineage/Anelan Lineage.md",
-    "World/Deities/Anelan Lineage/Author's Notes.md",
-    "World/Deities/Linifan Lineage/Author Notes.md",
-    "World/Stories of the World/Birth of The Primordials.md",
-    "World/Deities/Anelan Lineage",
-    "World/Deities/Linifan Lineage",
-    "World/Stories of the World/Linifa's Taint on the Numen.md",
-    "World/Stories of the World/Stolen Legacy.md",
-    "World/Realms/Realm of Reality.md",
-    "World/Realms/Realm of the Fae.md",
-    "World/Auriga",
-    "World/Brutna.md",
+    "World/misc/Laws Of Magic.md",
+    "World/Mypan Migration.canvas",
+    "World/Auriga/Sternia/Stellen/Conan Range.md",
+    "World/Auriga/Sternia/Daggona/Daggona.md",
+    "World/Auriga/Sternia/Daggona",
+    "World/Auriga/Predna/Braelid",
+    "TODOs.md",
+    "World/Auriga/Melda/Melda.md",
+    "World/Auriga/Predna/Trepnya/Trepnya.md",
+    "World/Auriga/Predna/Trepnya",
+    "World/Auriga/Predna/Ronya/Ronya.md",
+    "World/Auriga/Predna/Ronya",
+    "World/Auriga/Predna/Dendain Peninsula/Eraden/Eraden.md",
+    "World/Auriga/Predna/Dendain Peninsula/Eraden",
     "World/Lineage of the Deities.canvas",
     "World/Auriga.canvas",
-    "World/Primordials/Ylem, Primordial of Matter.md",
-    "World/Realms/Realm of Disorder.md",
-    "World/Realms/Realm of Order.md",
-    "World/Realms/Realm of Light.md",
-    "World/Realms/Realm of Dark.md",
-    "World/Realms",
-    "Stupid plots and story ideas.md",
-    "World/Primordials/Lathot, Primordial of Law.md",
-    "World/Primordials/Etyan, Primordial of Etya.md",
     "Story&Plot/People/Aurel, The Comet of Divine Indomination.png",
     "World/Deity Tree.canvas",
-    "World/Asp/Untitled",
-    "World/Aspects",
-    "World/Deities",
     "World/Deities/Deities.canvas",
-    "World/Primordials",
-    "World/misc/Laws of Magic",
-    "Untitled.base",
     "DnD/NPCs/NPC Portraits/Catherine deGrey.png",
     "DnD/Locations/Praint.jpg",
-    "DnD/NPCs/NPC Portraits/Wolfen Sten.png",
-    "Pasted image 20250725205951.png",
-    "DnD/NPCs/NPC Portraits/Endinwel Talthanryl.png",
-    "DnD/NPCs/NPC Portraits/Dolgi Orcfoe.png",
-    "DnD/NPCs/NPC Portraits/Ella Redstream.png",
-    "z_DND.SRD.Wiki-main/RE&.logo.png",
-    "Untitled/Flim.jpg"
+    "DnD/NPCs/NPC Portraits/Wolfen Sten.png"
   ]
 }

@@ -1,4 +1,4 @@
-- The Ylemen lineage made the [[Realm of Reality]]
+[](Ki'nik.md)[](Ki'nik.md)[](Ki'nik.md)- The Ylemen lineage made the [[Realm of Reality]]
 - Linifa decided their Lineage would settle this realm.
 - Linifa summoned all the Flesh into this Realm so that their Lineage may begin seeding it with life.
 - This accidentally allowed Aurel's lifeless consciousness into the realm, unbeknownst to the deities.

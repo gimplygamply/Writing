@@ -1,0 +1,1 @@
+- History of stagnancy, as most cultures living in it do so out of a refusal of modernity.

@@ -43,6 +43,21 @@
       "showFolderNote": false,
       "detached": true,
       "detachedFilePath": "World/Primordials/Primordials.md"
+    },
+    {
+      "type": "folder",
+      "id": "6a1756f6-fa97-436b-8b93-f9ff9825ed65",
+      "path": "World/Deities/Linifan Lineage",
+      "subFolders": false,
+      "disableSync": false,
+      "disableAutoCreate": false,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 2,
+      "excludeFromFolderOverview": false,
+      "string": "",
+      "hideInSettings": true,
+      "showFolderNote": true
     }
   ],
   "whitelistFolders": [],
@@ -108,9 +123,9 @@
   "cursiveName": false,
   "cursiveNameInPath": false,
   "disableOpenFolderNoteOnClick": false,
-  "openByClick": true,
+  "openByClick": false,
   "openWithCtrl": false,
-  "openWithAlt": false,
+  "openWithAlt": true,
   "excludeFolderDefaultSettings": {
     "type": "folder",
     "path": "",
