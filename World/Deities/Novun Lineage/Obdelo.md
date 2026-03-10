@@ -1,1 +1,0 @@
-# Obdelo, God of Adventure

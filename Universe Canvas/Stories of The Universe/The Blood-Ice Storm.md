@@ -1,0 +1,2 @@
+- [[Hawvin Raiders]] hunted grail-users
+	- Sacrificed then under an Aurellian full moon

@@ -1,1 +1,0 @@
-# Iskenar, God of Progress

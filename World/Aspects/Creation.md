@@ -1,1 +1,0 @@
-Creation is not a dead, but it is no longer a god, rather it has become an underlying force. An instinct driven concept forever harvesting the scraps created from the eternal battle between [[World/Aspects/Ilusioq]] and [[Malaiza]].

@@ -1,0 +1,6 @@
+- Roving tribes that unknowingly served [[Aurel, The Comet of Divine Indomination]].
+- Under a Full Aurellian Perigee (When [[Kiis]] was new moon and [[Ki'nik]] was full moon at it's closest point to Auriga) they accidentally discovered a ritual where a ritual sacrifice was performed by a shaman (Grail Holder). 
+- The sacrifice involved the victim being slowly exploded (like an engineering drawing, not just **pop**) over the course of a day with each component slowly floating off towards the Aurel moon. Eventually only a faceless skull would remain, inside it was a raw, physical shard of Etya. 
+	- The process of the person being disassembled, is [[Ki'nik]] instinctively gathering [[Flesh]] in preparation of Aurel's rebirth.
+	- The skull used to be taken but once [[Ki'nik]] noticed it got less sacrifices like this it began leaving the skull with a minute physical shard of Etya as a reward for the sacrifice.
+- After years of study the Shaman learned 

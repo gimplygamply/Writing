@@ -1,1 +1,1 @@
-Altasian Thalassocracies
+Altasian Thalassocracies, mainly traded and explored in an isolated nature until they mastered oceanic navigation in 3.8 kya and became a main power

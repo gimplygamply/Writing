@@ -6,6 +6,7 @@
 		- The first men of [[Hawslit]] made sacrificed to it as a Pagan god.
 - Second "Moon" or Auriga
 - No divine being can see the moon, to them it simply doesn't exist. (Aurel's mind is actively shielding her)
+- 75% the size of the moon
 - Was created with [[Aurel's Spark of Life]]
 - Her incubation is now happening inside the moon
-- [[Antekedents]] named it Ki'nik, meaning  
+- [[Ki'nik]], which was named by the last [[Antekedents]] before they put themselves to sleep and witnessed [[Aurel's Spark of Life]], losing their minds in the process. It means "Mother Moon" (foreshadowing)

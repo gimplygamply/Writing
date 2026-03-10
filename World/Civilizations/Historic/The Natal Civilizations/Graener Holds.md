@@ -1,0 +1,6 @@
+- Doomsday cult Dwarves that developed their holds for survival
+- Foresaw the [[Revelations of The Gods]] thousands of years before.
+- Welcomed other races into their holds but were strictly anti-grail.
+	- Exception being the Graelic Order in the Main Hold on the West Gloven Mountains who only trained loyal Graener Dwarves.
+	- Focused on survival training to survive the coming apocalypse which would consume most Grail Holders.
+- Were a relatively sparse civilization and inadvertently isolationist.

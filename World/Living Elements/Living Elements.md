@@ -1,2 +1,0 @@
-- The elements that sparked all life in the universe.
-- Like the clay of species.

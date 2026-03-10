@@ -1,1 +1,0 @@
-Owner everything in the universe. Everything that has, will or does exists belongs to it and everything that is not actively pulled from it will eventually return to it.

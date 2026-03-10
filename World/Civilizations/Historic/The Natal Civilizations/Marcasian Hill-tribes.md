@@ -1,1 +1,1 @@
-Barbarians
+Barbarians till ~5 kya, slowly organized until a rough structure of mercenary warrior tribes in 4 kya 

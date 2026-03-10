@@ -46,18 +46,20 @@
     },
     {
       "type": "folder",
-      "id": "6a1756f6-fa97-436b-8b93-f9ff9825ed65",
-      "path": "World/Deities/Linifan Lineage",
+      "id": "374ca869-9a94-49d9-96d0-779948a6e937",
+      "path": "Universe Canvas",
       "subFolders": false,
-      "disableSync": false,
-      "disableAutoCreate": false,
-      "disableFolderNote": false,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": true,
       "enableCollapsing": false,
-      "position": 2,
+      "position": 3,
       "excludeFromFolderOverview": false,
       "string": "",
       "hideInSettings": true,
-      "showFolderNote": true
+      "showFolderNote": false,
+      "detached": true,
+      "detachedFilePath": "Universe Canvas/Universe Canvas.canvas"
     }
   ],
   "whitelistFolders": [],
